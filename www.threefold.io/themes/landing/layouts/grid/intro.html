@@ -1,0 +1,33 @@
+<div class="index-content-viewport">
+    <div class="intro-main-content">
+        <div class="row w-row">
+            <div class="w-col w-col-6 w-col-stack">
+                <h1 class="c-white">{{ .Params.header }}</h1>
+                <p class="intro-p inner-padding-inner">{{ .Params.description }}</p>
+            </div>
+            <div class="column w-col w-col-6 w-col-stack">
+                <!-- <a href="{{ .Params.videoBtn }}" class="btn btn-white w-inline-block w-lightbox">
+              <p class="b-link-intro">{{ .Params.videoBtn_TxT }}</p>
+              <script type="application/json" class="w-json">
+                {
+                  "items": [{
+                    "type": "video",
+                    "originalUrl": "https://www.youtube.com/watch?v=fucXM2L2cTA",
+                    "url": "https://www.youtube.com/watch?v=fucXM2L2cTA",
+                    "html": "<iframe class=\"embedly-embed\" src=\"//cdn.embedly.com/widgets/media.html?src=https%3A%2F%2Fwww.youtube.com%2Fembed%2FfucXM2L2cTA%3Ffeature%3Doembed&url=http%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DfucXM2L2cTA&image=https%3A%2F%2Fi.ytimg.com%2Fvi%2FfucXM2L2cTA%2Fhqdefault.jpg&key=96f1f04c5f4143bcb0f2e68c87d65feb&type=text%2Fhtml&schema=youtube\" width=\"940\" height=\"528\" scrolling=\"no\" frameborder=\"0\" allowfullscreen></iframe>",
+                    "thumbnailUrl": "https://i.ytimg.com/vi/fucXM2L2cTA/hqdefault.jpg",
+                    "width": 940,
+                    "height": 528
+                  }]
+                }
+              </script>
+            </a> -->
+                <a href="{{ .Params.video_url }}" data-toggle="modal" class="btn btn-block btn-sm-inline btn-white">{{ .Params.video_txt }}</a>
+            </div>
+        </div>
+    </div>
+    <div class="scroll-more w-hidden-tiny">
+        <p class="scroll-more-text">{{ .Params.scroll }}</p>
+        <div class="scroll-more-line"></div>
+    </div>
+</div>

@@ -1,0 +1,50 @@
+<div class="container-wide">
+    <div class="w-row">
+        <div class="w-col w-col-8 w-col-stack">
+            <h2>
+                <strong>{{ .Params.header }}</strong>
+                <span>
+                    <strong class="em-supscript b-em">{{ .Params.supscript }}</strong>
+                </span>
+            </h2>
+        </div>
+        <div class="w-hidden-medium w-hidden-small w-hidden-tiny w-col w-col-4 w-col-stack"></div>
+    </div>
+    <div class="row-5 w-row">
+        <div class="w-hidden-medium w-hidden-small w-hidden-tiny w-col w-col-1 w-col-medium-1 w-col-small-small-stack"></div>
+        <div class="earn-tokens-col-md w-col w-col-5 w-col-medium-5 w-col-small-small-stack">
+            <p class="num-p">1</p>
+            <h3 class="step-title f-title c-blue">{{ .Params.stWay }}</h3>
+            <p class="intro-p-dark">{{ .Params.stWay_header }}</p>
+            <p>
+                <strong>{{ .Params.stWay_desc1 }}</strong>
+            </p>
+            <p>{{ .Params.stWay_desc2 }}</p>
+        </div>
+        <div class="w-hidden-medium w-hidden-small w-hidden-tiny w-col w-col-1 w-col-medium-1 w-col-small-small-stack"></div>
+        <div class="earn-tokens-col-md w-col w-col-4 w-col-medium-4 w-col-small-small-stack">
+            <p class="num-p">2</p>
+            <h3 class="step-title f-title c-blue">{{ .Params.secWay }}</h3>
+            <p class="intro-p-dark">{{ .Params.secWay_header }}</p>
+            <p>
+                <strong>{{ .Params.secWay_desc }}</strong>
+            </p>
+            <h3 class="text-blue">{{ .Params.TF_dir }}</h3>
+            <div class="list-item-w">
+                <p>{{ .Params.TF_dir_desc }}</p>
+                <div class="list-item-l"></div>
+            </div>
+            <div class="list-item-w">
+                <p>{{ .Params.TF_dir_desc2 }}</p>
+                <div class="list-item-l"></div>
+            </div>
+            <div class="list-item-w">
+                <p>{{ .Params.TF_dir_desc3 }}</p>
+                <div class="list-item-l"></div>
+            </div>
+            <p>{{ .Params.TF_dir_desc4 }}</p>
+        </div>
+        <div class="w-hidden-medium w-hidden-small w-hidden-tiny w-col w-col-1 w-col-medium-1 w-col-small-small-stack"></div>
+    </div>
+    <img src="{{ .Params.img }}" class="token-bg w-hidden-tiny">
+</div>
