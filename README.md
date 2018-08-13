@@ -1,2 +1,2 @@
-# www_threefold.io
+# www_threefold
 Repository for www.threefold.io
