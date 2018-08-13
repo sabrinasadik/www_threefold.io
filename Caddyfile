@@ -41,7 +41,7 @@
     git {
         repo https://github.com/threefoldfoundation/www_threefold.io.git
         branch master
-        hook /github/pull/www_threefold.io "zU3687$aJEb6"
+        hook /webhook "zU3687$aJEb6"
         path ../..
         then hugo -s www.threefold.io
     }
