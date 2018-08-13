@@ -9,9 +9,9 @@
         hook /gitea/pull/community_data "zU3687$aJEb6"
         key ~/.ssh/id_rsa
         path ../../../community_data
-        then rm -rf ../www_foundation/www.foundation.com/en/
+        then rm -rf ../www_threefold.io/www.threefold.io/en/
         then python3 community.py
-        then hugo -s ../www_foundation/www.foundation.com
+        then hugo -s ../www_threefold.io/www.threefold.io
     }
 
     git {
@@ -20,10 +20,10 @@
         hook /gitea/pull/tf_data_team "zU3687$aJEb6"
         key ~/.ssh/id_rsa
         path ../../../threefold/data_team/
-        then python3 process.py
+        then python3 process.py www_threefold.io/www.threefold.io
         then git reset --hard HEAD
         then git -C "../../bettertoken/data_team" reset --hard HEAD
-        then hugo -s ../../www_foundation/www.foundation.com
+        then hugo -s ../../www_threefold.io/www.threefold.io
     }
 
     git {
@@ -32,10 +32,10 @@
         hook /gitea/pull/bt_data_team "zU3687$aJEb6"
         key ~/.ssh/id_rsa
         path ../../../bettertoken/data_team/
-        then python3 ../../threefold/data_team/process.py
+        then python3 ../../threefold/data_team/process.py www_threefold.io/www.threefold.io
         then git reset --hard HEAD
         then git -C "../../threefold/data_team" reset --hard HEAD
-        then hugo -s ../../www_foundation/www.foundation.com
+        then hugo -s ../../www_threefold.io/www.threefold.io
     }
 
     git {
