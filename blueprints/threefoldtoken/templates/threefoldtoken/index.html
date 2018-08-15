@@ -1,0 +1,335 @@
+{% extends "threefoldtoken/base.html" %} {% block content %}
+
+<div class="layout-content">
+    <div class="layout-intro">
+        <div class="layout-container">
+            <div class="row align-items-lg-end">
+
+                <div class="col-12 col-sm-10 col-md-8 col-lg-6">
+                    <h1 class="mt-0">{{doc.part_get(cat="header", nr=0).title}}</h1>
+
+                    <div class="lead intro-lead">{{doc.part_get(cat="block", nr=0).html | safe}}</div>
+                    <div class="mt-3h">
+                        <a data-toggle="modal" href='/#modal-intro-movie' class="btn btn-block btn-sm-inline btn-white">
+                            <div class="d-flex justify-content-center">
+                                <img src="/threefoldtoken/static/svg/ic-btn-playvideo.svg" class="mr-1" alt="">
+                                <span>Watch Video</span>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="intro-scrollhint-container">
+            <div class="layout-container">
+                <div class="intro-scrollhint text-white">
+                    <strong>Scroll to learn more</strong>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="layout-keynotes">
+        <div class="layout-container">
+            <h1 class="mb-2h mt-4"></h1>
+            <div class="layout-inner-content mb-4">
+                <h4 class="alt normal mb-2"></h4>
+            </div>
+            <div class="layout-inner-content">
+                <div class="page-description mb-8">
+                    <p>{{doc.part_get(cat="block", nr=1).html | safe}}</p>
+                    <p>{{doc.part_get(cat="block", nr=2).html | safe}}</p>
+                    <p>{{doc.part_get(cat="block", nr=3).html | safe}}</p>
+                    <p>{{doc.part_get(cat="block", nr=4).html | safe}}</p>
+
+                    <ul>
+                        <li>building a new neutral, green internet.</li>
+                        <li>promoting a decentralized, circular economy.</li>
+                        <li>supporting a connected and empowered global citizenry.</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 col-md-6 col-lg-4 mb-4">
+                    <a href="{{doc.links[i]}}" class="block-white block-outline block-icon block-more">
+                        <h4 class="mt-0 mb-0h">{{doc.part_get(cat="header", nr=1).title}}</h4>
+
+                        <div class="no-link">
+                            <p>{{doc.part_get(cat="block", nr=5).html | safe}}</p>
+                            <p>{{doc.part_get(cat="block", nr=6).html | safe}}</p>
+                        </div>
+
+                        <span class="more-link">Learn More</span>
+                    </a>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 mb-4">
+                    <a href="/tokens" class="block-white block-outline block-icon block-more">
+                        <h4 class="mt-0 mb-0h">{{doc.part_get(cat="header", nr=2).title}}</h4>
+
+                        <div class="no-link">
+                            <p>{{doc.part_get(cat="block", nr=7).html | safe}}</p>
+                            <p>{{doc.part_get(cat="block", nr=8).html | safe}}</p>
+                        </div>
+
+                        <span class="more-link">Learn More</span>
+                    </a>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 mb-4">
+                    <a href="/team" class="block-white block-outline block-icon block-more">
+                        <h4 class="mt-0 mb-0h">{{doc.part_get(cat="header", nr=3).title}}</h4>
+
+                        <div class="no-link">
+                            <p>{{doc.part_get(cat="block", nr=9).html | safe}}</p>
+                            <p>{{doc.part_get(cat="block", nr=10).html | safe}}</p>
+                            <p>{{doc.part_get(cat="block", nr=11).html | safe}}</p>
+                            <p>{{doc.part_get(cat="block", nr=12).html | safe}}</p>
+                        </div>
+
+                        <span class="more-link">Learn More</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="layout-content">
+    <div class="layout-container">
+        <div class="layout-inner-content">
+            <h1 class="text-blue mb-3">{{doc.part_get(cat="header", nr=4).title}}</h1>
+            <div class="page-description mb-3">
+                <p>Data will be the gold of the new digital economy. </p>
+                <p>The need for data is growing exponentially due to increasing internet use, self-driving cars and the Internet
+                    of Things.</p>
+                <p> The existing global economic model is reaching its limits, excluding many and diminishing finite resources.
+                </p>
+                <p> To achieve our dream of a more empowered global community, resource-saving technology and a more inclusive
+                    economy, our vision is to:</p>
+                <ul>
+                    <li>Decentralize storage and compute capacity, to allow for a maximally distributed, affordable, energy-efficient
+                        grid to enable a neutral internet- by all for all.</li>
+                    <li>Create a next generation currency, which unlike digital currencies to date, is 100% asset backed by the
+                        fastest growing commodity today- the internet, and run on a new improved Blockchain.
+                    </li>
+                    <li>Catalyze a community of IT developers, supporters, and responsible global citizens to share in the vision,
+                        and to support the development of further value-adding peer-to-peer technologies.
+                    </li>
+                </ul>
+                <p>We wanted to do all this as a transparent collective, a responsible digital organization which reflects our
+                    core values- so we started the Threefold Foundation.</p>
+                <p>
+                    <strong>Together we are making our dream of a neutral, green distributed internet a reality.</strong>
+                </p>
+            </div>
+        </div>
+
+        <div class="layout-inner-content">
+            <h1 class="text-blue mb-3">why?</h1>
+            <div class="page-description mb-3">
+                <p>The internet today is heavily centralized, owned and controlled by a few large corporations who control 80%
+                    of internet infrastructure and storage capacity. This results in inequalities in unequal distribution
+                    and issues with speed and connectivity.</p>
+                <p>The need for internet capacity is growing exponentially, both the number of users around the globe and the
+                    sheer volume of connected devices. The current architecture of hyperscale data centers is not able to
+                    cope with this demand.</p>
+            </div>
+        </div>
+
+        <div class="layout-inner-content mb-3h mt-7">
+            <h2 class="h1 lower">The need for capacity is constantly growing. In 10 years the world will use 15 times more internet capacity.</h2>
+        </div>
+
+        <img width="780" height="373" src="/threefoldtoken/static/img/img-06-graph.png" alt="" class="mb-1" sizes="(max-width: 780px) 100vw, 780px">
+        <div class="layout-tiny-inner-content mb-5 mb-lg-8"></div>
+
+        <div class="layout-inner-content mb-3h mt-7">
+            <h2 class="h1 lower">Today most storage and compute capacity is generated by hyperscale data centers.</h2>
+        </div>
+
+        <img width="780" height="373" src="/threefoldtoken/static/img/img-07-datacenters.png" alt="" class="mb-1" sizes="(max-width: 780px) 100vw, 780px">
+        <div class="layout-tiny-inner-content mb-5 mb-lg-8">
+            <p>Data centers are built only in energy dense areas because they consume huge amounts of energy.</p>
+        </div>
+
+        <div class="layout-inner-content mb-3h mt-7">
+            <h2 class="h1 lower">The internet today is highly centralized.</h2>
+        </div>
+
+        <img width="780" height="373" src="/threefoldtoken/static/img/img-08-map.png" alt="" class="mb-1" sizes="(max-width: 780px) 100vw, 780px">
+        <div class="layout-tiny-inner-content mb-5 mb-lg-8"></div>
+
+        <h1 class="mb-2h mt-4"></h1>
+        <div class="layout-inner-content mb-4">
+            <h4 class="alt normal mb-2"></h4>
+        </div>
+        <div class="layout-inner-content">
+            <div class="page-description mb-8">
+                <h2>
+                    <strong>Centralized internet is inefficient, expensive and wasteful.</strong>
+                </h2>
+
+                <h4>Consider electricity:</h4>
+                <p>If consumers in Turkey had to use electricity generated in the USA, it would be expensive and inefficient,
+                    because it is generated at too remote a distance.. Transmission lines would be strained, and losses and
+                    repairs would make it unsustainable. There would be multiple areas without access to electricity.</p>
+                <p>
+                    <strong>This is exactly what is happening with the internet today.</strong>
+                </p>
+            </div>
+        </div>
+
+        <div class="block-red px-5 py-3 mb-5 mb-lg-8">
+            <p class="text-center mt-1">
+                <strong>Some of the major technical problems with the internet are:</strong>
+            </p>
+
+            <div class="row mb-n3 mb-lg-n1">
+
+                <div class="col-12 col-md-6 col-lg-3 mb-3 mb-lg-1 d-flex align-items-center">
+                    <img width="70" height="70" src="/threefoldtoken/static/img/img-08-latency.png" alt="Latency">
+                    <h6 class="text-inherit ml-2 my-2">Latency</h6>
+                </div>
+
+
+                <div class="col-12 col-md-6 col-lg-3 mb-3 mb-lg-1 d-flex align-items-center">
+                    <img width="70" height="70" src="/threefoldtoken/static/img/img-09-bandwidth.png" alt="Bandwith">
+                    <h6 class="text-inherit ml-2 my-2">Bandwith</h6>
+                </div>
+
+
+                <div class="col-12 col-md-6 col-lg-3 mb-3 mb-lg-1 d-flex align-items-center">
+                    <img width="70" height="70" src="/threefoldtoken/static/img/img-10-autonomy.png" alt="Autonomy">
+                    <h6 class="text-inherit ml-2 my-2">Autonomy</h6>
+                </div>
+
+
+                <div class="col-12 col-md-6 col-lg-3 mb-3 mb-lg-1 d-flex align-items-center">
+                    <img width="70" height="70" src="/threefoldtoken/static/img/img-10-privacy.png" alt="Privacy and Security">
+                    <h6 class="text-inherit ml-2 my-2">Privacy and Security</h6>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="layout-inner-content">
+
+
+            <h1 class="text-blue mb-3"></h1>
+
+            <div class="page-description mb-3">
+                <p>Threefold believes the solution to this trillion dollar problem is the migration of internet infrastructure
+                    to the “Edge”, close to the users.</p>
+            </div>
+        </div>
+
+        <div class="layout-inner-content">
+            <h1 class="text-blue mb-3">how?</h1>
+            <div class="page-description mb-3">
+                <p>Our technology enables a maximally distributed grid of data and compute capacity, generated by many small
+                    nodes owned by individual farmers.</p>
+                <ul>
+                    <li>These nodes are self healing, without needing maintenance by IT specialists, and the grid they create
+                        consumes 10x less energy than traditional data centers.</li>
+                    <li>The Threefold green grid is scalable, sustainable, affordable, and allows people even in areas of the
+                        least connectivity to participate in the network.</li>
+                    <li>The grid promotes prosperity for farmers via the Threefold Token (TFT), a next generation currency 100%
+                        backed by the asset of the grid’s data and compute capacity.</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="layout-inner-content">
+            <h2 class="h1 lower mb-3">ThreeFold’s disruptive technology</h2>
+        </div>
+
+        <div class="row mb-3 mb-lg-5h">
+            <div class="col-12 col-lg-5">
+                <img width="300" height="300" src="/threefoldtoken/static/img/img-20-solution.png" alt="ThreeFold’s disruptive technology"
+                    class="d-block mx-auto mx-lg-0 mb-4" sizes="(max-width: 300px) 100vw, 300px"> </div>
+            <div class="col-12 col-lg-7 order-lg-first">
+                <div class="layout-tiny-inner-content">
+                    <h4>Self healing cloud</h4>
+                    <p>To gain efficiency in IT infrastructure and services, we are applying a new paradigm- eradicating the
+                        human element in IT management- to architecting, provisioning, deployment and operation of IT infrastructures.</p>
+                    <h4>Best utilization of hardware</h4>
+                    <p>An operating system that erases multiple layers and delivers compute and storage capacity everywhere,
+                        much closer to the hardware, making it cost efficient and energy saving.</p>
+                </div>
+            </div>
+        </div>
+
+        <h2 class="text-blue mt-6 mb-2h">And, ThreeFold internet is better for the planet, because it consumes a fraction of electricity that traditional
+            data centers do.</h2>
+
+        <div class="mb-6">
+            <img width="980" height="0" src="/threefoldtoken/static/img/img-21-live-grid.png" alt="">
+        </div>
+
+        <div class="layout-inner-content">
+            <h1 class="text-blue mb-3">values</h1>
+            <div class="page-description mb-3">
+                <ul>
+                    <li>We believe in a sustainable, environmentally friendly, neutral and accessible edge-internet, and a more
+                        inclusive, equitable economy.</li>
+                    <li>We believe that people are people not products, catalysts not consumers- and that together we can make
+                        the world a better place.</li>
+                    <li>We aim to have a Threefold benefit in all we do: for individuals, communities and the environment.</li>
+                </ul>
+            </div>
+        </div>
+
+        <h2 class="text-blue mt-6 mb-2h">Roadmap</h2>
+
+        <div class="mb-6">
+            <img width="980" height="0" src="/threefoldtoken/static/svg/tf-roadmap.svg" alt="Roadmap">
+        </div>
+
+        <div class="row">
+            <div class="col-12 col-md-6 col-lg-4 mb-4">
+                <a href="/threefoldtoken/grid.html" class="block-white block-outline block-icon block-more">
+
+                    <h4 class="mt-0 mb-0h">Find out more about the Grid and farming</h4>
+
+                    <span class="more-link">Learn More</span>
+                </a>
+            </div>
+
+            <div class="col-12 col-md-6 col-lg-4 mb-4">
+                <a href="/threefoldtoken/tokens.html" class="block-white block-outline block-icon block-more">
+
+                    <h4 class="mt-0 mb-0h">Find out more about TFT, how to buy tokens.</h4>
+
+                    <span class="more-link">Learn More</span>
+                </a>
+            </div>
+
+            <div class="col-12 col-md-6 col-lg-4 mb-4">
+                <a href="/threefoldtoken/join.html" class="block-white block-outline block-icon block-more">
+
+                    <h4 class="mt-0 mb-0h">Contact us with any questions you may have.</h4>
+
+                    <span class="more-link">Learn More</span>
+                </a>
+            </div>
+            <div id="modal-intro-movie" class="modal modal-lightbox fade">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">×</span>
+                            </button>
+                        </div>
+
+                        <div class="modal-body">
+                            <div class="video-wrapper">
+                                <iframe width="940" height="529" src="https://www.youtube.com/embed/4exjbFvnGkk" frameborder="0" allow="autoplay; encrypted-media"
+                                    allowfullscreen=""></iframe>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

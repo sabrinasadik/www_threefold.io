@@ -1,0 +1,98 @@
+<div class="layout-footer">
+    <div class="layout-container">
+
+        <div class="row">
+            <div class="col-12 col-lg-6">
+
+                <div class="footer-section">
+                    <h4 class="mt-0 mb-2">ThreeFold Resources</h4>
+
+                    <div class="row">
+                        <div class="col-6 col-lg-4 mb-2h">
+                            <a href="https://threefoldfoundation.github.io/info_tokens/#/" target="_blank">
+                                <img src="/threefoldtoken/static/svg/ic-f-tokens.svg" alt="Token Wiki" width="38">
+                                <br> Token Wiki
+                            </a>
+                        </div>
+
+                        <div class="col-6 col-lg-4 mb-2h">
+                            <a href="https://threefoldfoundation.github.io/info_grid/#/" target="_blank">
+                                <img src="/threefoldtoken/static/svg/ic-f-grid.svg" alt="Grid Wiki" width="38">
+                                <br> Grid Wiki
+                            </a>
+                        </div>
+
+                        <div class="col-6 col-lg-4 mb-2h">
+                            <a href="https://threefoldfoundation.github.io/info_foundation/#/" target="_blank">
+                                <img src="/threefoldtoken/static/svg/ic-f-foundation.png" alt="Foundation Wiki" width="38">
+                                <br> Foundation Wiki
+                            </a>
+                        </div>
+
+                        <div class="col-6 col-lg-4 mb-2h">
+                            <a href="http://threefoldimpact.com/" target="_blank">
+                                <img src="/threefoldtoken/static/svg/ic-f-impact.svg" alt="ThreeFold Impact" width="38">
+                                <br> ThreeFold Impact
+                            </a>
+                        </div>
+
+                        <div class="col-6 col-lg-4 mb-2h">
+                            <a href="http://radar.threefold.me/" target="_blank">
+                                <img src="/threefoldtoken/static/svg/ic-f-radar.svg" alt="ThreeFold Radar" width="38">
+                                <br> ThreeFold Radar
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="col-12 col-sm-6 col-lg-3 mb-3">
+
+                <div class="footer-section">
+                    <h4 class="mt-0 mb-2">Misc</h4>
+
+                    <ul class="nav mb-0">
+                        <li>
+                            <a href="#">Terms & Conditions</a>
+                        </li>
+                        <li>
+                            <a href="#">Privacy Statement</a>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+
+
+            <div class="col-12 col-sm-6 col-lg-3 mb-3">
+
+                <div class="footer-section">
+                    <h4 class="mt-0 mb-2">Social</h4>
+                    {% set footer_social = [
+                        ('https://www.facebook.com/ThreeFoldCommunity', 'facebook', '/threefoldtoken/static/svg/ic-facebook.svg'), 
+                        ('https://twitter.com/threefold_fdn', 'twitter', '/threefoldtoken/static/svg/ic-twitter.svg'), 
+                        ('https://www.youtube.com/threefoldfoundation', 'youtube', '/threefoldtoken/static/svg/ic-youtube.svg'), 
+                        ('https://www.linkedin.com/company/13594159/','linkedin', '/threefoldtoken/static/svg/ic-linkedin.svg'), 
+                        ('https://www.instagram.com/threefold.foundation/', 'instagram', '/threefoldtoken/static/svg/instagram-brands.svg'),
+                        ('https://threefoldfoundation.github.io/info_tokens/', 'github', '/threefoldtoken/static/svg/ic-github.svg'), 
+                        ('https://t.me/threefoldtoken', 'telegram', '/threefoldtoken/static/svg/ic-telegram.svg'),
+                        ('https://t.me/threefoldtoken_chat', 'telegram', '/threefoldtoken/static/svg/ic-telegram-light-blue.svg'),
+                        ('https://medium.com/threefold/', 'medium', '/threefoldtoken/static/svg/medium-brands.svg'),
+                        ('https://www.reddit.com/r/ThreeFoldToken/', 'reddit', '/threefoldtoken/static/svg/reddit-brands.svg')
+                    ] -%} 
+                    <ul class="footer-socials">
+                        {% for href, title, icon in footer_social %}
+                        <li>
+                            <a href="{{ href|e }}" target="_blank">
+                                <img src="{{ icon|e }}" alt="{{ title|e }}" title="{{ href|e }}">
+                            </a>
+                        </li>
+                        {% endfor %}
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>

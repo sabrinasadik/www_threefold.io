@@ -1,5 +1,0 @@
-+++
-title = "info"
-type = "page"
-
-+++
