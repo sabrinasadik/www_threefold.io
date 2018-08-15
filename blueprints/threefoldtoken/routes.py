@@ -3,7 +3,7 @@ from flask import render_template, redirect, request
 from blueprints.threefoldtoken import blueprint, name
 
 j.tools.markdowndocs.load(
-    "https://github.com/threefoldtech/jumpscale_weblibs/tree/master/docsites_examples/threefold",
+    "https://github.com/threefoldfoundation/www_threefold.io/tree/digital-me/threefold",
     name="threefold")
 ds = j.tools.markdowndocs.docsite_get("threefold")
 
