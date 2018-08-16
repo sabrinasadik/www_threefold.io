@@ -1,6 +1,6 @@
 from jumpscale import j
-from flask import render_template, redirect, request
-from blueprints.threefoldtoken import blueprint, name
+from flask import render_template, redirect
+from . import blueprint, name
 
 j.tools.markdowndocs.load(
     "https://github.com/threefoldfoundation/www_threefold.io/tree/digital-me/threefold",
