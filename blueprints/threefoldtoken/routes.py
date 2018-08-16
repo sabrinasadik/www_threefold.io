@@ -15,5 +15,8 @@ def route_default():
 
 @blueprint.route('/<page>.html')
 def route_page(page):
-    doc = ds.doc_get(page)
-    return render_template('{name}/{page}.html'.format(name=name, page=page), doc=doc)
+    try:
+        doc = ds.doc_get(page)
+    except:
+        doc = None
+    return render_template('{name}/{page}.html'.format(name=name, page=page), name=name, doc=doc)
