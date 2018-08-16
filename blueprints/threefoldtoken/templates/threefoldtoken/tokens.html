@@ -1,3 +1,453 @@
-{% extends "threefoldtoken/base.html" %} 
+{% extends "threefoldtoken/base.html" %} {% block content %}
+<div class="layout-content">
+    <div class="layout-intro">
+        <div class="layout-container">
+            <div class="row align-items-lg-end">
+                <div class="col-12 col-sm-10 col-md-8 col-lg-6">
+                    <h1 class="mt-0">{{doc.part_get(cat="header", nr=0).title}}</h1>
+                    <p class="mb-2 intro-price">
+                        {{doc.part_get(cat="block", nr=0).html | safe}}
+                        <strong id="price"></strong>
+                        <img src="{{doc.link_get(nr=0).link_source | safe}}" class="intro-stocks" alt="">
 
-{% block content %} {% endblock %}
+                    </p>
+
+                    <div class="lead intro-lead">
+                        <p>{{doc.part_get(cat="block", nr=2).html | safe}}
+                            <span class="text-white">
+                                <strong>{{doc.part_get(cat="block", nr=3).html | safe}}</strong>
+                            </span>
+                        </p>
+                    </div>
+
+                    <div class="mt-3h">
+                        <a href="#section-download-wallet" class="btn btn-block btn-sm-inline btn-green">Download Wallet</a>
+
+                        <a href="https://threefoldfoundation.github.io/info_tokens/#/how_to_buy/buy_from_exchange" class="btn btn-block btn-sm-inline btn-white btn-outline"
+                            target="_blank">How To Get ThreeFold Tokens</a>
+                    </div>
+                </div>
+
+                <div class="col-12 col-lg-6 mt-2 text-lg-center">
+                    <a href="#modal-intro-movie" data-toggle="modal" class="btn btn-block btn-sm-inline btn-white">Play Intro Movie</a>
+                </div>
+
+            </div>
+        </div>
+        <div class="intro-scrollhint-container">
+            <div class="layout-container">
+                <div class="intro-scrollhint text-white">
+                    <strong>{{doc.part_get(cat="block", nr=4).html | safe}}</strong>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="my-6 mt-sm-10">
+        <div class="layout-section">
+            <div class="layout-container">
+                <!-- ThreeFold Token Benefits -->
+                <h2 class="mt-0">{{doc.part_get(cat="header", nr=1).title}}</h2>
+                <div class="row">
+                    <div class="col-12 col-sm-6 col-md-5 col-lg-4 col-xl-3 offset-xl-1 my-1 my-md-2 my-xl-3">
+                        <div class="row">
+                            <div class="col-6">
+                                <img src="{{doc.link_get(nr=1).link_source | safe}}" class="attachment-full size-full" alt="Value-Backed">
+                            </div>
+                            <div class="col-12">
+                                <!-- Value-Backed -->
+                                <h6 class="alt">{{doc.part_get(cat="header", nr=2).title}}</h6>
+                                <p>{{doc.part_get(cat="block", nr=6).html | safe}}</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-5 col-lg-4 col-xl-3 offset-xl-1 my-1 my-md-2 my-xl-3">
+                        <div class="row">
+                            <!-- Reliable & Secure -->
+                            <div class="col-6">
+                                <img src="{{doc.link_get(nr=2).link_source | safe}}" class="attachment-full size-full" alt="Reliable & Secure">
+                            </div>
+                            <div class="col-12">
+                                <h6 class="alt">{{doc.part_get(cat="header", nr=3).title}}</h6>
+                                <p>{{doc.part_get(cat="block", nr=8).html | safe}}</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-5 col-lg-4 col-xl-3 offset-xl-1 my-1 my-md-2 my-xl-3">
+                        <div class="row">
+                            <!-- Good For The Planet -->
+                            <div class="col-6">
+                                <img src="{{doc.link_get(nr=3).link_source | safe}}" class="attachment-full size-full" alt="Good For The Planet">
+                            </div>
+                            <div class="col-12">
+                                <h6 class="alt">{{doc.part_get(cat="header", nr=4).title}}</h6>
+                                <p>{{doc.part_get(cat="block", nr=10).html | safe}}</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Step1 -->
+    <div class="my-6">
+        <div id="section-download-wallet" class="layout-section">
+            <div class="layout-container">
+                <h2 class="mt-0">{{doc.part_get(cat="header", nr=5).title}}
+                    <span class="text-blue">{{doc.part_get(cat="block", nr=11).html | safe}}</span>
+                </h2>
+                <div class="row">
+                    <div class="col-12 col-md-10 col-lg-8 col-xl-6">
+                        <div class="lead mb-4">
+                            <p>{{doc.part_get(cat="block", nr=12).html | safe}} </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <!-- iOS wallet -->
+                    <div class="col-12 col-sm-6 col-md-4 col-xl-3 offset-xl-1 my-1 my-md-2 my-xl-3">
+                        <div class="row">
+                            <div class="col-6">
+                                <img src="{{doc.link_get(nr=4).link_source | safe}}" class="attachment-full size-full" alt="iOS wallet" height="38">
+                            </div>
+                            <div class="col-12">
+                                <h4 class="alt text-blue mt-2 mb-1h">{{doc.part_get(cat="header", nr=6).title}}</h4>
+                                <div class="mb-2">
+                                    <p>{{doc.part_get(cat="block", nr=14).html | safe}}</p>
+                                </div>
+                                <p class="mb-2">
+                                    <a href="{{doc.link_get(nr=5).link_source | safe}}" class="btn btn-block btn-sm-inline btn-green">Wiki How To</a>
+                                    <a href="{{doc.link_get(nr=6).link_source | safe}}" class="btn btn-block btn-sm-inline" target="_blank">Download</a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Android wallet -->
+                    <div class="col-12 col-sm-6 col-md-4 col-xl-3 offset-xl-1 my-1 my-md-2 my-xl-3">
+                        <div class="row">
+                            <div class="col-6">
+                                <img src="{{doc.link_get(nr=7).link_source | safe}}" class="attachment-full size-full" alt="Android wallet" height="38">
+                            </div>
+                            <div class="col-12">
+                                <h4 class="alt text-blue mt-2 mb-1h">{{doc.part_get(cat="header", nr=7).title}}</h4>
+                                <div class="mb-2">
+                                    <p>{{doc.part_get(cat="block", nr=18).html | safe}}</p>
+                                </div>
+                                <p class="mb-2">
+                                    <a href="{{doc.link_get(nr=8).link_source | safe}}" class="btn btn-block btn-sm-inline btn-green">Wiki How To</a>
+                                    <a href="{{doc.link_get(nr=9).link_source | safe}}" class="btn btn-block btn-sm-inline" target="_blank">Download</a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- TFChain Core -->
+                    <div class="col-12 col-sm-6 col-md-4 col-xl-3 offset-xl-1 my-1 my-md-2 my-xl-3">
+                        <div class="row">
+                            <div class="col-6">
+                                <img src="{{doc.link_get(nr=10).link_source | safe}}" class="attachment-full size-full" alt="TFChain Core" height="38">
+                            </div>
+                            <div class="col-12">
+                                <h4 class="alt text-blue mt-2 mb-1h">{{doc.part_get(cat="header", nr=8).title}}</h4>
+                                <div class="mb-2">
+                                    <p>{{doc.part_get(cat="block", nr=22).html | safe}}</p>
+
+                                </div>
+                                <p class="mb-2">
+                                    <a href="{{doc.link_get(nr=11).link_source | safe}}" class="btn btn-block btn-sm-inline btn-green">Wiki How To</a>
+                                    <a href="{{doc.link_get(nr=12).link_source | safe}}" class="btn btn-block btn-sm-inline" target="_blank">Download</a>
+                                </p>
+                                <p class="small muted mb-2">
+                                    Only available as a Command line interface.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="my-6">
+        <div id="section-download-wallet" class="layout-section">
+            <div class="layout-container">
+                <!-- step2 -->
+                <h2 class="mt-0">{{doc.part_get(cat="header", nr=9).title}}
+                    <span class="text-blue">{{doc.part_get(cat="block", nr=25).html | safe}}</span>
+                </h2>
+                <div class="row">
+                    <div class="col-12 col-md-10 col-lg-8 col-xl-6">
+                        <div class="lead mb-4">
+                            <p>{{doc.part_get(cat="block", nr=26).html | safe}}</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 col-sm-6 col-md-4 col-xl-3 offset-xl-1 my-1 my-md-2 my-xl-3">
+                        <div class="row">
+
+                            <div class="col-12">
+                                <h4 class="alt text-blue mt-2 mb-1h">{{doc.part_get(cat="header", nr=10).title}}</h4>
+                                <div class="mb-2">
+                                    <p>{{doc.part_get(cat="block", nr=27).html | safe}}</p>
+                                </div>
+                                <p class="mb-2">
+                                    <a href="{{doc.link_get(nr=13).link_source | safe}}" class="btn btn-block btn-md-inline">Read More</a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4 col-xl-3 offset-xl-1 my-1 my-md-2 my-xl-3">
+                        <div class="row">
+
+                            <div class="col-12">
+                                <h4 class="alt text-blue mt-2 mb-1h">{{doc.part_get(cat="header", nr=11).title}}</h4>
+                                <div class="mb-2">
+                                    <p>{{doc.part_get(cat="block", nr=29).html | safe}}</p>
+                                </div>
+                                <p class="mb-2">
+                                    <a href="{{doc.link_get(nr=14).link_source | safe}}" class="btn btn-block btn-md-inline">Read Manual</a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="my-6">
+        <div id="section-get-tokens" class="layout-section">
+            <div class="layout-container">
+                <!-- setp3 -->
+                <h2 class="mt-0">{{doc.part_get(cat="header", nr=12).title}}
+                    <span class="text-blue">{{doc.part_get(cat="block", nr=31).html | safe}}</span>
+                </h2>
+                <div class="row">
+                    <div class="col-12 col-xl-11 offset-xl-1">
+                        <h3 class="mt-3 mt-md-5">{{doc.part_get(cat="header", nr=13).title}}</h3>
+                        <div class="row">
+                            <div class="col-12 col-sm-6 col-lg-4 my-1">
+                                <div class="block-white block-outline block-fullheight">
+                                    <a href="{{doc.link_get(nr=15).link_source | safe}}" target="_blank">
+                                        <h4 class="alt text-blue mt-0 mb-0h">{{doc.part_get(cat="header", nr=14).title}}</h4>
+                                    </a>
+                                    <p class="mb-0 no-link">{{doc.part_get(cat="block", nr=33).html | safe}}</p>
+                                    <a href="{{doc.link_get(nr=16).link_source | safe}}">Read Manual</a>
+                                </div>
+                            </div>
+                            <div class="col-12 col-sm-6 col-lg-4 my-1">
+                                <div class="block-aqua block-fullheight">
+                                    <h4 class="alt muted mt-0 mb-0h">{{doc.part_get(cat="header", nr=15).title}}</h4>
+                                    <p class="mb-0 text-transform-upper">{{doc.part_get(cat="block", nr=35).html | safe}}</p>
+                                </div>
+                            </div>
+                            <div class="col-12 col-sm-6 col-lg-4 my-1">
+                                <div class="block-aqua block-fullheight">
+                                    <h4 class="alt muted mt-0 mb-0h">{{doc.part_get(cat="header", nr=16).title}}</h4>
+                                    <p class="mb-0 text-transform-upper">{{doc.part_get(cat="block", nr=36).html | safe}}</p>
+                                </div>
+                            </div>
+                        </div>
+                        <h3 class="mt-3 mt-md-5">{{doc.part_get(cat="header", nr=17).title}}</h3>
+                        <div class="row">
+                            <div class="col-12 col-sm-6 col-lg-4 my-1">
+                                <div class="block-white block-outline block-fullheight">
+                                    <a href="{{doc.link_get(nr=17).link_source | safe}}" target="_blank">
+                                        <h4 class="alt text-blue mt-0 mb-0h">{{doc.part_get(cat="header", nr=18).title}}</h4>
+                                    </a>
+                                    <p class="mb-0 no-link"></p>
+                                    <a href="{{doc.link_get(nr=18).link_source | safe}}">Read Manual</a>
+                                </div>
+                            </div>
+                            <div class="col-12 col-sm-6 col-lg-4 my-1">
+                                <div class="block-aqua block-fullheight">
+                                    <h4 class="alt muted mt-0 mb-0h">{{doc.part_get(cat="header", nr=19).title}}</h4>
+                                    <p class="mb-0 text-transform-upper">{{doc.part_get(cat="block", nr=39).html | safe}}</p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- mazraa -->
+                        <h3 class="mt-3 mt-md-5">{{doc.part_get(cat="header", nr=20).title}}</h3>
+                        <div class="row">
+                            <div class="col-12 col-sm-6 col-lg-4 my-1">
+                                <a href="https://www.mazraa.io/" target="_blank" class="block-white block-outline block-fullheight">
+                                    <h4 class="alt text-blue mt-0 mb-0h">Mazraa</h4>
+                                    <p class="mb-0h no-link">Dubai,UAE</p>
+                                    <p class="mb-0">
+                                        <span class="link-target">www.mazraa.io</span>
+                                    </p>
+                                </a>
+                            </div>
+                            <!-- BetterToken -->
+                            <div class="col-12 col-sm-6 col-lg-4 my-1">
+                                <a href="{{doc.link_get(nr=19).link_source | safe}}" target="_blank" class="block-white block-outline block-fullheight">
+                                    <h4 class="alt text-blue mt-0 mb-0h">{{doc.part_get(cat="header", nr=21).title}}</h4>
+                                    <p class="mb-0h no-link">{{doc.part_get(cat="block", nr=41).html | safe}}</p>
+                                    <p class="mb-0">
+                                        <span class="link-target">{{doc.part_get(cat="block", nr=42).html | safe}}</span>
+                                    </p>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="my-6">
+        <div id="section-stats" class="layout-section">
+            <div class="layout-container">
+                <!-- ThreeFold Stats and Explorers -->
+                <h2 class="mt-0">{{doc.part_get(cat="header", nr=22).title}}</h2>
+                <div class="row">
+                    <div class="col-12 col-xl-11 offset-xl-1 my-1">
+                        <div class="block-aqua block-stats">
+                            <div class="row no-gutters my-n1 my-sm-0">
+                                <div class="col-12 col-md-3 my-1 my-md-0 pr-md-3 pr-lg-4">
+                                    <p class="mb-0h text-black">{{doc.part_get(cat="block", nr=43).html | safe}}</p>
+                                    <p class="mb-0 stat-number text-blue" id="stats"></p>
+                                </div>
+                                <div class="col-12 col-md-6 my-1 my-md-0 pr-md-3 pr-lg-4">
+                                    <div class="stat-separator"></div>
+                                    <p class="mb-0h text-black">{{doc.part_get(cat="block", nr=44).html | safe}}</p>
+                                    <p class="mb-0 stat-number text-blue" id="capitalization"></p>
+                                </div>
+                                <div class="col-12 col-md-3 my-1 my-md-0">
+                                    <div class="stat-separator"></div>
+                                    <p class="mb-0h text-black">{{doc.part_get(cat="block", nr=45).html | safe}}</p>
+                                    <p class="mb-0 stat-number text-blue" id="volume"></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <!-- threefold radar -->
+                    <div class="col-12 col-xl-11 offset-xl-1">
+                        <div class="row">
+                            <div class="col-12 col-md-4 my-1">
+                                <a href="{{doc.link_get(nr=20).link_source | safe}}" target="_blank" class="block-white block-outline block-stats">
+                                    <div class="row align-items-center">
+                                        <div class="col-10 col-md-12 col-lg-8 text-md-center text-lg-left">
+                                            <span class="d-block text-black mb-md-1 mb-lg-0">{{doc.part_get(cat="block", nr=47).html | safe}}</span>
+                                        </div>
+                                        <div class="col-2 col-md-12 col-lg-4 order-first order-md-2 order-lg-first">
+                                            <img src="{{doc.link_get(nr=21).link_source | safe}}" class="d-block mx-auto" alt="ThreeFold Radar">
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <!-- Explorer -->
+                            <div class="col-12 col-md-4 my-1">
+                                <a href="{{doc.link_get(nr=22).link_source | safe}}" target="_blank" class="block-white block-outline block-stats">
+                                    <div class="row align-items-center">
+                                        <div class="col-10 col-md-12 col-lg-8 text-md-center text-lg-left">
+                                            <span class="d-block text-black mb-md-1 mb-lg-0">{{doc.part_get(cat="block", nr=50).html | safe}}</span>
+                                        </div>
+                                        <div class="col-2 col-md-12 col-lg-4 order-first order-md-2 order-lg-first">
+                                            <img src="{{doc.link_get(nr=23).link_source | safe}}" class="d-block mx-auto" alt="Explorer">
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <!-- Explorer2 -->
+                            <div class="col-12 col-md-4 my-1">
+                                <a href="{{doc.link_get(nr=24).link_source | safe}}" target="_blank" class="block-white block-outline block-stats">
+                                    <div class="row align-items-center">
+                                        <div class="col-10 col-md-12 col-lg-8 text-md-center text-lg-left">
+                                            <span class="d-block text-black mb-md-1 mb-lg-0">{{doc.part_get(cat="block", nr=53).html | safe}}</span>
+                                        </div>
+                                        <div class="col-2 col-md-12 col-lg-4 order-first order-md-2 order-lg-first">
+                                            <img src="{{doc.link_get(nr=25).link_source | safe}}" class="d-block mx-auto" alt="Explorer 2">
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="my-6"></div>
+    <!-- Token Utilization -->
+    <div class="layout-section">
+        <div class="layout-container">
+            <h2 class="mt-0">{{doc.part_get(cat="header", nr=23).title}}</h2>
+            <div class="row">
+                <div class="col-12 col-md-10 col-lg-8 col-xl-6">
+                    <div class="lead mb-4">
+                        <p>{{doc.part_get(cat="block", nr=55).html | safe}}</p>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="row">
+                <!-- Fast & Scalable -->
+                <div class="col-12 col-sm-6 col-md-5 col-lg-4 col-xl-3 offset-xl-1 my-1 my-md-2 my-xl-3">
+                    <div class="row">
+                        <div class="col-6">
+                            <img src="{{doc.link_get(nr=27).link_source | safe}}" class="attachment-full size-full" alt="Fast & Scalable">
+                        </div>
+                        <div class="col-12">
+                            <h6 class="alt">{{doc.part_get(cat="header", nr=24).title}}</h6>
+                            <p>{{doc.part_get(cat="block", nr=57).html | safe}}</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Low Fees & Liquid -->
+                <div class="col-12 col-sm-6 col-md-5 col-lg-4 col-xl-3 offset-xl-1 my-1 my-md-2 my-xl-3">
+                    <div class="row">
+                        <div class="col-6">
+                            <img src="{{doc.link_get(nr=28).link_source | safe}}" class="attachment-full size-full" alt="Low Fees & Liquid">
+                        </div>
+                        <div class="col-12">
+                            <h6 class="alt">{{doc.part_get(cat="header", nr=25).title}}</h6>
+                            <p>{{doc.part_get(cat="block", nr=59).html | safe}}</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Secure & Valuable -->
+                <div class="col-12 col-sm-6 col-md-5 col-lg-4 col-xl-3 offset-xl-1 my-1 my-md-2 my-xl-3">
+                    <div class="row">
+                        <div class="col-6">
+                            <img src="{{doc.link_get(nr=28).link_source | safe}}" class="attachment-full size-full" alt="Secure & Valuable">
+                        </div>
+                        <div class="col-12">
+                            <h6 class="alt">{{doc.part_get(cat="header", nr=26).title}}</h6>
+                            <p>{{doc.part_get(cat="block", nr=61).html | safe}}</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+        </div>
+    </div>
+</div>
+<div id="modal-intro-movie" class="modal modal-lightbox fade">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">×</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="video-wrapper">
+                    <iframe width="940" height="529" src="https://www.youtube.com/embed/AUcO8NE6s2M" frameborder="0" allow="autoplay; encrypted-media"
+                        allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+{% endblock %}
