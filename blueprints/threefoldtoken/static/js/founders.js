@@ -35,7 +35,7 @@ $(function () {
                 var parent = $("<div>").addClass("rj-team-member");
                 var a = $("<div>").addClass('member-photo');
                 var img = $("<img/>").addClass('rj-team-member-photo-rollover');
-                img.prop('src', '/avatars/' + encodeURIComponent(details[i].avatar));
+                img.prop('src', '/threefoldtoken/static/avatars/' + encodeURIComponent(details[i].avatar));
                 if (details[i].avatar == "") {
                     var img = $("<img/>").width('93px').height('94px').prop('src', '/img/Jobs-CTA-inline.png');
                 }
@@ -51,7 +51,7 @@ $(function () {
                     if (details[i].avatar == "") {
                         imgCol.append($("<img/>").width('93px').height('94px').prop('src', '/img/Jobs-CTA-inline.png'));
                     } else {
-                        imgCol.append($("<img/>").prop("src", "/avatars/" + encodeURIComponent(details[i].avatar)));
+                        imgCol.append($("<img/>").prop("src", "/threefoldtoken/static/avatars/" + encodeURIComponent(details[i].avatar)));
                     }
                     div.append(dataCol);
                     dataCol.append($("<div>").addClass('member-name').text(details[i].name));

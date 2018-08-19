@@ -35,7 +35,7 @@ $(function () {
                 var parent = $("<div>").addClass("rj-team-member");
                 var a = $("<div>").addClass('member-photo');
                 var img = $("<img/>").addClass('rj-team-member-photo-rollover');
-                img.prop('src', '/avatars/' + encodeURIComponent(random_details.avatar));
+                img.prop('src', '/threefoldtoken/static/avatars/' + encodeURIComponent(random_details.avatar));
                 a.append(img);
                 parent.append(a);
                 var div = $("<div>").addClass("rj-team-member-info-text").css('display', 'none');
@@ -43,7 +43,7 @@ $(function () {
                 var dataCol = $("<div>").addClass('col-md-9 col-sm-8');
                 var close = $('<div>').addClass('close-bio').text('x');
                 div.append(imgCol);
-                imgCol.append($("<img/>").width('150px').prop("src", "/avatars/" + encodeURIComponent(random_details.avatar)));
+                imgCol.append($("<img/>").width('150px').prop("src", "/threefoldtoken/static/avatars/" + encodeURIComponent(random_details.avatar)));
                 div.append(dataCol);
                 dataCol.append($("<div>").addClass('member-name').text(random_details.name));
                 dataCol.append($("<div>").addClass('bio-excerpt').text(random_details.nationality));
@@ -86,7 +86,7 @@ $(function () {
                 var parent = $("<div>").addClass("rj-team-member");
                 var a = $("<div>").addClass('member-photo');
                 var img = $("<img/>").addClass('rj-team-member-photo-rollover');
-                img.prop('src', '/avatars/' + encodeURIComponent(random_details.avatar));
+                img.prop('src', '/threefoldtoken/static/avatars/' + encodeURIComponent(random_details.avatar));
                 a.append(img);
                 parent.append(a);
                 var div = $("<div>").addClass("rj-team-member-info-text").css('display', 'none');
@@ -94,7 +94,7 @@ $(function () {
                 var dataCol = $("<div>").addClass('col-md-9 col-sm-8');
                 var close = $('<div>').addClass('close-bio').text('x');
                 div.append(imgCol);
-                imgCol.append($("<img/>").width('150px').prop("src", "/avatars/" + encodeURIComponent(random_details.avatar)));
+                imgCol.append($("<img/>").width('150px').prop("src", "/threefoldtoken/static/avatars/" + encodeURIComponent(random_details.avatar)));
                 div.append(dataCol);
                 dataCol.append($("<div>").addClass('member-name').text(random_details.name));
                 div.append(close);
@@ -126,7 +126,7 @@ $(function () {
                 var a = $('<a>').prop('href', details[i].link).prop('target', '_blank');
                 var img = $("<img/>").addClass('rj-team-member-photo-rollover');
                 if (details[i].weight > 0) {
-                    img.prop('src', '../avatars/' + encodeURIComponent(details[i].avatar));
+                    img.prop('src', '/threefoldtoken/static/avatars/' + encodeURIComponent(details[i].avatar));
                     photoDiv.append(img);
                     a.append(photoDiv);
                     parent.append(a);
