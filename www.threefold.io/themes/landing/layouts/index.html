@@ -16,16 +16,16 @@
       {{ partial "home/home_intro.html" . }}
       <div class="layout-keynotes">
         <div class="layout-container">
-            {{ range $element := .Data.Pages }} 
-            {{ if eq .Section "home" }} 
+            {{ range $element := .Data.Pages }}
+            {{ if eq .Section "home" }}
                 {{ if eq .Title "dream" }}
           {{ partial "home/summary.html" . }}
           {{end}}
           {{end}}
           {{end}}
           <div class="row">
-              {{ range $element := .Data.Pages }} 
-              {{ if eq .Section "home" }} 
+              {{ range $element := .Data.Pages }}
+              {{ if eq .Section "home" }}
                   {{ if eq .Title "keynotes" }}
                    {{ partial "home/keynotes.html" . }}
             {{end}}
@@ -39,9 +39,11 @@
 
     <div class="layout-content">
       <div class="layout-container">
-          {{ range $element := .Data.Pages }} 
-          {{ if eq .Section "home" }} 
+          {{ range $element := .Data.Pages }}
+          {{ if eq .Section "home" }}
             {{ if eq .Title "vision" }}
+              {{ partial "home/vision.html" . }}
+            {{ else if eq .Title "why" }}
               {{ partial "home/vision.html" . }}
             {{ else if eq .Title "why" }}
               {{ partial "home/vision.html" . }}
@@ -69,8 +71,8 @@
             {{end}}
             {{end}}
             <div class="row">
-                {{ range $element := .Data.Pages }} 
-                {{ if eq .Section "home" }} 
+                {{ range $element := .Data.Pages }}
+                {{ if eq .Section "home" }}
                     {{ if eq .Title "contact" }}
                      {{ partial "home/keynotes.html" . }}
                      {{ else if eq .Title "video" }}
@@ -84,7 +86,7 @@
     <!-- /#all -->
     </div>
 
-    {{ partial "footer.html" . }} 
+    {{ partial "footer.html" . }}
     {{ partial "scripts.html" . }}
 
 
