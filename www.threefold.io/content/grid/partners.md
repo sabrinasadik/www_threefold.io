@@ -4,9 +4,9 @@ title = "partners"
 
 header = "Partners and Projects Utilizing ThreeFold Grid"
 
-# HP Entperprise <<more information to be added>>
-# - farming 
-# - private blockchain (government, universities)
+# HP Enterprise
+ - farming 
+ - private blockchain (government, universities)
 
 # Solidaridad
 
