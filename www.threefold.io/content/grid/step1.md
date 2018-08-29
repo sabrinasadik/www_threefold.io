@@ -49,3 +49,4 @@ weight = 4
 An organization who supports farmers with hardware sourcing, housing, maintaining and configuring hardware, ensuring power, cooling, safety, consistent uptime and secure connection to the grid.
 
 Depending on the business model of the co-operative all of the above, or a subsection of the services above, are offered.
+
