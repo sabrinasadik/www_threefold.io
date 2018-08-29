@@ -51,7 +51,7 @@ see https://github.com/zero-os
 * Super scale out 50+ PB
 * Multi datacenter with single namespace
 * Not based on replication!
-* Can loose datacenters, data remains available
+* Can lose datacenters, data remains available
 * Ultra high performance 100-250.000 IOPS per node (depends on HW)
 * Ultra reliable
 * Replication & backup obsolete
@@ -73,6 +73,7 @@ see https://github.com/zero-os
 * Grow, ad, distribute, destroy capacity as needed.
 * No downtime: Change and upgrades are immediate
 * Design Intelligence: Robots and algorithms assist you.
+
 ITSYOU.ONLINE
 Need a neutral identity management system? No hacking or compromising: e.g. Blockchain proof-of-work
 

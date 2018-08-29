@@ -4,7 +4,7 @@ title = "step 1"
 
 # Step 1
 step1_title = "Find your Engagement Model"
-step1_desc = "Based on your IT knowledge and familiarity with configuring hardware, you can choose a full-service Cooperative, pre-configured & certified hardware to become an Individual Farmer, or a full Do It Yourself (DIY) option for your farming activity."
+step1_desc = "Based on your IT knowledge and familiarity with configuring hardware, you can choose a full-service Co-operative, pre-configured & certified hardware to become an Individual Farmer, or a full Do It Yourself (DIY) option for your farming activity."
 
 # Co-op Farmer
 farmer1_title = "Co-op Farmer"
@@ -16,7 +16,7 @@ farmer2_desc = "Investment in certified Hardware \n Knowledge, Effort, Time"
 
 # DIY Farmer
 farmer3_title = "DIY Farmer"
-farmer3_desc = "Self sourced and configured Hardware \n Knowledge, Effort, Time"
+farmer3_desc = "Self-sourced and configured Hardware, \n Knowledge, Effort, Time"
 
 # TF Coop Sec.
 tfCoop_title = "What is a ThreeFold Cooperative?"
@@ -48,4 +48,4 @@ weight = 4
 +++
 An organization who supports farmers with hardware sourcing, housing, maintaining and configuring hardware, ensuring power, cooling, safety, consistent uptime and secure connection to the grid.
 
-Depending on the business model of the cooperative all of the above, or a subsection of the services above, are offered.
+Depending on the business model of the co-operative all of the above, or a subsection of the services above, are offered.

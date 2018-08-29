@@ -29,7 +29,7 @@ node_budget = "From EUR 10.775 to EUR 18.925"
 node_price = "up to 36 878 TFTs"
 node_connectivity = "Works on 200 mbit/s office\nor datacenter links"
 
-note = "Please keep in mind that the amount of estimated Tokens will be different if you go Individual Farmer orDIY due to additional fees, charged by the cooperative."
+note = "Please keep in mind that the amount of estimated Tokens will vary depending on your implementation. If you are an Individual Farmer or a DIY Farmer you will have different fees charged by the cooperative."
 
 weight = 5
 +++

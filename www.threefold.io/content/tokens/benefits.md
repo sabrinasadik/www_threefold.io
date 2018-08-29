@@ -17,10 +17,10 @@ reliable_content = ""
 # Good For The Planet
 good_img = "/svg/ic-benefits-05.svg"
 good_header = "Good For The Planet"
-good_content = "The ThreeFold Token is a result of mining useful internet capacity. We call this farming. Our blockchain is 100% energy neutral. The produced internet capacity uses up to 10 times less energy, it removes the need for centralized power hungry data centers."
+good_content = "The ThreeFold Token is a result of mining useful internet capacity. We call this Farming. Our blockchain is 100% energy neutral. The produced internet capacity uses up to 10 times less energy and it removes the need for centralized power hungry datacenters."
 
 weight = 2
 +++
 <!-- Reliable & Secure content -->
 
-The ThreeFold blockchain does not suffer from the “ [Blockchain Dilemma Problem](https://www.youtube.com/watch?v=AUcO8NE6s2M)”. Our blockchain is fast, scalable and secure at the same time, which is to date not possible with other blockchain technologies. This is a major breakthrough
+The ThreeFold blockchain does not suffer from the “[Blockchain Dilemma Problem](https://www.youtube.com/watch?v=AUcO8NE6s2M)”. Our blockchain is fast, scalable and secure - all at the same time. This has not been possible with other blockchain technologies before. This is a major breakthrough.

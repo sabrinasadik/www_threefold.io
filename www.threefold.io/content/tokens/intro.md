@@ -8,7 +8,7 @@ price = "0.09 USD/TFT"
 intro_muted = ""
 desc = "ThreeFold Token a decentralized digital currency backed by the fastest growing commodity in the world —"
 img = "/svg/ic-stocks.svg"
-bold_txt = "The Internet."
+bold_txt = "The Internet"
 
 # Wallet btn
 download_url = "#section-download-wallet"

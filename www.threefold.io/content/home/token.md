@@ -8,6 +8,6 @@ learnBtn = "Learn More"
 img = ""
 weight = 2 
 +++
-A secure next generation digital currency (TFT), 100% backed by internet capacity- the gold standard of the new digital age.
+A secure next generation digital currency (TFT), 100% backed by internet capacity - the gold standard of the new digital age.
 
-Find out more about TFT, next generation currency and the new economy.
+Find out more about TFT, next generation currencies and the new economy.

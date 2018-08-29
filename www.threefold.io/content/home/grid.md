@@ -11,4 +11,4 @@ weight = 1
 
 A distributed green grid of storage and compute capacity, which enables a neutral edge-internet.
 
-Find out how to become a Farmer on-Threefold's global green grid.
+Find out how to become a Farmer on Threefold's global green grid.

@@ -22,7 +22,7 @@ TF_dir = "ThreeFold Directory"
 TF_dir_desc = "Fully decentralized."
 TF_dir_desc2 = "All capacity listed so users can choose their farm or location."
 TF_dir_desc3 = "Tokens come directly to the Farmer."
-TF_dir_desc4 = "ThreeFold Foundation charges 10% of these tokens as a&nbsp;revenue sharing for IT development and marketing."
+TF_dir_desc4 = "ThreeFold Foundation charges 10% of these tokens as a revenue sharing for IT development and marketing."
 
 weight = 8
 +++
