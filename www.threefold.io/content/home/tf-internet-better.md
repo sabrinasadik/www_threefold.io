@@ -7,3 +7,5 @@ weight = 10
 Traditional datacenters employ an always "on" mode even when hardware is not being used. The ThreeFold internet is better for the planet as it consumes a fraction of the electricity that traditional datacenters do via a standby mode - just like sleep mode on your laptop.
 
 The ThreeFold Grid is live, launched in March 2018.
+
+Remove
