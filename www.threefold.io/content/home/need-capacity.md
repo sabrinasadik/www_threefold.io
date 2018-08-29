@@ -6,3 +6,5 @@ header = "The need for capacity is constantly growing. In 10 years the world wil
 img = "/img/img-06-graph.png" 
 weight = 3
 +++
+
+Remove
