@@ -1,7 +1,7 @@
 +++
 title ="why"
 header = "why?"
-weight = 2
+weight = 3
 +++
 
 **What components do we need to realize this democratized internet?**
