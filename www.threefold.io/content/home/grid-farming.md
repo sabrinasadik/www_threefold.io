@@ -8,3 +8,5 @@ learnBtn = "Learn More"
 img = ""
 weight = 1
 +++
+
+Remove
