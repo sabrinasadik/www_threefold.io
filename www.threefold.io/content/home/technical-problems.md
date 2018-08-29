@@ -17,3 +17,5 @@ privacy_img = "/img/img-10-privacy.png"
 weight = 7
 +++
 ThreeFold believes the solution to this trillion dollar problem is the migration of internet infrastructure to the "Edge", close to the users.
+
+Remove
