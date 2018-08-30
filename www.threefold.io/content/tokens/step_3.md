@@ -3,8 +3,7 @@
 title = "step 3"
 
 
-step_3 = ""
-subheader = ""
+
 header = "Get ThreeFold Tokens from one of these partners"
 
 # BTC Alpha (BTC/ETH)
