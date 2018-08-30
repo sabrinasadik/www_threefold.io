@@ -2,10 +2,9 @@
 # Don't Remove Title!
 title = "step 3"
 
-# Step 3
-step_3 = "Step 3."
-subheader = "Get ThreeFold Tokens"
-header = "From one of these partners"
+
+
+header = "Get ThreeFold Tokens from one of these partners"
 
 # BTC Alpha (BTC/ETH)
 btc_link = "https://btc-alpha.com/"
@@ -15,7 +14,8 @@ btc_manual = "https://threefoldfoundation.github.io/info_tokens/#/how_to_buy/btc
 
 # Bitmeex (USD/EUR/BTC/ETH)
 bitmeex_header = "Bitmeex.pro"
-bitmeex_txt = "COMING SOON"
+btc_txt = "Crypto & Fiat"
+bitmeex_txt = "https://threefoldfoundation.github.io/info_tokens/#/how_to_buy/bitmeex"
 
 # ThreeBot - the first free decentralized exchange technology (BTC/ETH)
 TFexchange_header = "TF Exchange"
