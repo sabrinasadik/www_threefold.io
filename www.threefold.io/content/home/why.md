@@ -17,6 +17,6 @@ Digital decentralized currency (Tokens) to free the system from restrictions of 
 
 System Management bots manage the grid without human intervention
 
-####Security
+#### Security
 
 Our own blockchain secures the bots to make sure that they can safely work together
