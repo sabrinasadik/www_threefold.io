@@ -1,6 +1,6 @@
 +++
 title ="vision"
-header = "---"
+header = "Democratized internet, what does it bring?"
 weight = 1
 +++
 
