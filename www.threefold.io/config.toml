@@ -24,7 +24,7 @@ paginate = 6
     weight = 1
 
 [[menu.main]]
-    name = "Grid"
+    name = "Internet 2.0"
     url  = "/grid"
     weight = 2
 
@@ -34,17 +34,17 @@ paginate = 6
     weight = 3
 
 [[menu.main]]
-    name = "Community"
-    url  = "/community"
+    name = "Team"
+    url  = "/team"
     weight = 4
 
 [[menu.main]]
-    name = "Whitepaper"
-    url  = "https://docs.google.com/document/d/16C3EKKBaK4_DyWFUcvdLnvDyN57h77e0Q1mWMpZL5vc/edit"
+    name = "Partners"
+    url  = "/partners"
     weight = 5
 
 [[menu.main]]
-    name = "Info"
+    name = "Blog"
     url  = "https://threefoldfoundation.github.io/info_foundation/#/blog/README"
     weight = 6
 
