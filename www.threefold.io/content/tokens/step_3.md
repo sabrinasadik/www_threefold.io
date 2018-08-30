@@ -2,10 +2,10 @@
 # Don't Remove Title!
 title = "step 3"
 
-# Step 3
+
 step_3 = "Step 3."
-subheader = "Get ThreeFold Tokens"
-header = "From one of these partners"
+subheader = ""
+header = "Get ThreeFold Tokens from one of these partners"
 
 # BTC Alpha (BTC/ETH)
 btc_link = "https://btc-alpha.com/"
