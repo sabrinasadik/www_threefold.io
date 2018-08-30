@@ -55,8 +55,6 @@
             {{end}}
             {{end}}
             <div class="row">
-                {{ range $element := .Data.Pages }}
-                {{ if eq .Section "home" }}
                     {{ if eq .Title "contact" }}
                      {{ partial "home/keynotes.html" . }}
                      {{ else if eq .Title "video" }}
