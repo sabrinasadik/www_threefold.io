@@ -7,5 +7,3 @@ img = "/img/img-08-map.png"
 
 weight = 5
 +++
-
-Remove

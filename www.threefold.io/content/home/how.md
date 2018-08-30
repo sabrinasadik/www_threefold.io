@@ -8,5 +8,3 @@ Our technology enables a maximally distributed grid of data and compute capacity
 * These nodes are self healing, without needing maintenance by IT specialists, and the grid they create consumes 10x less energy than traditional datacenters.
 * The Threefold green grid is scalable, sustainable, affordable, and allows people even in areas of the least connectivity to participate in the network.
 * The grid promotes prosperity for farmers via the ThreeFold Token (TFT), a next generation currency 100% backed by the asset of the grid’s data and compute capacity.
-
-Remove

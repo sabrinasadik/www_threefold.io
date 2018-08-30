@@ -8,5 +8,3 @@ img = "/img/img-07-datacenters.png"
 weight = 4
 +++
 Datacenters are built only in energy dense areas because they consume huge amounts of energy.
-
-Remove

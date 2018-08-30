@@ -1,20 +1,14 @@
 +++
 title = "disruptive technology"
 
-header = "What technologies have we created to do this?"
+header = "ThreeFold’s disruptive technology"
 img = "/img/img-20-solution.png"
 weight = 9
 +++
-#### Zero-OS
+#### Self healing cloud
 
-A simple and efficient operating system to build this democratized grid of capacity, easy to install, easy to maintain and always available: Zero-OS.  This operating system is available to anyone that wants to build a part of this democratized internet at zero costs: it is open source. 
+To gain efficiency in IT infrastructure and services, we are applying a new paradigm: removing the possibility of human error  in IT management by fully automating the architecting, provisioning, deployment and operation of IT infrastructure.
 
+#### Best utilization of hardware
 
-#### Zero-Robot
-
-They manage the grid of Zero-OSs to deliver an always on self healing responsible internet. 
-
-#### Zero-Chain: 
-
-Zero Chain: Our own blockchain technology which can be used to create any responsible digital currency (green, faster, cost effective, scalable) and to secure the network of our Zero-Robots (consensus).
- 
+An operating system that erases multiple layers and delivers compute and storage capacity everywhere, much closer to the end user, making it cost efficient and saving energy.

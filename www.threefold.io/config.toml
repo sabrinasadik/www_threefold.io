@@ -1,5 +1,5 @@
 baseurl = "/"
-title = "Responsible Internet"
+title = "ThreeFold Foundation"
 theme = "landing"
 themesDir = "themes"
 languageCode = "en-us"
@@ -24,40 +24,34 @@ paginate = 6
     weight = 1
 
 [[menu.main]]
-    name = "Internet 2.0"
+    name = "Grid"
     url  = "/grid"
     weight = 2
 
 [[menu.main]]
-    name = "Technology"
+    name = "Tokens"
     url  = "/tokens"
     weight = 3
 
-
 [[menu.main]]
-    name = "Tokens"
-    url  = "/tokens"
+    name = "Community"
+    url  = "/community"
     weight = 4
 
 [[menu.main]]
-    name = "Team"
-    url  = "/community"
+    name = "Whitepaper"
+    url  = "https://docs.google.com/document/d/16C3EKKBaK4_DyWFUcvdLnvDyN57h77e0Q1mWMpZL5vc/edit"
     weight = 5
 
 [[menu.main]]
-    name = "Partners"
-    url  = "/partners"
-    weight = 6
-
-[[menu.main]]
-    name = "Blog"
+    name = "Info"
     url  = "https://threefoldfoundation.github.io/info_foundation/#/blog/README"
-    weight = 7
+    weight = 6
 
 [[menu.main]]
     name = "Join & Follow"
     url  = "/join/"
-    weight = 8
+    weight = 7
 
 # Social icons
 

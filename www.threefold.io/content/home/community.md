@@ -15,5 +15,3 @@ We are better together.
 This is a movement.
 
 Join the Threefold Community.
-
-Remove

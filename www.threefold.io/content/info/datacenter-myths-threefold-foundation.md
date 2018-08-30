@@ -10,7 +10,7 @@ type = "blog"
 +++
 
 
-Hyperscale realities   sdndfsnhdhdhdh
+Hyperscale realities
 
 ### MYTH 1: BIG DATACENTERS ARE MORE EFFICIENT THAN SMALL ONES.
 
