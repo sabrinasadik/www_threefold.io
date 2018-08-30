@@ -17,20 +17,10 @@
       <div class="layout-keynotes">
         <div class="layout-container">
             {{ range $element := .Data.Pages }}
-            {{ if eq .Section "home" }}
           {{ partial "home/summary.html" . }}
           {{end}}
           {{end}}
           {{end}}
-          <div class="row">
-              {{ range $element := .Data.Pages }}
-              {{ if eq .Section "home" }}
-                  {{ if eq .Title "keynotes" }}
-                   {{ partial "home/keynotes.html" . }}
-            {{end}}
-            {{end}}
-            {{end}}
-          </div>
         </div>
       </div>
 
