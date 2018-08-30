@@ -45,24 +45,10 @@
               {{ partial "home/vision.html" . }}
             {{ else if eq .Title "why" }}
               {{ partial "home/vision.html" . }}
-            {{ else if eq .Title "capacity" }}
-              {{ partial "home/storage.html" . }}
-            {{ else if eq .Title "storage" }}
-              {{ partial "home/storage.html" . }}
-            {{ else if eq .Title "internet" }}
-              {{ partial "home/storage.html" . }}
-            {{ else if eq .Title "centralized internet" }}
-              {{ partial "home/summary.html" . }}
-            {{ else if eq .Title "technical problems" }}
-              {{ partial "home/technical-problems.html" . }}
-            {{ else if eq .Title "how" }}
-              {{ partial "home/vision.html" . }}
             {{ else if eq .Title "disruptive technology" }}
               {{ partial "home/disruptive-technology.html" . }}
               {{ else if eq .Title "tf better internet" }}
               {{ partial "home/roadmap.html" . }}
-              {{ else if eq .Title "values" }}
-              {{ partial "home/vision.html" . }}
               {{ else if eq .Title "roadmap" }}
               {{ partial "home/roadmap.html" . }}
             {{end}}
