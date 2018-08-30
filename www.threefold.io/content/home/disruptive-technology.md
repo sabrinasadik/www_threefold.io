@@ -14,6 +14,6 @@ A simple and efficient operating system to build this democratized grid of capac
 
 They manage the grid of Zero-OSs to deliver an always on self healing responsible internet.
 
-#### Zero-Chain 
+#### Zero-Chain
 
-Zero Chain: Our own blockchain technology which can be used to create any responsible digital currency (green, faster, cost effective, scalable) and to secure the network of our Zero-Robots (consensus).
+Our own blockchain technology can be used to create any responsible digital currency (green, faster, cost effective, scalable).  We use it to create consensus for our Zero-Robots.
