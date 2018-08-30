@@ -18,7 +18,6 @@
         <div class="layout-container">
             {{ range $element := .Data.Pages }}
             {{ if eq .Section "home" }}
-                {{ if eq .Title "dream" }}
           {{ partial "home/summary.html" . }}
           {{end}}
           {{end}}
