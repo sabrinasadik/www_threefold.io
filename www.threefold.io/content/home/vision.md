@@ -1,5 +1,5 @@
 +++
-title ="Democratized internet, what does it bring?"
+title ="vision"
 header = "vision"
 weight = 1
 +++
