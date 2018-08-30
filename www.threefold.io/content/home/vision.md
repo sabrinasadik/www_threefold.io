@@ -1,6 +1,6 @@
 +++
 title ="vision"
-header = "vision"
+header = "---"
 weight = 1
 +++
 
