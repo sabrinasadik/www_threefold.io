@@ -30,7 +30,7 @@ paginate = 6
 
 [[menu.main]]
     name = "Technology"
-    url  = "/tokens"
+    url  = "/tech"
     weight = 3
 
 
