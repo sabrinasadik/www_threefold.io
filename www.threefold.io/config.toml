@@ -29,29 +29,35 @@ paginate = 6
     weight = 2
 
 [[menu.main]]
-    name = "Tokens"
+    name = "Technology"
     url  = "/tokens"
     weight = 3
+
+
+[[menu.main]]
+    name = "Tokens"
+    url  = "/tokens"
+    weight = 4
 
 [[menu.main]]
     name = "Team"
     url  = "/community"
-    weight = 4
+    weight = 5
 
 [[menu.main]]
     name = "Partners"
     url  = "/partners"
-    weight = 5
+    weight = 6
 
 [[menu.main]]
     name = "Blog"
     url  = "https://threefoldfoundation.github.io/info_foundation/#/blog/README"
-    weight = 6
+    weight = 7
 
 [[menu.main]]
     name = "Join & Follow"
     url  = "/join/"
-    weight = 7
+    weight = 8
 
 # Social icons
 
