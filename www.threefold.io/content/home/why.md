@@ -1,10 +1,9 @@
 +++
 title ="why"
-header = "why?"
+header = "What components do we need to realize this democratized internet?"
 weight = 2
 +++
 
-**What components do we need to realize this democratized internet?**
 
 *IT Infrastructure*
 
@@ -18,4 +17,3 @@ Digital Decentralized Currency (Tokens) to free the system from restrictions of 
 
 System Management bots manage the grid without human intervention.
 Security: Our own blockchain secures the bots to make sure that they can safely work together (communication)
-

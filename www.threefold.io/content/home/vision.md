@@ -1,10 +1,10 @@
 +++
 title ="vision"
-header = "vision"
+header = "Democratized internet, what does it bring?"
 weight = 1
 +++
 
-**Democratized internet, what does it bring?**
+
 
 *Freedom*
 
@@ -14,6 +14,6 @@ The current internet is controlled by large corporations that see internet users
 
 The current internet is not inclusive to all of humanity. We are building a collectively owned internet that's deployed everywhere and accessible to all, not just in datacenters or high-income countries.
 
-*Fairness* 
+*Fairness*
 
 The current internet is run by a small number of large companies who enjoy all the returns - this is not right - everyone should be able to enjoy a return for participating and creating internet capacity.
