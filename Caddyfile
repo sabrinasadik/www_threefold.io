@@ -5,7 +5,7 @@
 
     git {
         repo ssh://git@docs.grid.tf:7022/threefold/community_data.git
-        branch master
+        branch production
         hook /gitea/pull/community_data "zU3687$aJEb6"
         key ~/.ssh/id_rsa
         path ../../../community_data
@@ -16,7 +16,7 @@
 
     git {
         repo ssh://git@docs.grid.tf:7022/threefold/data_team.git
-        branch master
+        branch production
         hook /gitea/pull/tf_data_team "zU3687$aJEb6"
         key ~/.ssh/id_rsa
         path ../../../threefold/data_team/
@@ -28,7 +28,7 @@
 
     git {
         repo ssh://git@docs.grid.tf:7022/bettertoken/data_team.git
-        branch master
+        branch production
         hook /gitea/pull/bt_data_team "zU3687$aJEb6"
         key ~/.ssh/id_rsa
         path ../../../bettertoken/data_team/
@@ -40,7 +40,7 @@
 
     git {
         repo https://github.com/threefoldfoundation/www_threefold.io.git
-        branch master
+        branch production
         hook /webhook "zU3687$aJEb6"
         path ../..
         then hugo -s www.threefold.io
