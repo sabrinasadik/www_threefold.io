@@ -25,7 +25,7 @@ paginate = 6
 
 [[menu.main]]
     name = "Internet 2.0"
-    url  = "/grid"
+    url  = "/internet-20"
     weight = 2
 
 [[menu.main]]
