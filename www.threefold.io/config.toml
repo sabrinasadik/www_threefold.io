@@ -35,7 +35,7 @@ paginate = 6
 
 [[menu.main]]
     name = "Team"
-    url  = "/team"
+    url  = "/community"
     weight = 4
 
 [[menu.main]]
