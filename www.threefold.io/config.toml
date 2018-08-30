@@ -46,7 +46,7 @@ paginate = 6
 
 [[menu.main]]
     name = "Partners"
-    url  = "/partners"
+    url  = "/partners2"
     weight = 6
 
 [[menu.main]]
