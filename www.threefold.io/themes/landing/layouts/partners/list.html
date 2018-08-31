@@ -14,10 +14,6 @@
         </div>
 
         <div class="layout-content">
-            {{ range .Data.Pages }} 
-            {{ if eq .Title "intro" }}
-            <div class="layout-intro">{{ .Render "intro" }}</div>
-            {{ else if eq .Title "benefits" }}
             <div class="my-6 mt-sm-10">{{ .Render "benefits" }}</div>
             {{ else if eq .Title "step 1" }}
             <div class="my-6">{{ .Render "step_1" }}</div>
