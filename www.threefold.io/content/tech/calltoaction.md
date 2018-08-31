@@ -1,4 +1,4 @@
-+++ title ="technical problems" desc = "Some of the major technical problems with the internet are:"
++++ title ="calltoaction" desc = "Some of the major technical problems with the internet are:"
 
 latency = "Latency" latency_img = "/img/img-08-latency.png"
 
