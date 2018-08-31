@@ -1,5 +1,5 @@
 +++
 title ="calltoaction"
-desc = "INSERT BADASS CTA HERE!"
+desc = "INSERT CALL TO ACTION HERE!"
 weight = 3
 +++
