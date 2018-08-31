@@ -3,6 +3,44 @@
 
 title = "join"
 
+explore_header = "Explore more"
+
+radar_header = "ThreeFold Radar"
+radar_text = "A gathering of tokens prices, blockchain status, and more"
+radar_link = "https://threefoldradar.info/"
+radar_img = "/svg/ic-f-radar.svg"
+
+capacity_header = "Capacity overview"
+capacity_text = "A first implementation of the TF-Directory"
+capacity_link = "https://capacity.threefoldtoken.com/"
+capacity_img = "/svg/capacity.svg"
+
+contribute_header = "How to contribute?"
+contribute_text = "How Circles, Stories and Collaboration works at ThreeFold."
+contribute_link = "https://threefoldfoundation.github.io/info_foundation/#/collaboration/README"
+contribute_img = "/svg/ic-f-tech.svg"
+
+foundation_header = "Information on the ThreeFold Foundation"
+foundation_text = "A deep dive into our Open Source way of working."
+foundation_link = "https://threefoldfoundation.github.io/info_foundation/#/"
+foundation_img = "/svg/ic-f-foundation.png"
+
+grid_header = "Information on the ThreeFold Grid"
+grid_text = "The grid and farming explained in detail."
+grid_link = "https://threefoldfoundation.github.io/info_grid/#/"
+grid_img = "/svg/ic-f-grid.svg"
+
+token_header = "Information on the ThreeFold Token"
+token_text = "The crypto payment mechanism that makes our ecosystem flow."
+token_link = "https://threefoldfoundation.github.io/info_tokens/#/"
+token_img = "/svg/ic-f-tokens.svg"
+
+joinus_text = "Still have questions? Feel free to use the chat you can find in the bottom right of your screen or send us an email on"
+joinus_link = "mailto:info@threefoldtoken.com"
+joinus_link_name = "info@threefoldtoken.com"
+
+
+
 social_media_header = "ThreeFold on Social Media"
 
 facebook_header = "Facebook"
@@ -45,41 +83,5 @@ tfnewsletter_header = "Threefold Newsletter"
 tfnewsletter_text = "Stay up to date with ThreeFold through our weekly newsletter."
 tfnewsletter_link = "https://threefoldtoken.us17.list-manage.com/subscribe?u=0f8069cf559edca76eb45006b&id=6f65777523"
 
-
-explore_header = "Explore more"
-
-radar_header = "ThreeFold Radar"
-radar_text = "A gathering of tokens prices, blockchain status, and more"
-radar_link = "https://threefoldradar.info/"
-radar_img = "/svg/ic-f-radar.svg"
-
-capacity_header = "Capacity overview"
-capacity_text = "A first implementation of the TF-Directory"
-capacity_link = "https://capacity.threefoldtoken.com/"
-capacity_img = "/svg/capacity.svg"
-
-contribute_header = "How to contribute?"
-contribute_text = "How Circles, Stories and Collaboration works at ThreeFold."
-contribute_link = "https://threefoldfoundation.github.io/info_foundation/#/collaboration/README"
-contribute_img = "/svg/ic-f-tech.svg"
-
-foundation_header = "Information on the ThreeFold Foundation"
-foundation_text = "A deep dive into our Open Source way of working."
-foundation_link = "https://threefoldfoundation.github.io/info_foundation/#/"
-foundation_img = "/svg/ic-f-foundation.png"
-
-grid_header = "Information on the ThreeFold Grid"
-grid_text = "The grid and farming explained in detail."
-grid_link = "https://threefoldfoundation.github.io/info_grid/#/"
-grid_img = "/svg/ic-f-grid.svg"
-
-token_header = "Information on the ThreeFold Token"
-token_text = "The crypto payment mechanism that makes our ecosystem flow."
-token_link = "https://threefoldfoundation.github.io/info_tokens/#/"
-token_img = "/svg/ic-f-tokens.svg"
-
-joinus_text = "Still have questions? Feel free to use the chat you can find in the bottom right of your screen or send us an email on"
-joinus_link = "mailto:info@threefoldtoken.com"
-joinus_link_name = "info@threefoldtoken.com"
 
 +++
