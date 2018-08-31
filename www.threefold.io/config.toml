@@ -89,42 +89,6 @@ paginate = 6
     network = "youtube"
 
 [[params.social]]
-    title = "linkedin"
-    url = "https://www.linkedin.com/company/13594159/"
-    icon = "/svg/ic-linkedin.svg"
-    Bicon = "/svg/ic-linkedin-dark-blue.svg"
-    footer = true
-    sharethis = false
-    network = "linkedin"
-
-[[params.social]]
-    title = "instagram"
-    url = "https://www.instagram.com/threefold.foundation/"
-    icon = "/svg/instagram-brands.svg"
-    Bicon = "/svg/instagram-brands-dark-blue.svg"
-    footer = true
-    sharethis = false
-    network = "instagram"
-
-[[params.social]]
-    title = "github"
-    url = "https://threefoldfoundation.github.io/info_tokens/"
-    icon = "/svg/ic-github.svg"
-    Bicon = "/svg/ic-github-dark-blue.svg"
-    footer = true
-    sharethis = false
-    network = "github"
-
-[[params.social]]
-    title = "telegram"
-    url = "https://t.me/threefoldtoken"
-    icon = "/svg/ic-telegram.svg"
-    Bicon = "/svg/ic-telegram-dark-blue.svg"
-    footer = true
-    sharethis = false
-    network = "telegram"
-
-[[params.social]]
     title = "telegram"
     url = "https://t.me/threefoldtoken_chat"
     icon = "/svg/ic-telegram-light-blue.svg"
