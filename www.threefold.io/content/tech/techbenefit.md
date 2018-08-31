@@ -1,7 +1,7 @@
 +++
 title ="techbenefit"
 header = "Democratized internet, what does it bring?"
-weight = 1
+weight = 2
 +++
 
 
