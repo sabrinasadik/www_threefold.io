@@ -1,6 +1,6 @@
 +++
 # Don't Remove Title!
-title = "Partners1"
+title = "Partner1"
 
 mainHeader = "Partner Row 1"
 
