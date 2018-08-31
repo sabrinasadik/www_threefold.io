@@ -14,11 +14,9 @@
         </div>
 
         <div class="layout-content">
+          <div class="layout-container">
             {{ range .Data.Pages }}
-            {{ if eq .Title "partner1" }}
-            <div class="my-6 mt-sm-10">{{ .Render "partner1" }}</div>
-            <div class="layout-container">
-            {{ else if eq .Title "partnervision" }}
+            {{ if eq .Title "partnervision" }}
             <div class="my-6 mt-sm-10">{{ .Render "partnervision" }}</div>
           </div>
             {{end}}
