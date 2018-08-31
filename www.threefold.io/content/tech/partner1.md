@@ -5,19 +5,19 @@ title = "techcards"
 mainHeader = "Technology"
 
 # value-Backed
-value_img = "/partner logo"
+value_img = "/ic-tokens.svg"
 value_header = "Zero OS"
-value_content = "Partner description"
+value_content = "Placeholder text can be used as an attribute for almost every HTML input type, and misguided designers and developers don’t hesitate. It is tempting to provide text help for complex forms, or omit input labels to improve aesthetics. However, employing placeholder text to do so causes many usability issues."
 
 # Reliable & Secure
-reliable_img = "/partner logo"
+reliable_img = "/ic-tokens.svg"
 reliable_header = "Zero Robot"
-reliable_content = "Partner Description"
+reliable_content = "Placeholder text can be used as an attribute for almost every HTML input type, and misguided designers and developers don’t hesitate. It is tempting to provide text help for complex forms, or omit input labels to improve aesthetics. However, employing placeholder text to do so causes many usability issues."
 
 # Good For The Planet
-good_img = "/partner logo"
+good_img = "/ic-tokens.svg"
 good_header = "Zero Chain"
-good_content = "Partner Description"
+good_content = "Placeholder text can be used as an attribute for almost every HTML input type, and misguided designers and developers don’t hesitate. It is tempting to provide text help for complex forms, or omit input labels to improve aesthetics. However, employing placeholder text to do so causes many usability issues."
 
 weight = 1
 +++
