@@ -1,27 +1,23 @@
 +++
 # Don't Remove Title!
-title = "benefits"
+title = "Partners1"
 
-mainHeader = "ThreeFold Token Benefits"
+mainHeader = "Partner Row 1"
 
 # value-Backed
-value_img = "/svg/ic-benefits-01.svg"
-value_header = "Value-Backed"
-value_content = "100% of ThreeFold Tokens are asset backed by the fastest growing commodity in the world, the internet. Tokens only get generated when servers get connected to the internet. Each token is at least 6 times undervalued compared to the commercial value of the newly connected capacity."
+value_img = "/partner logo"
+value_header = "Partner name"
+value_content = "Partner description"
 
 # Reliable & Secure
-reliable_img = "/svg/ic-benefits-02.svg"
-reliable_header = "Reliable & Secure"
-reliable_content = ""
+reliable_img = "/partner logo"
+reliable_header = "Partner Name"
+reliable_content = "Partner Description"
 
 # Good For The Planet
-good_img = "/svg/ic-benefits-05.svg"
-good_header = "Good For The Planet"
-good_content = "The ThreeFold Token is a result of mining useful internet capacity. We call this Farming. Our blockchain is 100% energy neutral. The produced internet capacity uses up to 10 times less energy and it removes the need for centralized power hungry datacenters."
+good_img = "/parnter logo"
+good_header = "Partner Name"
+good_content = "Partner Description"
 
-weight = 2
+weight = 1
 +++
-<!-- Reliable & Secure content -->
-
-The ThreeFold blockchain does not suffer from the “[Blockchain Dilemma Problem](https://www.youtube.com/watch?v=AUcO8NE6s2M)”. Our blockchain is fast, scalable and secure - all at the same time. This has not been possible with other blockchain technologies before. This is a major breakthrough.
-
