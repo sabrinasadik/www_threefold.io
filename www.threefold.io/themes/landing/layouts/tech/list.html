@@ -17,8 +17,10 @@
             {{ range .Data.Pages }}
             {{ if eq .Title "techcards" }}
             <div class="my-6 mt-sm-10">{{ .Render "techcards" }}</div>
+            <div class="layout-container">
             {{ else if eq .Title "techbenefit" }}
             <div class="my-6 mt-sm-10">{{ .Render "techbenefit" }}</div>
+          </div>
             {{end}}
             {{end}}
         </div>
