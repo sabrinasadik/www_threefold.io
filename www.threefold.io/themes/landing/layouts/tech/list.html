@@ -14,25 +14,11 @@
         </div>
 
         <div class="layout-content">
-            {{ range .Data.Pages }} 
-            {{ if eq .Title "intro" }}
-            <div class="layout-intro">{{ .Render "intro" }}</div>
-            {{ else if eq .Title "benefits" }}
-            <div class="my-6 mt-sm-10">{{ .Render "benefits" }}</div>
-            {{ else if eq .Title "step 1" }}
-            <div class="my-6">{{ .Render "step_1" }}</div>
-            {{ else if eq .Title "step 2" }}
-            <div class="my-6">{{ .Render "step_2" }}</div>
-            {{ else if eq .Title "step 3" }}
-            <div class="my-6">{{ .Render "step_3" }}</div>
-            {{ else if eq .Title "states" }}
-            <div class="my-6">{{ .Render "stats" }}</div>
-            {{ else if eq .Title "token utilization" }}
-            <div class="my-6">{{ .Render "token_utilization" }}</div>
-            {{ else if eq .Title "video" }}
-            <div id="modal-intro-movie" class="modal modal-lightbox fade">{{ .Render "video" }}</div>
-            {{end}} {{end}}
-
+            {{ range .Data.Pages }}
+            {{ if eq .Title "techcards" }}
+            <div class="my-6 mt-sm-10">{{ .Render "techcards" }}</div>
+            {{end}}
+            {{end}}
         </div>
     </div>
     {{ partial "footer.html" . }} {{ partial "scripts.html" . }}
