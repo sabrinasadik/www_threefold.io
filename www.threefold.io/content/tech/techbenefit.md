@@ -1,19 +1,18 @@
 +++
 title ="techbenefit"
-header = "Democratized internet, what does it bring?"
+header = "HEADER"
 weight = 2
 +++
 
 
 
-#### Freedom
+#### SUBHEADER
 
-The current internet is controlled by large corporations that see internet users as a product, sheeple. The new internet should be responsible and democratized, protecting individual privacy, neutrality, and security.
+Owners of dogs will have noticed that, if you provide them with food and water and shelter and affection, they will think you are god. Whereas owners of cats are compelled to realize that, if you provide them with food and water and shelter and affection, they draw the conclusion that they are gods.
 
-#### Equality
+#### SUBHEADER
 
-The current internet is not inclusive to all of humanity. We are building a collectively owned internet that's deployed everywhere and accessible to all, not just in datacenters or high-income countries.
-
-#### Fairness
-
-The current internet is run by a small number of large companies who enjoy all the returns - this is not right - everyone should be able to enjoy a return for participating and creating internet capacity.
+“What's your name,' Coraline asked the cat. 'Look, I'm Coraline. Okay?'
+'Cats don't have names,' it said.
+'No?' said Coraline.
+'No,' said the cat. 'Now you people have names. That's because you don't know who you are. We know who we are, so we don't need names.” 
