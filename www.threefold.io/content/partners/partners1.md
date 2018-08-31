@@ -1,6 +1,6 @@
 +++
 # Don't Remove Title!
-title = "Partner1"
+title = "partner1"
 
 mainHeader = "Partner Row 1"
 
@@ -15,7 +15,7 @@ reliable_header = "Partner Name"
 reliable_content = "Partner Description"
 
 # Good For The Planet
-good_img = "/parnter logo"
+good_img = "/partner logo"
 good_header = "Partner Name"
 good_content = "Partner Description"
 
