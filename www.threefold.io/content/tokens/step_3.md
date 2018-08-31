@@ -14,8 +14,8 @@ btc_manual = "https://threefoldfoundation.github.io/info_tokens/#/how_to_buy/btc
 
 # Bitmeex
 bitmeex_header = "Bitmeex.pro (USD/EUR/BTC/ETH)"
-btc_txt = "Crypto & Fiat"
-bitmeex_txt = "https://threefoldfoundation.github.io/info_tokens/#/how_to_buy/bitmeex"
+bitmeex_txt = "Crypto & Fiat"
+bitmeex_manual = "https://threefoldfoundation.github.io/info_tokens/#/how_to_buy/bitmeex"
 
 # ThreeBot
 TFexchange_header = "ThreeBot- the first free decentralized exchange technology (BTC/ETH)"
