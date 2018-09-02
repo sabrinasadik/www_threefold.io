@@ -9,6 +9,6 @@ header = "Partners and Projects Utilizing ThreeFold Grid"
 # - private blockchain (government, universities)
 
 # Solidaridad
-
+draft = true
 weight = 9
 +++

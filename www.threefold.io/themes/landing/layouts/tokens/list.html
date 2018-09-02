@@ -20,6 +20,8 @@
             <div class="layout-container">
                 {{ else if eq .Title "benefits" }}
                 <div class="my-6 mt-sm-10">{{ .Render "benefits" }}</div>
+                {{ else if eq .Title "gettokens" }}
+                <div class="my-6 mt-sm-10">{{ .Render "gettokens" }}</div>
                 {{ else if eq .Title "step 1" }}
                 <div class="my-6">{{ .Render "step_1" }}</div>
                 {{ else if eq .Title "step 2" }}
@@ -28,6 +30,8 @@
                 <div class="my-6">{{ .Render "step_3" }}</div>
                 {{ else if eq .Title "calltoaction" }}
                 <div class="my-6">{{ .Render "calltoaction" }}</div>
+                {{ else if eq .Title "states" }}
+                <div class="my-6">{{ .Render "stats" }}</div>
                 {{ else if eq .Title "token utilization" }}
                 <div class="my-6">{{ .Render "token_utilization" }}</div>
                 {{ else if eq .Title "disruptive technology" }}

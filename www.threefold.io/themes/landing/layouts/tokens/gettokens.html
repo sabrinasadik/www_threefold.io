@@ -1,10 +1,7 @@
 <div class="w-row">
-    <div class="w-hidden-medium w-hidden-small w-hidden-tiny w-col w-col-4 w-col-stack">
-        <h3>{{ .Params.tfCoop_title }}</h3>
-        {{ .Content }}
-    </div>
-    <div class="w-hidden-medium w-hidden-small w-hidden-tiny w-col w-col-1 w-col-stack"></div>
-    <div class="w-col w-col-7 w-col-stack">
+    <h3 class="text-blue h3 bold">{{ .Params.header }}</h3>
+
+    <div class="w-col w-col-stack">
         <div class="fc-list">
             <div class="farmer-card">
                 <h3 class="step-title f-title">{{ .Params.TFFarmer1 }}</h3>
@@ -21,10 +18,17 @@
                 <p class="f-contry">{{ .Params.TFFarmer3_country }}</p>
                 <a href="{{ .Params.TFFarmer3_url }}">{{ .Params.TFFarmer3_txt }}</a>
             </div>
+            <div class="farmer-card">
+                <h3 class="step-title f-title">{{ .Params.TFFarmer3 }}</h3>
+                <p class="f-contry">{{ .Params.TFFarmer3_country }}</p>
+                <a href="{{ .Params.TFFarmer3_url }}">{{ .Params.TFFarmer3_txt }}</a>
+            </div>
 
+            <div class="farmer-card">
+                <h3 class="step-title f-title">{{ .Params.TFFarmer3 }}</h3>
+                <p class="f-contry">{{ .Params.TFFarmer3_country }}</p>
+                <a href="{{ .Params.TFFarmer3_url }}">{{ .Params.TFFarmer3_txt }}</a>
+            </div>
         </div>
-        <!-- <h3 class="coop-title-push">{{ .Params.contact_qu }}</h3> -->
-        <br>
-        <!-- <a href="mailto:{{ .Params.interested_mail }}">{{ .Params.interested_txt }}</a> -->
-        <!-- <a href="mailto:{{ .Params.contact_mail }}" class="btn btn-block btn-sm-inline btn-green">{{ .Params.contact_txt }}</a> -->
     </div>
+</div>

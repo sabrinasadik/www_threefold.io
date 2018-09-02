@@ -31,6 +31,7 @@ node_connectivity = "Works on 200 mbit/s office\nor datacenter links"
 
 note = "Please keep in mind that the amount of estimated Tokens will vary depending on your implementation. If you are an Individual Farmer or a DIY Farmer you will have different fees charged by the cooperative."
 
+draft = true
 weight = 5
 +++
 

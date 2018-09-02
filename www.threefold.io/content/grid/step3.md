@@ -20,6 +20,6 @@ farmer3_desc = "Connect to Power\nConnect to Internet\nDownload Zero-OS\nCreate 
 # Read more
 read_more_link = "https://threefoldfoundation.github.io/info_grid/#/tf_farming/farming_setup"
 read_more_txt = "Read more detailed Instruction"
-
+draft = true
 weight = 6
 +++

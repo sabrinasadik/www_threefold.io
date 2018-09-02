@@ -8,5 +8,7 @@ video_url = "#modal-intro-movie"
 video_txt = "Play Video"
 scroll = "Scroll to learn more"
 
+draft = true
+
 weight = 1
 +++

@@ -1,10 +1,9 @@
 +++
 # Don't Remove Title!
-title = "step 1"
+title = "gettokens"
 
-# Step 1
-step1_title = "Find your Engagement Model"
-step1_desc = "Based on your IT knowledge and familiarity with configuring hardware, you can choose a full-service Co-operative, pre-configured & certified hardware to become an Individual Farmer, or a full Do It Yourself (DIY) option for your farming activity."
+# How To get tokens
+header = "How To get Tokens"
 
 # Co-op Farmer
 farmer1_title = "Co-op Farmer"
@@ -44,8 +43,7 @@ contact_qu = "Are you interested in becoming a cooperative?"
 contact_mail = "andreas@threefoldtoken.com"
 contact_txt = "Contact us"
 
-draft = true
-weight = 4
+weight = 3
 +++
 An organization who supports farmers with hardware sourcing, housing, maintaining and configuring hardware, ensuring power, cooling, safety, consistent uptime and secure connection to the grid.
 
