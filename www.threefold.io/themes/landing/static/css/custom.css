@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700');
+
 * {
     font-family: "'Open Sans'", sans-serif
 }
@@ -30,12 +31,11 @@ body {
     box-shadow: 0 9px 0px 0px white, 0 -9px 0px 0px white, 2px 0 15px -4px #ccc, -2px 0 15px -4px #ccc; */
 }
 
-h2 {
+/* h2 {
     font: normal 400 1.5em/1.2em 'Open Sans', sans-serif;
     text-transform: none;
     letter-spacing: .05em;
-}
-
+} */
 .clear-fix {
     clear: both
 }
@@ -81,10 +81,9 @@ body {
     display: table
 }
 
-.team {
+/* .team {
     padding: 100px 0;
-}
-
+} */
 .team h2 {
     padding-top: 15px;
 }
@@ -143,8 +142,13 @@ body {
     display: block;
 }
 
-/* Video modal */
+.row {
+    -webkit-box-align: stretch;
+    -ms-flex-align: stretch;
+    align-items: stretch;
+}
 
+/* Video modal */
 .modal-content {
     background-color: transparent;
     border: none;
@@ -165,11 +169,14 @@ button.close {
 }
 
 .modal.in .modal-dialog {
+    -webkit-transform: none;
     transform: none;
 }
 
 .modal.fade .modal-dialog {
+    -webkit-transition: none;
     transition: none;
+    -webkit-transform: none;
     transform: none;
 }
 
@@ -181,12 +188,14 @@ button.close {
     p {
         font-size: 100%;
     }
+
     .container {
         margin: 0;
         padding: 0;
         width: 100%;
         overflow: hidden;
     }
+
     .rj-team {
         padding-bottom: 10rem;
     }
@@ -196,9 +205,11 @@ button.close {
     h2 {
         font-size: 120%;
     }
+
     p {
         font-size: 100%;
     }
+
     .container {
         padding: 0;
     }
@@ -208,12 +219,15 @@ button.close {
     .container {
         padding: 0;
     }
+
     h2 {
         font-weight: 600;
     }
+
     .member-name {
         text-align: center
     }
+
     .rj-team {
         padding-top: 1rem;
         padding-bottom: 2rem;

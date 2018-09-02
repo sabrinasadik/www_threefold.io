@@ -3,7 +3,7 @@
 title = "cost"
 
 header = "Cost and Return Overview by Engagement Model"
-weight = 7
+weight = 2
 +++
 
 |                                    | CO-OP FARMER     | INDIVIDUAL FARMER | DIY FARMER    |
@@ -20,4 +20,3 @@ weight = 7
 | Farming Tokens: <br/>earned for being connected to the grid              | Monthly 1/60th of the TFTs at time capacity is assigned, for max 60 months | Monthly 1/60th of the TFTs at time capacity is assigned, for max 60 months | 1/60th of the TFTs at time capacity is assigned, for max 60 months, after 30% of the capacity is sold |
 | Cultivation Tokens: earned through capacity sales | 10% to Co-op / 10% to TFF* of Tokens for capacity sold | 10% to TFF* of Tokens for capacity sold | 10% to TFF* of Tokens for capacity sold |
 | * *ThreeFold Foundation*  |
-

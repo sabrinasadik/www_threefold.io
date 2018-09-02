@@ -1,39 +1,45 @@
 <!DOCTYPE html>
 <html>
 
-  {{ partial "head.html" . }}
+{{ partial "head.html" . }}
 
-  <body class="single single-page single-page-sample-page frontpage">
+<body class="single single-page single-page-sample-page frontpage">
 
-    <!-- GTM scripts -->
+  <!-- GTM scripts -->
   <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-58B4KK2" height="0" width="0" style="display:none;visibility:hidden"></iframe>
 
 
 
-    <div id="all">
+  <div id="all">
 
-      <div class="layout-header layout-header-fixed">
+    <div class="layout-header layout-header-fixed">
 
-          {{ partial "nav.html" . }}
-
-      </div>
-
-
-      {{ range $p := (.Paginate .Data.Pages).Pages }}
-
-        {{ if eq .Section "community" }}
-            {{ $p.Render "community" }}
-
-        {{ else if eq .Section "join" }}
-            {{ $p.Render "join" }}
-            {{end}}
-        {{end}}
+      {{ partial "nav.html" . }}
 
     </div>
-    <!-- /#all -->
 
-    {{ partial "footer.html" . }}
-    {{ partial "scripts.html" . }}
 
-  </body>
+    {{ range $p := (.Paginate .Data.Pages).Pages }}
+
+    {{ if eq .Section "community" }}
+    <div class="layout-content">
+      <div class="layout-container">
+
+        <div class="team">
+          {{ $p.Render "community" }}</div>
+      </div>
+    </div>
+    {{ else if eq .Section "join" }}
+    {{ $p.Render "join" }}
+    {{end}}
+    {{end}}
+
+  </div>
+  <!-- /#all -->
+
+  {{ partial "footer.html" . }}
+  {{ partial "scripts.html" . }}
+
+</body>
+
 </html>

@@ -42,21 +42,23 @@ $(function () {
                 a.append(img);
                 parent.append(a)
                 var div = $("<div>").addClass("rj-team-member-info-text").css('display', 'none');
+                var row = $("<div>").addClass("row");
                 var imgCol = $("<div>").addClass('col-sm-4');
                 var dataCol = $("<div>").addClass('col-sm-8');
                 var close = $('<div>').addClass('close-bio').text('x');
 
                 if (details[i].core && details[i].rank > 0) {
-                    div.append(imgCol);
+                    div.append(row);
+                    row.append(imgCol);
                     if (details[i].avatar == "") {
                         imgCol.append($("<img/>").width('93px').height('94px').prop('src', '/img/Jobs-CTA-inline.png'));
                     } else {
                         imgCol.append($("<img/>").prop("src", "/avatars/" + encodeURIComponent(details[i].avatar)));
                     }
-                    div.append(dataCol);
+                    row.append(dataCol);
                     dataCol.append($("<div>").addClass('member-name').text(details[i].name));
                     dataCol.append($("<div>").addClass('bio-excerpt').text(details[i].description));
-                    div.append(close);
+                    row.append(close);
                     parent.append(div);
                     rjteam.append(parent);
                 }
