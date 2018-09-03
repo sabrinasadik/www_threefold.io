@@ -16,12 +16,12 @@ good_content = "We all create and therefore store more information daily. Indepe
 
 # Distributed always on applications
 vBacked_img = "/svg/ic-benefits-05.svg"
-vBacked_header = "Storage and Archive"
+vBacked_header = "Distributed always on applications"
 vBacked_content = "The future is distributed. Applications will no longer exist in centralized private or public datacenters. Applications are getting smaller and single purpose. These applications can live on minimal utility, everywhere"
 
 # Internet of things
 reliable_img = "/svg/ic-benefits-05.svg"
-reliable_header = "Storage and Archive"
+reliable_header = "Internet of things"
 reliable_content = "Internet of things means that all devices will have a smart components, connected to the internet. This creates an environment where applications can run everywhere, data is collected and can be processed everywhere. In this world ubiquitous utility for compute and storage is as mandatory as the necessity of electricity everywhere today to power al of our mobile devices around us."
 
 weight = 3
