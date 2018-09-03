@@ -2,10 +2,10 @@
 # Don't Remove title!
 title = "calltoaction_3"
 
-header = "Become a farmer 3"
-sub_header = "You can become a Farmer tomorrow!  The ThreeFold Grid is always expanding and new Farmers are welcome. Anyone, anywhere! Please have a look at our Wikis on how to become a Farmer."
-btn_link = "https://threefoldfoundation.github.io/info_grid/#/tf_farming/README"
-btn_txt = "View Farming Wiki"
+header = "Tokenise your applications"
+sub_header = "Our platform and token technology allow exceptionally rapid creation of new tokens or you can easily integrate the ThreeFold Token into your applications or services. Please get in touch to discuss your project."
+btn_link = "#"
+btn_txt = "Contact us today"
 
 weight = 11
 +++
