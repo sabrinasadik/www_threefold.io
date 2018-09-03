@@ -51,18 +51,6 @@ youtube_header = "Youtube"
 youtube_text = "Follow us on youtube for the latest video content"
 youtube_link = "https://www.youtube.com/channel/UCKMNPuhs-8tHYfGd92krC8w"
 
-linkedin_header = "Linkedin"
-linkedin_text = "General info and job openings can be found on our linkedin."
-linkedin_link = "https://www.linkedin.com/company/threefold-foundation"
-
-instagram_header = "Instagram"
-instagram_text = "Get a behind the scenes look into the foundation"
-instagram_link = "https://www.instagram.com/threefold.foundation/"
-
-telegram_header = "TELEGRAM ANNOUNCEMENTS"
-telegram_text = "Join our channel to receive first-hands announcments"
-telegram_link = "https://t.me/threefoldtoken"
-
 telegram2_header = "TELEGRAM CHAT"
 telegram2_text = "Talk to us on the threefold english group"
 telegram2_link = "https://t.me/threefoldtoken_chat"
