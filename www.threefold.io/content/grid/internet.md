@@ -1,7 +1,6 @@
 +++
 title ="internet"
-header = "Internet?"
+header = "Internet"
 weight = 2
 +++
-#### subheader
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus error provident ex delectus porro alias eius a deleniti adipisci, eos ea, amet culpa fugit enim vero. Laborum, explicabo illum. Officia?
+The word internet is often interpreted as access to the "network". Actually the internet today has very little to do with the cables transporting data. The term internet should be interpreted as the total system actually processing and storing information for all people globally. It is in fact a large amount of computers connected to eachother.
