@@ -1,5 +1,6 @@
 <div class="layout-inner-content">
     <h1 class="text-blue h1 mb-3">{{ .Params.header }}</h1>
+    <p>{{ .Params.sub_header }}</p>
     <div class="page-description">{{ .Content }}</div>
     {{ if eq .Title "join" }}
     <a href="{{ .Params.btn_link }}" class="btn btn-block btn-sm-inline btn-green">{{ .Params.btn_txt }}</a>
