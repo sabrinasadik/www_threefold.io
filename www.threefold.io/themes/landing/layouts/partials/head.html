@@ -29,7 +29,7 @@
   <script src="https://www.youtube.com/iframe_api"></script>
 
   <!-- Custom stylesheet - for your changes -->
-  {{ if eq .Title "grid" }}
+  {{if or (ne .Section "grid") (ne .Title "cost")}}
   <link rel="stylesheet" href="{{ .Site.BaseURL }}css/grid-webflow.css" >
   <link rel="stylesheet" href="{{ .Site.BaseURL }}css/threefold-token-grid.webflow.css" >
   {{end}}
