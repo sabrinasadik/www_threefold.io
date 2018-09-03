@@ -22,21 +22,28 @@ tfCoop_title = "What is a ThreeFold Cooperative?"
 
 # Mazraa
 TFFarmer1 = "Mazraa"
-TFFarmer1_country = "Dubai, UAE" 
-TFFarmer1_url = "http://www.mazraa.io/" 
-TFFarmer1_txt = "www.mazraa.io" 
+TFFarmer1_country = "BUY TOKENS WITH U.S. DOLLARS"
+TFFarmer1_url = "http://www.mazraa.io/"
+TFFarmer1_txt = "www.mazraa.io"
 
 # Bettertoken
 TFFarmer2 = "BetterToken"
-TFFarmer2_country = "Lochristi, Belgium" 
-TFFarmer2_url = "http://www.bettertoken.com/" 
-TFFarmer2_txt = "www.bettertoken.com" 
+TFFarmer2_country = "BUY TOKENS IN EURO"
+TFFarmer2_url = "http://www.bettertoken.com/"
+TFFarmer2_txt = "www.bettertoken.com"
 
-# Bancadati
-TFFarmer3 = "Bancadati"
-TFFarmer3_country = "Switzerland" 
-TFFarmer3_url = "http://www.bancadati.farm/" 
-TFFarmer3_txt = "www.bancadati.farm" 
+# BTC_Alpha
+TFFarmer3 = "BTC-ALPHA"
+TFFarmer3_country = "BUY TOKENS IN BTC AND ETH"
+TFFarmer3_url = "https://btc-alpha.com/"
+TFFarmer3_txt = "www.btc-alpha.com"
+
+# Bitmeex.pro
+TFFarmer4 = "Bitmeex.pro"
+TFFarmer4_country = "BUY TOKENS IN USD, EUR, BTC AND ETH"
+TFFarmer4_url = "http://www.bitmeex.pro"
+TFFarmer4_txt = "www.bitmeex.pro"
+
 
 # Contact us
 contact_qu = "Are you interested in becoming a cooperative?"
@@ -48,4 +55,3 @@ weight = 3
 An organization who supports farmers with hardware sourcing, housing, maintaining and configuring hardware, ensuring power, cooling, safety, consistent uptime and secure connection to the grid.
 
 Depending on the business model of the co-operative all of the above, or a subsection of the services above, are offered.
-

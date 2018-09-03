@@ -17,7 +17,7 @@ reliable_content = ""
 # Good For The Planet
 good_img = "/svg/ic-benefits-05.svg"
 good_header = "Good For The Planet"
-good_content = "The ThreeFold Token is a result of mining useful internet capacity. We call this Farming. Our blockchain is 100% energy neutral. The produced internet capacity uses up to 10 times less energy and it removes the need for centralized power hungry datacenters."
+good_content = "The ThreeFold Token is a result of farming useful internet capacity. We call this Farming. Our blockchain is 100% energy neutral. The produced internet capacity uses up to 10 times less energy and it removes the need for centralized power hungry datacenters."
 
 weight = 2
 +++
