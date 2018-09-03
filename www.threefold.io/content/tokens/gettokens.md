@@ -22,27 +22,27 @@ tfCoop_title = "What is a ThreeFold Cooperative?"
 
 # Mazraa
 TFFarmer1 = "Mazraa"
-TFFarmer1_country = "Dubai, UAE"
+TFFarmer1_country = "BUY TOKENS WITH U.S. DOLLARS"
 TFFarmer1_url = "http://www.mazraa.io/"
 TFFarmer1_txt = "www.mazraa.io"
 
 # Bettertoken
 TFFarmer2 = "BetterToken"
-TFFarmer2_country = "Lochristi, Belgium"
+TFFarmer2_country = "BUY TOKENS IN EURO"
 TFFarmer2_url = "http://www.bettertoken.com/"
 TFFarmer2_txt = "www.bettertoken.com"
 
 # Bancadati
-TFFarmer3 = "Bancadati"
-TFFarmer3_country = "Switzerland"
-TFFarmer3_url = "http://www.bancadati.farm/"
-TFFarmer3_txt = "www.bancadati.farm"
+TFFarmer3 = "BTC-ALPHA"
+TFFarmer3_country = "BUY TOKENS IN BTC AND ETH"
+TFFarmer3_url = "https://btc-alpha.com/"
+TFFarmer3_txt = "www.btc-alpha.com"
 
 # Bancadati
-TFFarmer4 = "Bancadati"
-TFFarmer4_country = "Switzerland"
-TFFarmer4_url = "http://www.bancadati.farm/"
-TFFarmer4_txt = "www.bancadati.farm" 
+TFFarmer4 = "Bitmeex.pro"
+TFFarmer4_country = "BUY TOKENS IN USD, EUR, BTC AND ETH"
+TFFarmer4_url = "http://www.bitmeex.pro"
+TFFarmer4_txt = "www.bitmeex.pro" 
 
 
 # Contact us
