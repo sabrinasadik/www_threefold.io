@@ -30,6 +30,8 @@
                 <div class="my-6">{{ .Render "token_utilization" }}</div>
                 {{ else if eq .Title "disruptive technology" }}
                 <div class="my-6">{{ .Render "disruptive-technology" }}</div>
+                {{ else if eq .Title "cta" }}
+                <div class="my-6">{{ .Render "vision" }}</div>
                 {{ else if eq .Title "video" }}
                 <div id="modal-intro-movie" class="modal modal-lightbox fade">{{ .Render "video" }}</div>
                 {{end}} {{end}}
