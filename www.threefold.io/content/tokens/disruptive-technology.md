@@ -1,19 +1,10 @@
 +++
 title = "disruptive technology"
 
-header = "Title for Our City App?"
+header = "Our City App"
 img = "/img/img-20-solution.png"
 weight = 10
 +++
-#### Title
+#### Tokenising the Local Economy
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam porttitor gravida sapien non pharetra. Integer sagittis magna quis sapien vulputate, non pharetra libero aliquam. Mauris a magna aliquet urna scelerisque blandit a nec augue. In id elit eget felis maximus eleifend ac nec orci. Integer lobortis luctus sodales.
-
-
-#### Title
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam porttitor gravida sapien non pharetra. Integer sagittis magna quis sapien vulputate, non pharetra libero aliquam. Mauris a magna aliquet urna scelerisque blandit a nec augue. In id elit eget felis maximus eleifend ac nec orci. Integer lobortis luctus sodales.
-
-#### Title
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam porttitor gravida sapien non pharetra. Integer sagittis magna quis sapien vulputate, non pharetra libero aliquam. Mauris a magna aliquet urna scelerisque blandit a nec augue. In id elit eget felis maximus eleifend ac nec orci. Integer lobortis luctus sodales.
+Our City App, now in use by over half a million users across the Benelux region, is one of the most successful community building apps in Europe. The app allows users and merchants to promote their local economy and to pay for services with incredible convenience and speed.
