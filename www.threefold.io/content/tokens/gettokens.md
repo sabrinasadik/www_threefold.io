@@ -32,17 +32,17 @@ TFFarmer2_country = "BUY TOKENS IN EURO"
 TFFarmer2_url = "http://www.bettertoken.com/"
 TFFarmer2_txt = "www.bettertoken.com"
 
-# Bancadati
+# BTC_Alpha
 TFFarmer3 = "BTC-ALPHA"
 TFFarmer3_country = "BUY TOKENS IN BTC AND ETH"
 TFFarmer3_url = "https://btc-alpha.com/"
 TFFarmer3_txt = "www.btc-alpha.com"
 
-# Bancadati
+# Bitmeex.pro
 TFFarmer4 = "Bitmeex.pro"
 TFFarmer4_country = "BUY TOKENS IN USD, EUR, BTC AND ETH"
 TFFarmer4_url = "http://www.bitmeex.pro"
-TFFarmer4_txt = "www.bitmeex.pro" 
+TFFarmer4_txt = "www.bitmeex.pro"
 
 
 # Contact us

@@ -3,6 +3,11 @@
 
     <div class="w-col w-col-stack">
         <div class="fc-list">
+          <div class="farmer-card">
+              <h3 class="step-title f-title">{{ .Params.TFFarmer4 }}</h3>
+              <p class="f-contry">{{ .Params.TFFarmer4_country }}</p>
+              <a href="{{ .Params.TFFarmer3_url }}">{{ .Params.TFFarmer4_txt }}</a>
+          </div>
             <div class="farmer-card">
                 <h3 class="step-title f-title">{{ .Params.TFFarmer1 }}</h3>
                 <p class="f-contry">{{ .Params.TFFarmer1_country }}</p>
@@ -17,11 +22,6 @@
                 <h3 class="step-title f-title">{{ .Params.TFFarmer3 }}</h3>
                 <p class="f-contry">{{ .Params.TFFarmer3_country }}</p>
                 <a href="{{ .Params.TFFarmer3_url }}">{{ .Params.TFFarmer3_txt }}</a>
-            </div>
-            <div class="farmer-card">
-                <h3 class="step-title f-title">{{ .Params.TFFarmer4 }}</h3>
-                <p class="f-contry">{{ .Params.TFFarmer4_country }}</p>
-                <a href="{{ .Params.TFFarmer3_url }}">{{ .Params.TFFarmer4_txt }}</a>
             </div>
         </div>
     </div>
