@@ -1,19 +1,19 @@
 +++
 title = "disruptive technology"
 
-header = "What technologies have we created to do this?"
+header = "Title for Our City App?"
 img = "/img/img-20-solution.png"
 weight = 9
 +++
-#### Zero-OS
+#### Title
 
-A simple and efficient operating system to build this democratized grid of capacity, easy to install, easy to maintain and always available: Zero-OS.  This operating system is available to anyone that wants to build a part of this democratized internet at zero costs: it is open source.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam porttitor gravida sapien non pharetra. Integer sagittis magna quis sapien vulputate, non pharetra libero aliquam. Mauris a magna aliquet urna scelerisque blandit a nec augue. In id elit eget felis maximus eleifend ac nec orci. Integer lobortis luctus sodales.
 
 
-#### Zero-Robot
+#### Title
 
-They manage the grid of Zero-OSs to deliver an always on self healing responsible internet.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam porttitor gravida sapien non pharetra. Integer sagittis magna quis sapien vulputate, non pharetra libero aliquam. Mauris a magna aliquet urna scelerisque blandit a nec augue. In id elit eget felis maximus eleifend ac nec orci. Integer lobortis luctus sodales.
 
-#### Zero-Chain
+#### Title
 
-Our own blockchain technology can be used to create any responsible digital currency (green, faster, cost effective, scalable).  We use it to create consensus for our Zero-Robots.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam porttitor gravida sapien non pharetra. Integer sagittis magna quis sapien vulputate, non pharetra libero aliquam. Mauris a magna aliquet urna scelerisque blandit a nec augue. In id elit eget felis maximus eleifend ac nec orci. Integer lobortis luctus sodales.
