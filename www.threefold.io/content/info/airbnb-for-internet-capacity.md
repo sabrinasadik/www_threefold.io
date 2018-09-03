@@ -40,7 +40,7 @@ With the Zero-OS technology, you can jump into the market even if you have a cou
 
 The process to become a TF Farmer is very straightforward. Anyone – whether individual, professional or corporate – can join the TF Grid by buying a Zero Node and downloading the Zero-OS open source software. You can even do it with your existing spare hardware.
 
-Now you can operate your micro datacenter and earn money on it, we call this process TF Mining.
+Now you can operate your micro datacenter and earn money on it, we call this process TF Farming.
 
 Our Zero-Nodes are designed to be “plug and play” with full self driving capability – meaning TF Farmers do not need to have IT experience.
 
