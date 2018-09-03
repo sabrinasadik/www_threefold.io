@@ -25,8 +25,10 @@
     <div class="layout-content">
       <div class="layout-container">
 
-        <div class="team">
-          {{ $p.Render "community" }}</div>
+        <div class="team">{{ $p.Render "community" }}</div>
+        {{ if eq .Title "cta" }}
+        <div class="my-6">{{ $.Render "vision" }}</div>
+        {{end}}
       </div>
     </div>
     {{ else if eq .Section "join" }}

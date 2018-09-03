@@ -6,7 +6,6 @@ title = "community"
 tf_organization_header = "ThreeFold Organization"
 tf_organization_text = "We are a team of people who are passionate about making this new internet a reality. We help to promote and grow the ThreeFold ecosystem."
 
-
 developers_header = "Developers"
 developers_text = "The team that created the open source technology underpinning our mission."
 
@@ -22,4 +21,5 @@ tf_farmers_text2 = "Each of them has installed at least 1TB of storage and 4 log
 community_button_name = "Watch Video"
 community_video_link = "https://www.youtube.com/embed/HuczdA9JYe8"
 
+weight = 1
 +++
