@@ -14,5 +14,15 @@ good_img = "/svg/ic-benefits-05.svg"
 good_header = "Storage and Archive"
 good_content = "We all create and therefore store more information daily. Independent research firms predict that this growth is exponential. Therefore we require more storage and archiving capacity. The grid utility can be used to create storage and archiving solutions. Combining"
 
+# Good For The Planet
+good_img = "/svg/ic-benefits-05.svg"
+good_header = "Storage and Archive"
+good_content = "We all create and therefore store more information daily. Independent research firms predict that this growth is exponential. Therefore we require more storage and archiving capacity. The grid utility can be used to create storage and archiving solutions. Combining"
+
+# Good For The Planet
+good_img = "/svg/ic-benefits-05.svg"
+good_header = "Storage and Archive"
+good_content = "We all create and therefore store more information daily. Independent research firms predict that this growth is exponential. Therefore we require more storage and archiving capacity. The grid utility can be used to create storage and archiving solutions. Combining"
+
 weight = 3
 +++
