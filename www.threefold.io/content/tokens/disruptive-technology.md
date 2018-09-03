@@ -3,7 +3,7 @@ title = "disruptive technology"
 
 header = "Title for Our City App?"
 img = "/img/img-20-solution.png"
-weight = 9
+weight = 10
 +++
 #### Title
 

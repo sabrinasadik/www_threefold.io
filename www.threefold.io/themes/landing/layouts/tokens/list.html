@@ -28,6 +28,8 @@
                 <div class="my-6">{{ .Render "stats" }}</div>
                 {{ else if eq .Title "token utilization" }}
                 <div class="my-6">{{ .Render "token_utilization" }}</div>
+                {{ else if eq .Title "another cta" }}
+                <div class="my-6">{{ .Render "vision" }}</div>
                 {{ else if eq .Title "disruptive technology" }}
                 <div class="my-6">{{ .Render "disruptive-technology" }}</div>
                 {{ else if eq .Title "cta" }}
