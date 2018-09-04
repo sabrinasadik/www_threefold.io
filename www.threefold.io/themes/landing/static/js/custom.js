@@ -4,7 +4,7 @@ var xhr = new XMLHttpRequest();
 
 var price = document.getElementById('price');
 var volume = document.getElementById('volume');
-// var stats = document.getElementById('stats');
+var stats = document.getElementById('stats');
 var capitalization = document.getElementById('capitalization');
 var capSum, volSum, res, result;
 
@@ -20,7 +20,7 @@ xhr.onload = function () {
 
     if (xhr.status >= 200 && xhr.status < 400) {
 
-        price.innerHTML = data.data.currency.tftPrice.pairs.TFT_USD.price + ' USD/TFT';
+        // price.innerHTML = data.data.currency.tftPrice.pairs.TFT_USD.price + ' USD/TFT';
         // stats.innerHTML = '$' + data.data.currency.tftPrice.pairs.TFT_USD.price;
         capSum = Math.round((data.data.totalSupply / 1000000000) * data.data.currency.tftPrice.weightedAveragePrice);
         res = capSum.toString();
