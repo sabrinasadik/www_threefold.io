@@ -2,24 +2,6 @@
 # Don't Remove Title!
 title = "gettokens"
 
-# Where to buy tokens
-header = "Where to buy tokens"
-
-# Co-op Farmer
-farmer1_title = "Co-op Farmer"
-farmer1_desc = "Pure Investment \n Full Service"
-
-# Individual Farmer
-farmer2_title = "Individual Farmer"
-farmer2_desc = "Investment in certified Hardware \n Knowledge, Effort, Time"
-
-# DIY Farmer
-farmer3_title = "DIY Farmer"
-farmer3_desc = "Self-sourced and configured Hardware, \n Knowledge, Effort, Time"
-
-# TF Coop Sec.
-tfCoop_title = "What is a ThreeFold Cooperative?"
-
 # Mazraa
 TFFarmer1 = "Mazraa"
 TFFarmer1_country = "Buy tokens with USD"
@@ -45,13 +27,7 @@ TFFarmer4_url = "http://www.bitmeex.pro"
 TFFarmer4_txt = "www.bitmeex.pro"
 
 
-# Contact us
-contact_qu = "Are you interested in becoming a cooperative?"
-contact_mail = "andreas@threefoldtoken.com"
-contact_txt = "Contact us"
 
 weight = 3
 +++
-An organization that supports farmers with hardware sourcing, housing, maintaining and configuring hardware, ensuring power, cooling, safety, consistent uptime and a secure connection to the grid.
 
-Depending on the business model of the co-operative all of the above, or a subsection of the services above, are offered.
