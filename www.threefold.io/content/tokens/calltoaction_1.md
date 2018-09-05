@@ -7,5 +7,5 @@ sub_header = "You can become a Farmer tomorrow!  The ThreeFold Grid is always ex
 btn_link = "https://threefoldfoundation.github.io/info_grid/#/tf_farming/README"
 btn_txt = "View Farming Wiki"
 
-weight = 6
+weight = 7
 +++
