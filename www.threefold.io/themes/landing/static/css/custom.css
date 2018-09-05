@@ -80,9 +80,9 @@ body {
     background-color: #77aae6
 }
 
-.team img {
+/* .team img {
     width: 100%;
-}
+} */
 
 .container::after {
     content: "";
@@ -208,18 +208,18 @@ button.close {
     transition: box-shadow 350ms ease, z-index 200ms ease;
     transition: box-shadow 350ms ease, z-index 200ms ease, -webkit-box-shadow 350ms ease;
   }
-  
+
   .farmer-card:hover {
     position: relative;
     z-index: 1;
     -webkit-box-shadow: 0 30px 50px -10px rgba(18, 71, 179, .2);
             box-shadow: 0 30px 50px -10px rgba(18, 71, 179, .2);
   }
-  
+
   .f-contry {
     margin-bottom: 5px;
   }
-  
+
   .fc-list {
     display: -webkit-box;
     display: -ms-flexbox;
