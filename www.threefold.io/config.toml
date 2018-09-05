@@ -91,8 +91,8 @@ paginate = 6
 [[params.social]]
     title = "telegram"
     url = "https://t.me/threefoldtoken_chat"
-    icon = "/svg/ic-telegram-dark-blue.svg"
-    Bicon = "/svg/ic-telegram-dark-blue.svg"
+    icon = "/svg/ic-telegram.svg"
+    Bicon = "/svg/ic-telegram.svg"
     footer = true
     sharethis = false
     network = "telegram"
