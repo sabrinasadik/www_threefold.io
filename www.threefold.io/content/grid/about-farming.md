@@ -9,8 +9,7 @@ rdSupscript = "TFTs"
 about_secTitle = "by connecting hardware to the ThreeFold Grid"
 img = "/img/ic-02-grid.png"
 
-draft = true
 
-weight = 2
+
+weight = 4
 +++
-
