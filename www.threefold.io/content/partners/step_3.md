@@ -17,7 +17,7 @@ txt = "Become a Partner"
 
 # Bitmeex
 bitmeex_header = "Bitmeex.pro"
-bitmeex_txt = "COMING SOON"
+bitmeex_txt = "www.bitmeex.pro"
 
 # TF Exchange
 TFexchange_header = "TF Exchange"
