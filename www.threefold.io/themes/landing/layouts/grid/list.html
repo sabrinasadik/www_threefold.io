@@ -13,18 +13,17 @@
 
         </div>
 
-        <div class="layout-content" style="padding-top:0px;">
+        <div class="layout-content" style="padding-top: 0px;">
+            <div class="layout-container">
                 {{ range .Data.Pages }}
-                {{ if eq .Title "intro" }}
-                <div class="intro-screen" >{{ .Render "intro" }}</div>
-                <div class="layout-container">
-
-                {{ else if eq .Title "vision" }}
+                {{ if eq .Title "vision" }}
                 <div class="my-6 mt-sm-10">{{ .Render "vision" }}</div>
                 {{ else if eq .Title "internet" }}
                 <div class="my-6 mt-sm-10">{{ .Render "vision" }}</div>
                 {{ else if eq .Title "use cases" }}
                 <div class="how-to-section">{{ .Render "benefits" }}</div>
+                {{ else if eq .Title "roadmap" }}
+                <div class="step1-section">{{ .Render "roadmap" }}</div>
                 {{ else if eq .Title "join" }}
                 <div class="step1-section">{{ .Render "vision" }}</div>
                 {{ else if eq .Title "step 2" }}

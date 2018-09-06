@@ -1,0 +1,194 @@
+<h2 class="text-blue h2 mt-6 mb-2h">{{ .Params.header }}</h2>
+<section class="home-page--roadmap jarallax">
+   <div class="container">
+      <div class="row flex-column">
+         <!-- <div class="col-12">
+            <div class="noia-section-indicator">
+               <svg>
+                 <use xlink:href="https://noia.network/wp-content/themes/noia-rebrand/dist/images/spritemap.svg#sprite-icon-section-indicator"></use>
+               </svg>
+               </div>
+         </div> -->
+         <!-- <div class="col-12">
+            <h2 class="section-title">Roadmap</h2>
+            </div> -->
+      </div>
+      <div class="roadmap-container desktop d-none d-lg-block">
+         <div class="details-row row">
+            <div class="details current col">
+               <div class="date">{{ .Params.q1_year }}</div>
+               <div class="title">
+                  {{ .Params.q1_subtitle }}
+               </div>
+            </div>
+            <div class="details past col">
+               <div class="date">
+                  {{ .Params.q2_year }}
+               </div>
+               <div class="title">
+                  {{ .Params.q2_subtitle }}
+               </div>
+            </div>
+            <div class="details future col">
+               <div class="date">
+                  {{ .Params.q3_year }}
+               </div>
+               <div class="title">
+                  {{ .Params.q3_subtitle }}
+               </div>
+            </div>
+            <div class="details future col">
+               <div class="date">
+                  {{ .Params.q4_year }}
+               </div>
+               <div class="title">
+                  {{ .Params.q4_subtitle }}
+               </div>
+            </div>
+            <div class="details future col">
+               <div class="date">
+                  {{ .Params.q5_year }}
+               </div>
+               <div class="title">
+                  {{ .Params.q5_subtitle }}
+               </div>
+            </div>
+         </div>
+         <div class="timeline-lines row">
+            <div class="timeline-line past col">
+               <div></div>
+            </div>
+            <div class="timeline-line current col">
+               <div></div>
+            </div>
+            <div class="timeline-line future col">
+               <div></div>
+            </div>
+            <div class="timeline-line future col">
+               <div></div>
+            </div>
+            <div class="timeline-line future col">
+               <div></div>
+            </div>
+         </div>
+         <div class="timeline-dots row">
+            <div class="timeline-dot past col">
+               <span></span>
+            </div>
+            <div class="timeline-dot current col">
+               <span></span>
+            </div>
+            <div class="timeline-dot future col">
+               <span></span>
+            </div>
+            <div class="timeline-dot future col">
+               <span></span>
+            </div>
+            <div class="timeline-dot future col">
+               <span></span>
+            </div>
+         </div>
+         <div class="content-row row">
+            <div class="content-container past col d-flex flex-column">
+               <div class="content-block">
+                  {{ .Params.q1_text }}
+               </div>
+            </div>
+            <div class="content-container current col d-flex flex-column">
+               <div class="content-block">
+                  {{ .Params.q2_text }}
+               </div>
+            </div>
+            <div class="content-container future col d-flex flex-column">
+               <div class="content-block">
+                  {{ .Params.q3_text }}
+               </div>
+            </div>
+            <div class="content-container future col d-flex flex-column">
+               <div class="content-block">
+                  {{ .Params.q4_text }}
+               </div>
+            </div>
+            <div class="content-container future col d-flex flex-column">
+               <div class="content-block">
+                  {{ .Params.q5_text }}
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="roadmap-container mobile d-block d-lg-none">
+         <div class="roadmap-block past d-flex flex-column">
+            <div class="timeline-dot"></div>
+            <div class="date">
+               {{ .Params.q1_year }}
+            </div>
+            <div class="title">
+               {{ .Params.q1_subtitle }}
+            </div>
+            <div class="content-container row">
+               <div class="content-block col-12 col-md-3">
+                  {{ .Params.q1_text }}
+               </div>
+            </div>
+         </div>
+         <div class="roadmap-block current d-flex flex-column">
+            <div class="timeline-dot"></div>
+            <div class="date">
+               {{ .Params.q2_year }}
+            </div>
+            <div class="title">
+               {{ .Params.q2_subtitle }}
+            </div>
+            <div class="content-container row">
+               <div class="content-block col-12 col-md-3">
+                  {{ .Params.q2_text }}
+               </div>
+            </div>
+         </div>
+         <div class="roadmap-block future d-flex flex-column">
+            <div class="timeline-dot"></div>
+            <div class="date">
+               {{ .Params.q3_year }}
+            </div>
+            <div class="title">
+               {{ .Params.q3_subtitle }}
+            </div>
+            <div class="content-container row">
+               <div class="content-block col-12 col-md-3">
+                  {{ .Params.q3_text }}
+               </div>
+            </div>
+         </div>
+         <div class="roadmap-block future d-flex flex-column">
+            <div class="timeline-dot"></div>
+            <div class="date">
+               {{ .Params.q4_year }}
+            </div>
+            <div class="title">
+               {{ .Params.q4_subtitle }}
+            </div>
+            <div class="content-container row">
+               <div class="content-block col-12 col-md-3">
+                  {{ .Params.q4_text }}
+               </div>
+            </div>
+         </div>
+         <div class="roadmap-block future d-flex flex-column">
+            <div class="timeline-dot"></div>
+            <div class="date">
+               {{ .Params.q5_year }}
+            </div>
+            <div class="title">
+               {{ .Params.q5_subtitle }}
+            </div>
+            <div class="content-container row">
+               <div class="content-block col-12 col-md-3">
+                  {{ .Params.q5_text }}
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+   <div id="jarallax-container-1" style="position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; overflow: hidden; pointer-events: none; z-index: -100;">
+   </div>
+</section>
