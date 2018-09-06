@@ -2,7 +2,7 @@
 # Don't Remove Title!
 title = "benefits"
 
-mainHeader = "Commercial Farmers"
+mainHeader = "Corporate Farmers"
 
 # value-Backed
 value_img = "/img/greenedge.jpg"
