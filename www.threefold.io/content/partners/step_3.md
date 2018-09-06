@@ -23,30 +23,5 @@ bitmeex_txt = "COMING SOON"
 TFexchange_header = "TF Exchange"
 TFexchange_txt = "COMING SOON"
 
-# Atomic Exchange
-atomic_header = ""
-atomic_link = ""
-atomic_txt = ""
-atomic_manual = ""
-
-# Wallet Version
-wallet = ""
-wallet_txt = ""
-
-# Cooperatives
-cooperatives = ""
-
-# Mazraa
-mazraa_link = ""
-mazraa_header = ""
-mazraa_address= ""
-mazraa_link_txt = ""
-
-# Bettertoken
-bt_link = ""
-bt_header = ""
-bt_address= ""
-bt_link_txt = ""
-
 weight = 7
 +++

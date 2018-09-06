@@ -1,11 +1,11 @@
 +++
 title ="partnervision"
-header = "Intro to Partnering"
+header = "Becoming part of our Mission"
 weight = 1
 +++
 
 
 
-#### SUBHEADER
+#### What is a ThreeFold Partner?
 
-“A person that started in to carry a cat home by the tail was getting knowledge that was always going to be useful to him, and warn't ever going to grow dim or doubtful.”
+The ThreeFold Technology eco-system changes the way in which internet compute and storage capacity can be delivered. It allows many more of us to be part of a new distributed internet infrastructure system. See below for the different ways in which you can engage with us.

@@ -29,5 +29,10 @@ img_6 = "/img/gig-eu.jpg"
 header_6 = "GIG Europe"
 content_6 = ""
 
+# Block 7
+img_7 = ""
+header_7 = ""
+content_7 = ""
+
 weight = 3
 +++
