@@ -15,7 +15,7 @@ good_header = "Storage and Archive"
 good_content = "We all create and therefore store more information daily. Independent research firms predict that this growth is exponential. Therefore we require more storage and archiving capacity. The grid utility can be used to create storage and archiving solutions."
 
 # Distributed always on applications
-vBacked_img = "/svg/ic-f-grid.svg"
+vBacked_img = "/svg/ic-distributed.svg"
 vBacked_header = "Distributed always on applications"
 vBacked_content = "The future is distributed. Applications will no longer exist in centralized private or public datacenters. Applications are getting smaller and single purpose. These applications can live on minimal utility, everywhere"
 
