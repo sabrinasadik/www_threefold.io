@@ -5,7 +5,7 @@ title = "use cases"
 mainHeader = "Use Cases"
 
 # Utility use cases
-value_img = "/svg/ic-usecase.svg"
+value_img = "/svg/ic-f-grid.svg"
 value_header = "Utility use cases"
 value_content = "The grid presents ever increasing utility for people to create use cases for. Use cases can be very traditional like existing use cases for web content, e-commerce sites, photo storage and music streaming. This created utility can fuel any online activity, current and future!"
 
