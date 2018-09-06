@@ -27,5 +27,13 @@ tf_chain_wiki = ""
 tf_chain_download = ""
 tf_chain_subtext = ""
 
+# TF Chain
+new_img = ""
+new_header = ""
+new_content = ""
+new_wiki = ""
+new_download = ""
+new_subtext = ""
+
 weight = 5
 +++
