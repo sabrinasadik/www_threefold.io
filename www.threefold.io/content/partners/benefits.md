@@ -19,11 +19,6 @@ good_img = "/img/safecity.jpg"
 good_header = "Safe City"
 good_content = ""
 
-# Block 4
-img_4 = "/img/tarchini.jpg"
-header_4 = "Tarchini Group"
-content_4 = ""
-
 # Block 5
 img_5 = "/img/futurecap.jpg"
 header_5 = "Future Capacity"
