@@ -16,7 +16,7 @@ link = "#"
 txt = "Become a Partner"
 
 # Bitmeex
-bitmeex_link = "https://www.bitmeex.pro"
+bitmeex_link = "https://www.bitmeex.pro/"
 bitmeex_header = "Bitmeex.pro"
 bitmeex_txt = "www.bitmeex.pro"
 
