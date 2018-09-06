@@ -14,9 +14,12 @@
                         </div>
                     </div>
                     <div class="col-12 col-sm-6 col-lg-4 my-1">
-                        <div class="block-aqua block-fullheight">
-                            <h4 class="alt muted mt-0 mb-0h">{{ .Params.bitmeex_header }}</h4>
-                            <p class="mb-0 text-transform-upper">{{ .Params.bitmeex_txt }}</p>
+                        <div class="block-white block-outline block-fullheight">
+                            <a href="{{ .Params.btc_link }}" target="_blank">
+                                <h4 class="alt text-blue mt-0 mb-0h">{{ .Params.bitmeex_header }}</h4>
+                            </a>
+                            <p class="mb-0 no-link">{{ .Params.bitmeex_txt }}</p>
+                            <a href="{{ .Params.btc_manual }}">Read Manual</a>
                         </div>
                     </div>
                     <div class="col-12 col-sm-6 col-lg-4 my-1">
