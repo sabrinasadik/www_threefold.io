@@ -10,7 +10,7 @@ value_header = "Utility use cases"
 value_content = "The grid presents ever increasing utility for people to create use cases for. Use cases can be very traditional like existing use cases for web content, e-commerce sites, photo storage and music streaming. This created utility can fuel any online activity, current and future!"
 
 # Storage and Archive
-good_img = "/svg/ic-storcase.svg"
+good_img = "/svg/ic-storecase.svg"
 good_header = "Storage and Archive"
 good_content = "We all create and therefore store more information daily. Independent research firms predict that this growth is exponential. Therefore we require more storage and archiving capacity. The grid utility can be used to create storage and archiving solutions."
 
