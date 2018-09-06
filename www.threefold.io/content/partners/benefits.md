@@ -25,8 +25,8 @@ header_4 = "Tarchini Group"
 content_4 = ""
 
 # Block 5
-img_5 = "Future Capacity"
-header_5 = ""
+img_5 = ""
+header_5 = "Future Capacity"
 content_5 = ""
 
 # Block 6
