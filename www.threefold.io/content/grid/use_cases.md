@@ -2,7 +2,7 @@
 # Don't Remove Title!
 title = "use cases"
 
-mainHeader = "Use Cases"
+mainHeader = "TF Grid Use Cases"
 
 # Utility use cases
 value_img = "/svg/ic-gridcase.svg"
