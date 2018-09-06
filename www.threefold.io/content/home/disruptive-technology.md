@@ -2,7 +2,7 @@
 title = "disruptive technology"
 
 header = "What technologies have we created to do this?"
-img = "/img/Image_Phone_1.png"
+img = "/img/Image_Phone_1.gif"
 weight = 9
 +++
 #### Zero-OS
