@@ -7,7 +7,7 @@ mainHeader = "Commercial Farmers"
 # value-Backed
 value_img = "/img/greenedge.jpg"
 value_header = "Green Edge Cloud"
-value_content = "Description"
+value_content = ""
 
 # Reliable & Secure
 reliable_img = "/img/bancadati.jpg"
