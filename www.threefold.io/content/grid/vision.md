@@ -1,12 +1,16 @@
 +++
 title ="vision"
-header = "The TF Grid has two dimensions"
+header = "Two aspects of the ThreeFold Grid"
 weight = 1
 +++
-#### TF Grid expansion through capacity farming
-The ThreeFold Grid is build by people for people. It is made of independently owned hardware running the Zero-OS operating system. This operating system is a minimal operating system that makes hardware components available to anyone as a utility. This utility is available to anyone who wants to compute and store data.
+#### Expansion of the ThreeFOld Grid by Capacity Farming
+The ThreeFold Grid is built by people and for people. It consists of independently owned hardware running the Zero OS operating system. Zero OS is a minimal operating system that makes hardware components available to anyone as a utility. This utility capacity is available to anyone who wants to use compute power or to store data.
 
-Grid expansion is driven by individuals with an interest to earn ThreeFold Tokens. Newly created grid capacity translates directly to a token return based on the quatity of utility being created by the hardware provided.
+ThreeFold Grid expansion is driven by individuals and organisations, known as ThreeFold Farmers, who earn ThreeFold Tokens by providing capacity on the TF Grid. Newly created TF Grid capacity generates a token return directly based on the quantity and quality of utility created by the hardware connected by the Farmer.
 
-#### TF Grid utilisation through use cases
-We are all consuming more and more compute and storage for everyday life. Independent studies show that that expansion is exponential. To deliver this ever expanding need for compute and storage capacity the Threefold grid is going local. Local capacity enables local entrepreneurs to develop capacity use cases for local communities. No need to use remote, centrally owned, inefficient datacenters.
+#### Use case utilization of the ThreeFold Grid
+Independent studies show that the consumption of compute and storage in our everyday life is undergoing exponential growth. To deliver on this ever-expanding demand, we need to deliver more capacity in the locality it is needed.
+
+The ThreeFold Grid solves this problem be allowing internet capacity to be delivered where it is needed. Essentially, the ThreeFold Grid allows the internet to go local.
+
+Local capacity enables local entrepreneurs to develop capacity use cases for local communities. No need to use remote, centrally owned and inefficient datacenters. The capacity can be delivered where it is needed, at much lower cost.
