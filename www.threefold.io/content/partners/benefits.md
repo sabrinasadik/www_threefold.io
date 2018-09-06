@@ -34,5 +34,10 @@ img_6 = ""
 header_6 = ""
 content_6 = ""
 
+# Block 7
+img_7 = ""
+header_7 = ""
+content_7 = ""
+
 weight = 3
 +++
