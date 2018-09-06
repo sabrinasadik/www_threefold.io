@@ -5,7 +5,7 @@ header = "Roadmap"
 
 q1_year ="2017 Q1"
 q1_subtitle="MVP / Demo"
-q1_text="uilding the MVP to showcase the technology: github.com/noia-networ"
+q1_text="Building the MVP to showcase the technology: github.com/noia-network"
 
 q2_year ="2018 Q2"
 q2_subtitle="Alpha / Testnet"
