@@ -6,8 +6,8 @@ mainHeader = "Commercial Farmers"
 
 # value-Backed
 value_img = "/svg/ic-benefits-01.svg"
-value_header = "Value-Backed"
-value_content = "100% of ThreeFold Tokens are asset backed by the fastest growing commodity in the world, the internet. Tokens only get generated when servers get connected to the internet. Each token is at least 6 times undervalued compared to the commercial value of the newly connected capacity."
+value_header = "Name"
+value_content = "Description"
 
 # Reliable & Secure
 reliable_img = "/svg/ic-benefits-02.svg"
@@ -21,6 +21,3 @@ good_content = "The ThreeFold Token is a result of adding useful internet capaci
 
 weight = 3
 +++
-<!-- Reliable & Secure content -->
-
-The ThreeFold blockchain does not suffer from the “[Blockchain Dilemma Problem](https://www.youtube.com/watch?v=AUcO8NE6s2M)”. Our blockchain is fast, scalable and secure - all at the same time. This has not been possible with other blockchain technologies before. This is a major breakthrough.

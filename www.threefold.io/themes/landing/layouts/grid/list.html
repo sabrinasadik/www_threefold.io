@@ -32,6 +32,10 @@
                 <div class="cost-section">{{ .Render "cost" }}</div>
                 {{ else if eq .Title "earn tokens" }}
                 <div class="earn-tokens-section">{{ .Render "earn_tokens" }}</div>
+                {{ else if eq .Title "about farming" }}
+                <div class="earn-tokens-section">{{ .Render "about-farming" }}</div>
+                {{ else if eq .Title "earn tokens" }}
+                <div class="earn-tokens-section">{{ .Render "earn_tokens" }}</div>
                 {{ else if eq .Title "partners" }}
                 <div class="container-wide">{{ .Render "partners" }}</div>
                 {{ else if eq .Title "community" }}
