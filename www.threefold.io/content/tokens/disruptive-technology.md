@@ -2,7 +2,7 @@
 title = "disruptive technology"
 
 header = "Our City App"
-img = "/img/img-20-solution.png"
+img = "/img/Image_Phone_1.gif"
 weight = 10
 +++
 #### Tokenising the Local Economy
