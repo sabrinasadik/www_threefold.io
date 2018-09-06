@@ -260,6 +260,10 @@ button.close {
   color: #0d2e75;
 }
 
+.intro-main-content .row {
+  align-items: center;
+}
+
   /* line 1, resources/assets/styles/layouts/home/_roadmap.scss */
 
   section.home-page--roadmap {

@@ -594,6 +594,7 @@ a:hover {
   right: -380px;
   z-index: -1;
   width: 680px;
+  display: none;
 }
 
 .principles-section {
