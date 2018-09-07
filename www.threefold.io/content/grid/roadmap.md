@@ -5,11 +5,11 @@ header = "Roadmap"
 
 q1_year ="2018 Q2"
 q1_subtitle="Grid Capacity Generation"
-q1_text=""
+q1_text="here you add your texts Andreas"
 
 q2_year ="2018 Q3"
 q2_subtitle="Grid Capacity Activation"
-q2_text=""
+q2_text="Make sure to write something decent this time"
 
 q3_year ="2019 Q1"
 q3_subtitle="Grid Capacity Usage"
