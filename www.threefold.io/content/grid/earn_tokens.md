@@ -24,5 +24,5 @@ TF_dir_desc2 = "All capacity is listed so buyers can choose their farm or locati
 TF_dir_desc3 = "The TFT used to buy capacity are awarded directly to the Farmer."
 TF_dir_desc4 = "The ThreeFold Foundation charges 10% of these tokens as a revenue share to fund IT development and marketing."
 
-weight = 4
+weight = 5
 +++
