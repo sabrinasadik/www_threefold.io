@@ -268,6 +268,10 @@ button.close {
   display: none;
 }
 
+.softPart .row {
+  justify-content: space-around;
+}
+
 /* line 1, resources/assets/styles/layouts/home/_roadmap.scss */
 section.home-page--roadmap {
   position: relative;
@@ -328,12 +332,12 @@ section.home-page--roadmap .roadmap-container.desktop .timeline-line div {
   position: relative;
 }
 
-  section.home-page--roadmap .roadmap-container.desktop .timeline-line div::before {
-    position: absolute;
-    width: calc(100% + 15px);
-    border-top: solid 2px #0c2e73;
-    content: "";
-  }
+section.home-page--roadmap .roadmap-container.desktop .timeline-line div::before {
+  position: absolute;
+  width: calc(100% + 15px);
+  border-top: solid 2px #0c2e73;
+  content: "";
+}
 
 /* line 57, resources/assets/styles/layouts/home/_roadmap.scss */
 section.home-page--roadmap .roadmap-container.desktop .timeline-line:last-child div::before {
