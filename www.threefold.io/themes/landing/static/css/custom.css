@@ -337,7 +337,7 @@ button.close {
   section.home-page--roadmap .roadmap-container.desktop .timeline-line div::before {
     position: absolute;
     width: calc(100% + 15px);
-    border-top: solid 2px #2cbea0;
+    border-top: solid 2px #0c2e73;
     content: "";
   }
 
