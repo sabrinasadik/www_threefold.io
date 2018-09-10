@@ -271,6 +271,7 @@ button.close {
 /* line 1, resources/assets/styles/layouts/home/_roadmap.scss */
 section.home-page--roadmap {
   position: relative;
+  margin-bottom: 25px;
 }
 
 /* line 4, resources/assets/styles/layouts/home/_roadmap.scss */
