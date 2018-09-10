@@ -91,16 +91,16 @@ $(function () {
                 img.prop('src', '/avatars/' + encodeURIComponent(random_details.avatar));
                 a.append(img);
                 parent.append(a);
-                var div = $("<div>").addClass("rj-team-member-info-text").css('display', 'none');
-                var imgCol = $("<div>").addClass('col-md-3 col-sm-4');
-                var dataCol = $("<div>").addClass('col-md-9 col-sm-8');
-                var close = $('<div>').addClass('close-bio').text('x');
-                div.append(imgCol);
-                imgCol.append($("<img/>").width('150px').prop("src", "/avatars/" + encodeURIComponent(random_details.avatar)));
-                div.append(dataCol);
-                dataCol.append($("<div>").addClass('member-name').text(random_details.name));
-                div.append(close);
-                parent.append(div);
+                // var div = $("<div>").addClass("rj-team-member-info-text").css('display', 'none');
+                // var imgCol = $("<div>").addClass('col-md-3 col-sm-4');
+                // var dataCol = $("<div>").addClass('col-md-9 col-sm-8');
+                // var close = $('<div>').addClass('close-bio').text('x');
+                // div.append(imgCol);
+                // imgCol.append($("<img/>").width('150px').prop("src", "/avatars/" + encodeURIComponent(random_details.avatar)));
+                // div.append(dataCol);
+                // dataCol.append($("<div>").addClass('member-name').text(random_details.name));
+                // div.append(close);
+                // parent.append(div);
                 amp.append(parent);
             }
         }

@@ -24,5 +24,5 @@ reliable_img = "/svg/ic-iot.svg"
 reliable_header = "Internet of things"
 reliable_content = "The Internet of things means that all devices will have smart components and be connected to the internet. This creates an environment where applications can run everywhere and data is collected and can be processed from anywhere. In this world, ubiquitous utility for local compute and storage is as necessary as the electricity we expect to be available to power our mobile devices, homes and businesses."
 
-weight = 6
+weight = 7
 +++

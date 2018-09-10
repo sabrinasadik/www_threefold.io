@@ -2,7 +2,7 @@
 # Don't Remove Title!
 title = "gettokens"
 
-mainHeader = "Where to buy tokens"
+mainHeader = "Where to buy threefold tokens"
 
 # Mazraa
 TFFarmer1 = "Mazraa"
