@@ -4,7 +4,7 @@ title = "individual"
 
 header = "Individual Farmers"
 
-weight = 4
+weight = 2
 +++
 The TF Farmers are the first individual TF Farmers putting capacity on the Grid. 
 
