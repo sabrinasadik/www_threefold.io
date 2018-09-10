@@ -5,15 +5,15 @@ header = "Roadmap"
 
 q1_year ="2018 Q2"
 q1_subtitle="Grid Capacity Generation"
-q1_text="here you add your texts Andreas"
+q1_text="Hardware generates TF Capacity once connected to the TF Grid"
 
 q2_year ="2018 Q3"
 q2_subtitle="Grid Capacity Activation"
-q2_text="Make sure to write something decent this time"
+q2_text="TF Tokens are created for capacity on the TF Grid"
 
 q3_year ="2019 Q1"
 q3_subtitle="Grid Capacity Usage"
-q3_text=""
+q3_text="TF Capacity can be used for TF Tokens"
 
 weight = 12
 
