@@ -2,6 +2,8 @@
 # Don't Remove Title!
 title = "gettokens"
 
+mainHeader = "Where to buy tokens"
+
 # Mazraa
 TFFarmer1 = "Mazraa"
 TFFarmer1_country = "Buy tokens with USD"
@@ -30,4 +32,3 @@ TFFarmer4_txt = "www.bitmeex.pro"
 
 weight = 3
 +++
-
