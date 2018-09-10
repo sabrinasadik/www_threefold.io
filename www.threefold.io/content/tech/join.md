@@ -2,8 +2,8 @@
 # Don't Remove title!
 title = "join"
 
-header = "Become a farmer"
-sub_header = "Become a farmer tomorrow!  The grid is ever expanding and new farmers are welcome. Anyone, Anywhere! Please have a look at our WIKI's on how to become a farmer."
-btn_link = "https://threefoldfoundation.github.io/info_grid/#/tf_farming/README"
-btn_txt = "View Farming WIKI"
+header = "Become an Ambassador"
+sub_header = "Become an Ambassador and support our mission "
+btn_link = ""
+btn_txt = "Send us a few lines on why you want to become a ThreeFold Ambassador"
 +++
