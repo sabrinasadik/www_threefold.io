@@ -5,7 +5,7 @@ header = "Roadmap"
 
 q1_year ="2018 Q2"
 q1_subtitle="Grid Capacity Generation"
-q1_text="Hardware generates capacity once connected to the TF Grid"
+q1_text="Hardware generates TF Capacity once connected to the TF Grid"
 
 q2_year ="2018 Q3"
 q2_subtitle="Grid Capacity Activation"
