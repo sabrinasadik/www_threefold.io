@@ -37,25 +37,21 @@
                 {{ else if eq .Title "whats-internet" }}
                 <div class="my-6 mt-sm-10">{{ .Render "copy-body" }}</div>
                 {{ else if eq .Title "use cases" }}
-                <div class="how-to-section">{{ .Render "benefits" }}</div>
+                <div class="how-to-section">{{ .Render "usecases" }}</div>
                 {{ else if eq .Title "roadmap" }}
                 <div class="step1-section">{{ .Render "roadmap" }}</div>
                 {{ else if eq .Title "CTA" }}
                 <div class="step1-section">{{ .Render "copy-body" }}</div>
-                {{ else if eq .Title "step 2" }}
-                <div class="step1-section">{{ .Render "step2" }}</div>
-                {{ else if eq .Title "farmer_types 3" }}
-                <div class="step1-section">{{ .Render "farmertypes" }}</div>
+                {{ else if eq .Title "farmer_types_1" }}
+                <div class="step1-section">{{ .Render "farmertypes1" }}</div>
+                {{ else if eq .Title "farmer_types_2" }}
+                <div class="step1-section">{{ .Render "farmertypes2" }}</div>
                 {{ else if eq .Title "whatarefarmers" }}
                 <div class="my-6 mt-sm-10">{{ .Render "copy-body" }}</div>
                 {{ else if eq .Title "earn tokens" }}
                 <div class="earn-tokens-section">{{ .Render "earn_tokens" }}</div>
                 {{ else if eq .Title "earn tokens" }}
                 <div class="earn-tokens-section">{{ .Render "earn_tokens" }}</div>
-                {{ else if eq .Title "partners" }}
-                <div class="container-wide">{{ .Render "partners" }}</div>
-                {{ else if eq .Title "community" }}
-                <div class="community-section">{{ .Render "community" }}</div>
                 {{ else if eq .Title "video" }}
                 <div id="modal-intro-movie" class="modal modal-lightbox fade">{{ .Render "video" }}</div>
                 {{end}} {{end}}
