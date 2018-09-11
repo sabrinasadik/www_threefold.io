@@ -272,10 +272,6 @@ button.close {
   justify-content: space-around;
 }
 
-.layout-header.layout-header-fixed~.layout-content {
-  padding-top: 0;
-}
-
 /* line 1, resources/assets/styles/layouts/home/_roadmap.scss */
 section.home-page--roadmap {
   position: relative;
@@ -710,7 +706,6 @@ section.home-page--roadmap .roadmap-container.mobile .roadmap-block.future .titl
     padding-top: 1rem;
     padding-bottom: 2rem;
   }
-
 
   .layout-header.layout-header-fixed~.layout-content {
     padding-top: 80px;

@@ -2,6 +2,19 @@
 <html>
 
 {{ partial "head.html" . }}
+{{ if eq .Section "grid" }}
+<style>
+    .layout-header.layout-header-fixed~.layout-content {
+        padding-top: 0;
+    }
+
+    @media only screen and (min-width: 320px) and (max-width: 479px) {
+        .layout-header.layout-header-fixed~.layout-content {
+            padding-top: 80px;
+        }
+    }
+</style>
+{{end}}
 
 <body class="single single-page single-page-sample-page frontpage">
 
@@ -14,10 +27,10 @@
         </div>
 
         <div class="layout-content">
-                {{ range .Data.Pages }}
-                {{ if eq .Title "intro" }}
-                <div class="intro-screen" >{{ .Render "intro" }}</div>
-                <div class="layout-container">
+            {{ range .Data.Pages }}
+            {{ if eq .Title "intro" }}
+            <div class="intro-screen">{{ .Render "intro" }}</div>
+            <div class="layout-container">
 
                 {{ else if eq .Title "vision" }}
                 <div class="my-6 mt-sm-10">{{ .Render "vision" }}</div>
