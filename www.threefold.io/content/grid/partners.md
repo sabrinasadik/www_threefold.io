@@ -2,10 +2,10 @@
 # Don't Remove Title!
 title = "partners"
 
-header = "Partners and Projects Utilizing ThreeFold Grid"
+header = "Partners and Projects utilizing ThreeFold Grid"
 
 # HP Enterprise
-# - farming 
+# - farming
 # - private blockchain (government, universities)
 
 # Solidaridad
