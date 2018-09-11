@@ -1,6 +1,6 @@
 +++
 # Don't Remove Title!
-title = "intro"
+title = "header"
 
 header = "ThreeFold Grid"
 description = "A new, global, neutral and sustainable network of IT infrastructure created by ThreeFold Farmers"

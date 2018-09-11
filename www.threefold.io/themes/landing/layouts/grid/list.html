@@ -29,7 +29,7 @@
         <div class="layout-content">
             {{ range .Data.Pages }}
             {{ if eq .Title "intro" }}
-            <div class="intro-screen">{{ .Render "intro" }}</div>
+            <div class="intro-screen">{{ .Render "header" }}</div>
             <div class="layout-container">
 
                 {{ else if eq .Title "grid_aspects" }}
