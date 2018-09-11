@@ -1,5 +1,5 @@
 +++
-title ="internet"
+title ="whats-internet"
 header = "What is the Internet?"
 weight = 3
 +++

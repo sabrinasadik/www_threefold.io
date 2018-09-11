@@ -1,6 +1,6 @@
 +++
 # Don't Remove Title!
-title = "step 3"
+title = "farmer_types"
 
 header = "Connect and Farm Tokens"
 img = "/img/connection-illustration.png"

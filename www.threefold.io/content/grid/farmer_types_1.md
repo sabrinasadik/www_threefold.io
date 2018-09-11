@@ -1,6 +1,6 @@
 +++
 # Don't Remove Title!
-title  ="step 2"
+title  ="farmer_types_1"
 
 header = "Source Hardware and Operational Environment"
 # Co-op Farmer
@@ -34,5 +34,3 @@ note = "Please keep in mind that the amount of estimated Tokens will vary depend
 draft = true
 weight = 5
 +++
-
-
