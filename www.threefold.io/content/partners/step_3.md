@@ -4,7 +4,7 @@ title = "tft listings"
 
 # Step 3
 header = "TFT Listings"
-
++++
 Cryptocurrency Exchanges which list the ThreeFold Token (TFT)
 
 # BTC Alpha
