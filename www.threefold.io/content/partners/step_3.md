@@ -5,6 +5,8 @@ title = "tft listings"
 # Step 3
 header = "TFT Listings"
 
+Cryptocurrency Exchanges which list the ThreeFold Token (TFT)
+
 # BTC Alpha
 btc_link = "https://btc-alpha.com/"
 btc_header = "BTC-Alpha"
