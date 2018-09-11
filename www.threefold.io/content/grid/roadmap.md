@@ -11,7 +11,7 @@ q1_text2=""
 q2_year ="2018 Q3"
 q2_subtitle="Grid Capacity Activation"
 q2_text="TF Tokens are created for capacity on the TF Grid"
-q2_text2 = "TF Capacity can be used for TF Tokens"
+q2_text2 = ""
 
 q3_year ="2019 Q1"
 q3_subtitle="Grid Capacity Usage"
