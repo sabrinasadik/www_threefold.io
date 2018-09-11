@@ -1,7 +1,7 @@
 +++
 title ="grid_aspects"
 header = "Two aspects of the ThreeFold Grid"
-weight = 1
+weight = 2
 +++
 #### Expansion of the ThreeFold Grid by Capacity Farming
 The ThreeFold Grid is built by people and for people. It consists of independently owned hardware running the Zero OS operating system created by ThreeFold Tech. Zero OS is a minimal operating system that makes hardware components available as a utility. This utility capacity is available to anyone who wants to use compute power or to store data.
