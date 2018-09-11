@@ -21,5 +21,7 @@ section3_content = "Dedicated decentralized nodes power the ThreeFold Token and 
 
 weight = 7
 +++
-Use ThreeFold Tokens in your project or business — “A fast, scalable, secure and decentralized digital currency, backed by internet capacity”
+Use ThreeFold Tokens in your project or business 
+
+“A fast, scalable, secure and decentralized digital currency, backed by internet capacity”
 
