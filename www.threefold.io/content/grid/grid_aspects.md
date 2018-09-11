@@ -1,5 +1,5 @@
 +++
-title ="vision"
+title ="grid_aspects"
 header = "Two aspects of the ThreeFold Grid"
 weight = 1
 +++
