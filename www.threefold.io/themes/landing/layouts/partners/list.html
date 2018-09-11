@@ -22,12 +22,15 @@
             <div class="my-6 mt-sm-10">{{ .Render "benefits" }}</div>
             {{ else if eq .Title "individual" }}
             <div class="team">{{ .Render "individual" }}</div>
+            {{ else if eq .Title "farming_cooperative" }}
+            <div class="team">{{ .Render "farming_cooperative" }}</div>
             {{ else if eq .Title "step 1" }}
             <div class="my-6 mt-sm-10">{{ .Render "step_1" }}</div>
             {{ else if eq .Title "developers" }}
             <div class="team">{{ .Render "developers" }}</div>
             {{ else if eq .Title "tft listings" }}
             <div class="my-6 mt-sm-10">{{ .Render "tft_listings" }}</div>
+
             {{end}}
             {{end}}
           </div>
