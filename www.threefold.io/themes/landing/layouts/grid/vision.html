@@ -3,6 +3,7 @@
     <p>{{ .Params.sub_header }}</p>
     <div class="page-description">{{ .Content }}</div>
     {{ if eq .Title "join" }}
-    <a href="{{ .Params.btn_link }}" class="btn btn-block btn-sm-inline btn-green">{{ .Params.btn_txt }}</a>
+    <a href="{{ .Params.btn_link }}" class="btn btn-block btn-sm-inline btn-green" target="_blank">{{ .Params.btn_txt }}</a>
+    <a href="{{ .Params.btn_link_video }}" class="btn btn-block btn-sm-inline btn-blue" target="_blank">{{ .Params.btn_txt_video }}</a>
     {{end}}
 </div>
