@@ -6,13 +6,19 @@ weight = 2
 
 
 
-#### SUBHEADER
+#### Responsible Internet Technology 
 
-Owners of dogs will have noticed that, if you provide them with food and water and shelter and affection, they will think you are god. Whereas owners of cats are compelled to realize that, if you provide them with food and water and shelter and affection, they draw the conclusion that they are gods.
+The Responsible Internet creates FREEDOM, EUALITY and FAIRNESS.  To achieve this we have to have technology that allows for:
+- ownership needs to be for everyone, respecting individual privacy, neutrality and data security, protecting individual freedom.
+- equality by not requiring specific technical knowledge to be as inclusive as possible.
 
-#### SUBHEADER
+The technology delivering this has to follow a number of simpel rules.  
+- Simplicity: for everyone without any knowledge requirements
+- Accessability: for everyone without any financial requirements
+- Immutability: for everyone without anyone taking advantage
 
-“What's your name,' Coraline asked the cat. 'Look, I'm Coraline. Okay?'
-'Cats don't have names,' it said.
-'No?' said Coraline.
-'No,' said the cat. 'Now you people have names. That's because you don't know who you are. We know who we are, so we don't need names.” 
+Building technology that complieas with all these rules requires a fundamental different  approach that what has been done to date.
+
+#### Required components
+
+The trinity of this Responsible Internet are Zero OS, Zero Robot, Zero Chain.
