@@ -20,19 +20,19 @@ good_header = "Safe City"
 good_content = "Abu Dabi"
 
 # Future Capacity
-img_5 = "/img/futurecap.jpg"
-header_5 = "Future Capacity"
-content_5 = "UK"
+future_img = "/img/futurecap.jpg"
+future_header = "Future Capacity"
+future_content = "UK"
 
 # GIG Europe
-img_6 = "/img/gig-eu.jpg"
-header_6 = "GIG Europe"
-content_6 = "Europe"
+gigEu_img = "/img/gig-eu.jpg"
+gigEu_header = "GIG Europe"
+gigEu_content = "Europe"
 
-# Block 7
-img_7 = ""
-header_7 = ""
-content_7 = ""
+# Block 6
+img_= ""
+header = ""
+content = ""
 
 weight = 3
 +++
