@@ -20,7 +20,7 @@ farm2_link_text ="www.bancadati.com"
 
 
 
-weight = 3
+weight = 2
 +++
 
 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magni, ipsum. Magnam molestias vitae mollitia soluta. Exercitationem laborum omnis distinctio, sint iusto ex, architecto, sunt ipsum perferendis libero aliquid illum explicabo!

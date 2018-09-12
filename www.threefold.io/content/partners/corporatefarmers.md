@@ -34,7 +34,7 @@ img_7 = ""
 header_7 = ""
 content_7 = ""
 
-weight = 4
+weight = 3
 +++
 
 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magni, ipsum. Magnam molestias vitae mollitia soluta. Exercitationem laborum omnis distinctio, sint iusto ex, architecto, sunt ipsum perferendis libero aliquid illum explicabo!
