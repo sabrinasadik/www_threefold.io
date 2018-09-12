@@ -15,7 +15,7 @@ stWay_desc2 = "The amount of TFT awarded is based on the potential monthly capac
 # Cultivating
 secWay = "Cultivating"
 secWay_header = "Farmers earn TFT when capacity is sold"
-secWay_desc = "Capacity is sold via the ThreeFold Directory, a blockchain based capacity listing system."
+secWay_desc = "The ThreeFold Directory is a fully decentralized directory of capacity on which buyers can choose their farm or location. The TFTs used to buy capacity are awarded directly to the Farmer. The ThreeFold Foundation and ThreeFold Tech charge 20% of these tokens as a revenue share to fund IT development and marketing."
 
 # ThreeFold Directory
 TF_dir = "The ThreeFold Directory"
