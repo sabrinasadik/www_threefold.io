@@ -1,7 +1,7 @@
 +++
 # Don't Remove Title!
 
-title = "community"
+title = "developers"
 
 tf_organization_header = "ThreeFold Organization"
 tf_organization_text = "We are a team of people who are passionate about making this new internet a reality. We help to promote and grow the ThreeFold ecosystem."

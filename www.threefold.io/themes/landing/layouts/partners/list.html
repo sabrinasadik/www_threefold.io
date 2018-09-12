@@ -18,14 +18,14 @@
             {{ range .Data.Pages }}
             {{ if eq .Title "partnervision" }}
             <div class="my-6 mt-sm-10">{{ .Render "partnervision" }}</div>
-            {{ else if eq .Title "benefits" }}
+            {{ else if eq .Title "corporatefarmers" }}
             <div class="my-6 mt-sm-10">{{ .Render "benefits" }}</div>
-            {{ else if eq .Title "individual" }}
-            <div class="team">{{ .Render "individual" }}</div>
-            {{ else if eq .Title "farming_cooperative" }}
-            <div class="team">{{ .Render "farming_cooperative" }}</div>
-            {{ else if eq .Title "step 1" }}
-            <div class="my-6 mt-sm-10">{{ .Render "step_1" }}</div>
+            {{ else if eq .Title "individualfarmers" }}
+            <div class="team">{{ .Render "individual_farmers" }}</div>
+            {{ else if eq .Title "farmingcooperatives" }}
+            <div class="team">{{ .Render "farming_cooperatives" }}</div>
+            {{ else if eq .Title "softwarepartners" }}
+            <div class="my-6 mt-sm-10">{{ .Render "softwarepartners" }}</div>
             {{ else if eq .Title "developers" }}
             <div class="team">{{ .Render "developers" }}</div>
             {{ else if eq .Title "tft listings" }}

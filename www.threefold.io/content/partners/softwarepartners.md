@@ -1,6 +1,6 @@
 +++
 # Don't Remove Title!
-title ="step 1"
+title ="softwarepartners"
 
 # Step 1
 header = "Software Partners"
@@ -38,6 +38,6 @@ new_subtext = ""
 weight = 5
 +++
 
-### 
+###
 
 Software development companies helping to create and extend the ThreeFold ecosystem
