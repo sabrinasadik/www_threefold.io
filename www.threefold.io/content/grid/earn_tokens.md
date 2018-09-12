@@ -19,9 +19,9 @@ secWay_desc = "The ThreeFold Directory is a fully decentralized directory of cap
 
 # ThreeFold Directory
 TF_dir = ""
-TF_dir_desc = "The ThreeFold Directory is a fully decentralized directory of capacity on which buyers can choose their farm or location."
+TF_dir_desc = ""
 
-TF_dir_desc2 = "The TFTs used to buy capacity are awarded directly to the Farmer. The ThreeFold Foundation and ThreeFold Tech charge 20% of these tokens as a revenue share to fund IT development and marketing."
+TF_dir_desc2 = ""
 TF_dir_desc3 = ""
 TF_dir_desc4 = ""
 
