@@ -4,27 +4,27 @@ title = "corporatefarmers"
 
 mainHeader = "Corporate Farmers"
 
-# value-Backed
+# Green Edge Cloud
 value_img = "/img/greenedge.jpg"
 value_header = "Green Edge Cloud"
 value_content = "Global"
 
-# Reliable & Secure
+# Bancadati
 reliable_img = "/img/bancadati.jpg"
 reliable_header = "Bancadati"
 reliable_content = "Switzerland"
 
-# Good For The Planet
+# Safe City
 good_img = "/img/safecity.jpg"
 good_header = "Safe City"
 good_content = "Abu Dabi"
 
-# Block 5
+# Future Capacity
 img_5 = "/img/futurecap.jpg"
 header_5 = "Future Capacity"
 content_5 = "UK"
 
-# Block 6
+# GIG Europe
 img_6 = "/img/gig-eu.jpg"
 header_6 = "GIG Europe"
 content_6 = "Europe"

@@ -2,24 +2,23 @@
 # Don't Remove Title!
 title ="softwarepartners"
 
-# Step 1
 header = "Software Partners"
 
-# IOS Wallet
+# Jimber
 ios_img = "/img/jimber-logo.jpg"
 ios_header = "Jimber"
 ios_content = ""
 ios_wiki = ""
 ios_download = ""
 
-# Andriod Wallet
+# Mobicage
 android_img = "/img/mobicage-logo.jpg"
 android_header = "Mobicage"
 android_content = ""
 android_wiki = ""
 android_download = ""
 
-# TF Chain
+# UMC
 tf_chain_img = "/img/umc-logo.jpg"
 tf_chain_header = "UMC"
 tf_chain_content = ""
@@ -27,7 +26,7 @@ tf_chain_wiki = ""
 tf_chain_download = ""
 tf_chain_subtext = ""
 
-# TF Chain
+# CodeScalers
 new_img = "/img/codescalers-logo.jpg"
 new_header = "CodeScalers"
 new_content = ""

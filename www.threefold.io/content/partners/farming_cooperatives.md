@@ -1,10 +1,10 @@
 +++
 # Don't Remove Title!
-title = "farming_cooperatives"
+title = "farmingcooperatives"
 
 mainHeader = "Farming Cooperatives"
 
-# Green Edge
+# BetterToken
 farm1_img = "/img/greenedge.jpg"
 farm1_description = "Bettertoken"
 farm1_link = "https://staging.threefold.io/partners/"

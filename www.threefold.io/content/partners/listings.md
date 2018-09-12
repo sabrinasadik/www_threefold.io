@@ -1,8 +1,6 @@
 +++
 # Don't Remove Title!
 title = "tft listings"
-
-# Step 3
 header = "TFT Listings"
 
 # BTC Alpha
@@ -27,6 +25,6 @@ TFexchange_txt = "COMING SOON"
 weight = 7
 +++
 
-### 
+###
 
 Cryptocurrency exchanges listing the ThreeFold Token (TFT)
