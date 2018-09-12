@@ -1,6 +1,6 @@
 +++
 # Don't Remove Title!
-title = "farmer_types"
+title = "farmer_types_2"
 
 header = "Connect and Farm Tokens"
 img = "/img/connection-illustration.png"
