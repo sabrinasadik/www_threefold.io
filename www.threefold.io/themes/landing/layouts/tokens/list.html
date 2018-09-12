@@ -15,11 +15,11 @@
 
         <div class="layout-content">
             {{ range .Data.Pages }}
-            {{ if eq .Title "intro" }}
-            <div class="layout-intro">{{ .Render "intro" }}</div>
+            {{ if eq .Title "header" }}
+            <div class="layout-intro">{{ .Render "header" }}</div>
             <div class="layout-container">
-                {{ else if eq .Title "benefits" }}
-                <div class="my-6 mt-sm-10">{{ .Render "benefits" }}</div>
+                {{ else if eq .Title "tokenbenefits" }}
+                <div class="my-6 mt-sm-10">{{ .Render "tokenbenefits" }}</div>
                 {{ else if eq .Title "gettokens" }}
                 <div class="my-6 mt-sm-10">{{ .Render "gettokens" }}</div>
                 {{ else if eq .Title "calltoaction_1" }}
@@ -30,8 +30,8 @@
                 <div class="my-6">{{ .Render "token_utilization" }}</div>
                 {{ else if eq .Title "calltoaction_2" }}
                 <div class="my-6">{{ .Render "vision" }}</div>
-                {{ else if eq .Title "disruptive technology" }}
-                <div class="my-6">{{ .Render "disruptive-technology" }}</div>
+                {{ else if eq .Title "ourcityapp" }}
+                <div class="my-6">{{ .Render "ourcityapp" }}</div>
                 {{ else if eq .Title "calltoaction_3" }}
                 <div class="my-6">{{ .Render "vision" }}</div>
                 {{ else if eq .Title "video" }}
