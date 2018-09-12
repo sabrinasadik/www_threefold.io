@@ -1,6 +1,6 @@
-{{ range $element := .Data.Pages }} 
-    {{ if eq .Section "home" }} 
-        {{ if eq .Title "lead" }}
+{{ range $element := .Data.Pages }}
+    {{ if eq .Section "home" }}
+        {{ if eq .Title "header" }}
             <div class="layout-intro">
                 <div class="layout-container">
                     <div class="row align-items-lg-end">
@@ -30,6 +30,6 @@
                     </div>
                 </div>
             </div>
-        {{ end }} 
-    {{ end }} 
+        {{ end }}
+    {{ end }}
 {{ end }}

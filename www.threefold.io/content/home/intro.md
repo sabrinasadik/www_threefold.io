@@ -1,6 +1,6 @@
 +++
 # Don't Remove title!
-title ="intro"
+title ="header"
 
 videoBtn = "#modal-intro-movie"
 videoBtn_ico = "/svg/ic-btn-playvideo.svg"
