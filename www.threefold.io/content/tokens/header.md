@@ -1,6 +1,6 @@
 +++
 # Don't Remove Title!
-title = "intro"
+title = "header"
 
 header = "ThreeFold Token"
 price_txt ="Current price:"
