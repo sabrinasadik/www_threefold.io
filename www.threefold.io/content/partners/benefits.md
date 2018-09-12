@@ -1,30 +1,30 @@
 +++
 # Don't Remove Title!
-title = "corporatefarmers"
+title = "benefits"
 
 mainHeader = "Corporate Farmers"
 
-# Green Edge Cloud
+# value-Backed
 value_img = "/img/greenedge.jpg"
 value_header = "Green Edge Cloud"
 value_content = "Global"
 
-# Bancadati
+# Reliable & Secure
 reliable_img = "/img/bancadati.jpg"
 reliable_header = "Bancadati"
 reliable_content = "Switzerland"
 
-# Safe City
+# Good For The Planet
 good_img = "/img/safecity.jpg"
 good_header = "Safe City"
 good_content = "Abu Dabi"
 
-# Future Capacity
+# Block 5
 img_5 = "/img/futurecap.jpg"
 header_5 = "Future Capacity"
 content_5 = "UK"
 
-# GIG Europe
+# Block 6
 img_6 = "/img/gig-eu.jpg"
 header_6 = "GIG Europe"
 content_6 = "Europe"
@@ -36,5 +36,3 @@ content_7 = ""
 
 weight = 4
 +++
-
-Existing and newly formed farming companies supporting the ThreeFold Foundation’s mission
