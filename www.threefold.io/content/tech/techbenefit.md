@@ -19,7 +19,7 @@ Building technology that complies with all these rules requires a fundamental di
 
 #### Technology Trinity
 
-The trinity of this Responsible Internet are **Zero OS**, **Zero Robot**, **Zero Chain**.
+The trinity of this Responsible Internet are **Zero OS**, **Zero Robot** and **Zero Chain**.
 
 The **Zero OS** is a light operating system that runs on a wide variety of hardware components. It is open source, build on proven technology and requires very little knowledge and understanding to install and operate.  It cannot be tampered and interacted with as it only accepts instructions from the **Zero Robot**
 
