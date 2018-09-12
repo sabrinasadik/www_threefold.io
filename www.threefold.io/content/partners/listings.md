@@ -25,6 +25,5 @@ TFexchange_txt = "COMING SOON"
 weight = 7
 +++
 
-###
 
 Cryptocurrency exchanges listing the ThreeFold Token (TFT)

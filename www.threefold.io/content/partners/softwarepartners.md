@@ -1,7 +1,6 @@
 +++
 # Don't Remove Title!
 title ="softwarepartners"
-
 header = "Software Partners"
 
 # Jimber
@@ -36,7 +35,5 @@ new_subtext = ""
 
 weight = 5
 +++
-
-###
 
 Software development companies helping to create and extend the ThreeFold ecosystem
