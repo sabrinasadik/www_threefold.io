@@ -1,6 +1,6 @@
 +++
 title ="techbenefit"
-header = "HEADER"
+header = "The Technology Trinity"
 weight = 2
 +++
 
@@ -8,9 +8,7 @@ weight = 2
 
 #### Responsible Internet Technology 
 
-The Responsible Internet creates FREEDOM, EUALITY and FAIRNESS.  To achieve this we have to have technology that allows for:
-- ownership needs to be for everyone, respecting individual privacy, neutrality and data security, protecting individual freedom.
-- equality by not requiring specific technical knowledge to be as inclusive as possible.
+The Responsible Internet creates FREEDOM, EUALITY and FAIRNESS.  To achieve this we have to have acces to technology that allows for ownership of it for everyone, respecting individual privacy, neutrality and data security, protecting individual freedom and equality by not requiring specific technical knowledge.
 
 The technology delivering this has to follow a number of simpel rules.  
 - Simplicity: for everyone without any knowledge requirements
