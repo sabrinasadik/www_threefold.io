@@ -20,7 +20,7 @@ farm2_link_text ="www.bancadati.com"
 
 
 
-weight = 3
+weight = 2
 +++
 
 Organisations supporting farmers with all farming related things like ready to farm hardware
