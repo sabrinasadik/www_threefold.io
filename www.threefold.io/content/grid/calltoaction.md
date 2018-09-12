@@ -1,6 +1,6 @@
 +++
 # Don't Remove title!
-title = "CTA"
+title = "calltoaction"
 
 header = "Become a farmer"
 sub_header = "You can become a Farmer tomorrow! The ThreeFold Grid is always expanding and new Farmers are welcome. Anyone, anywhere! Please have a look at our Wikis on how to become a Farmer."
