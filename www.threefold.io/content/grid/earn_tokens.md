@@ -18,11 +18,12 @@ secWay_header = "Farmers earn TFT when capacity is sold"
 secWay_desc = "The ThreeFold Directory is a fully decentralized directory of capacity on which buyers can choose their farm or location. The TFTs used to buy capacity are awarded directly to the Farmer. The ThreeFold Foundation and ThreeFold Tech charge 20% of these tokens as a revenue share to fund IT development and marketing."
 
 # ThreeFold Directory
-TF_dir = "The ThreeFold Directory"
-TF_dir_desc = "A fully decentralized directory of capacity for sale by farmers."
-TF_dir_desc2 = "All capacity is listed so buyers can choose their farm or location."
-TF_dir_desc3 = "The TFT used to buy capacity are awarded directly to the Farmer."
-TF_dir_desc4 = "The ThreeFold Foundation charges 10% of these tokens as a revenue share to fund IT development and marketing."
+TF_dir = ""
+TF_dir_desc = "The ThreeFold Directory is a fully decentralized directory of capacity on which buyers can choose their farm or location.
+The TFTs used to buy capacity are awarded directly to the Farmer. The ThreeFold Foundation and ThreeFold Tech charge 20% of these tokens as a revenue share to fund IT development and marketing."
+TF_dir_desc2 = ""
+TF_dir_desc3 = ""
+TF_dir_desc4 = ""
 
 weight = 5
 +++
