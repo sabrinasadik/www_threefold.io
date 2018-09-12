@@ -1,6 +1,6 @@
 +++
 # Don't Remove Title!
-title = "benefits"
+title = "tokenbenefits"
 
 mainHeader = "ThreeFold Token Benefits"
 

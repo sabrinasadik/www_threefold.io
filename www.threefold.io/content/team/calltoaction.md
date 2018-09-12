@@ -1,6 +1,6 @@
 +++
 # Don't Remove title!
-title = "cta"
+title = "calltoaction"
 
 header = "BECOME AN AMBASSADOR"
 sub_header = "Become an Ambassador and support our mission!"
