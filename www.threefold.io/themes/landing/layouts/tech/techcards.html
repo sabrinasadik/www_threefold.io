@@ -1,5 +1,6 @@
 <div class="layout-section">
     <div class="layout-container">
+
         <h2 class="mt-0">{{ .Params.mainHeader }}</h2>
         <div class="row">
             <div class="col-12 col-sm-6 col-md-5 col-lg-4 col-xl-3 offset-xl-1 my-1 my-md-2 my-xl-3">
@@ -8,8 +9,9 @@
                         <img src="{{ .Params.os_img }}" class="attachment-full size-full" alt="{{ .Params.os_header }}">
                     </div>
                     <div class="col-12">
-                        <h6 class="alt">{{ .Params.os_header }}</h6>
+                      <a href="{{ .Params.os_header_link }}" target="_blank"><h6 class="alt">{{ .Params.os_header }}</h6></a>
                         <p>{{ .Params.os_content }}</p>
+                        <!-- <p style="font-weight: 900;">Zero Robot</p> -->
                     </div>
                 </div>
             </div>
@@ -19,8 +21,9 @@
                         <img src="{{ .Params.robot_img }}" class="attachment-full size-full" alt="{{ .Params.robot_header }}">
                     </div>
                     <div class="col-12">
-                        <h6 class="alt">{{ .Params.robot_header }}</h6>
+                        <a href="{{ .Params.robot_header_link }}" target="_blank"><h6 class="alt">{{ .Params.robot_header }}</h6></a>
                         <p>{{ .Params.robot_content }}</p>
+                        <a href="https://github.com/threefoldfoundation/tfchain"> the Zero Chain</a>
                     </div>
                 </div>
             </div>
@@ -30,8 +33,10 @@
                         <img src="{{ .Params.chain_img }}" class="attachment-full size-full" alt="{{ .Params.chain_header }}">
                     </div>
                     <div class="col-12">
-                        <h6 class="alt">{{ .Params.chain_header }}</h6>
+                        <a href="{{ .Params.chain_header_link }}" target="_blank"><h6 class="alt">{{ .Params.chain_header }}</h6></a>
                         <p>{{ .Params.chain_content }}</p>
+                        <!-- <p style="font-weight: 900;">Zero OS</p> -->
+
                     </div>
                 </div>
             </div>
