@@ -20,7 +20,7 @@ robot_content = "A general purpose bot that can be 'trained' to perform millions
 chain_img = "/img/favicon.png"
 chain_header = "Zero Chain"
 chain_header_link ="https://github.com/threefoldfoundation/tfchain"
-chain_content = "A proof of (block) stake blockchain that is very efficient and specifically tailored for different tasks.  It provides a generic framework to achieve more functionality than for example single purpose financial blockchains and is a lot simpler and therefore scalable than general purpose (smart contract) blockchains.  It runs as multiple single purpose instances and provides all transaction means to operate a distribited reponsible internet on Zero OS."
+chain_content = "A proof of (block) stake blockchain that is very efficient and specifically tailored for different tasks.  It provides a generic framework to achieve more functionality than for example single purpose financial blockchains and is a lot simpler and therefore scalable than general purpose (smart contract) blockchains.  It runs as multiple single purpose instances and provides all transaction means to operate a distributed responsible internet on Zero OS."
 
 weight = 2
 +++
