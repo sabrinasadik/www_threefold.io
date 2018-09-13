@@ -2,11 +2,11 @@
 # Don't Remove title!
 title = "calltoaction"
 
-header = "Be a part of this Responsible Internet"
-sub_header = "our repos"
+header = "DEEP DIVE INTO OUR Technology"
+sub_header = ""
 
-btn_link = "gettechy.com"
-btn_txt = "TECH TECH TECH"
+btn_link = "https://github.com/threefoldfoundation"
+btn_txt = "Threefold Foundatio Repo's"
 
 weight = 3
 +++
