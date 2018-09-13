@@ -12,7 +12,7 @@ q2_subtitle="Capacity Activation"
 q2_text=""
 
 q3_year ="2018 Q4"
-q3_subtitle="Decentralized Exchange Launch"
+q3_subtitle="Decentralized Exchange"
 q3_text=""
 
 q4_year ="2018 Q4"
