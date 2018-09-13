@@ -23,5 +23,5 @@ This technology folows simpel rules.
 
 **Zero Chain**. A proof of (block) stake blockchain that is very efficient and specifically tailored for different tasks.  It provides a generic framework to achieve more functionality than for example single purpose financial blockchains and is a lot simpler and therefore scalable than general purpose (smart contract) blockchains.  It runs as multiple single purpose instances and provides all transaction means to operate a distribited reponsible internet on **Zero OS**.
 
- .... **Zero OS** ... **Zero Robot** ... **Zero Chain** ... a trinity of responsible Internet technology
+ ... **Zero OS** ... **Zero Robot** ... **Zero Chain** ... a trinity of responsible Internet technology
  
