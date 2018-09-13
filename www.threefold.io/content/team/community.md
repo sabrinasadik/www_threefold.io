@@ -20,6 +20,6 @@ tf_farmers_text2 = "Each of them has installed at least 1TB of storage and 4 log
 
 community_button_name = "Watch Video"
 community_video_link = "https://www.youtube.com/embed/HuczdA9JYe8"
-
+community_button_text ="check out the recording of our latest community update call"
 weight = 1
 +++
