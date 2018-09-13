@@ -11,4 +11,4 @@ btn_txt = "Send us a few lines on why you want to become a ThreeFold Ambassador"
 weight = 3
 +++
 
-This responsible Internet requires people to build it.  It is build by people for people.  We have innovated and created the the software components to build this internet, we need you, the people, to engage and start building it.
+This responsible Internet requires people to build it.  It is build by people for people.  We have innovated and created software to build this internet and now we need you, the people, to engage and create it.
