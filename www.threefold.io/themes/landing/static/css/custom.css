@@ -93,9 +93,9 @@ body {
 /* .team {
     padding: 100px 0;
 } */
-.team h2 {
+/* .team h2 {
   padding-top: 15px;
-}
+} */
 
 .nav-link {
   text-align: left;
@@ -136,7 +136,7 @@ body {
   font-family: "Nunito Sans", sans-serif;
 }
 
-.community {
+.community, .tech {
   padding-top: 5rem;
 }
 
