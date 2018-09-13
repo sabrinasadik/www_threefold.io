@@ -10,5 +10,5 @@ btn_txt = "View Farming WIKI"
 btn_txt_video ="See Farming Video"
 btn_link_video ="https://www.youtube.com/watch?v=fucXM2L2cTA"
 
-weight = 5
+weight = 6
 +++
