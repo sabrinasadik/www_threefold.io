@@ -3,7 +3,6 @@
 title = "earn tokens"
 
 header = "Two Ways Farmers can earn ThreeFold Tokens"
-supscript = "TFT"
 img = "/svg/ic-00-token-big.svg"
 
 # Farming
