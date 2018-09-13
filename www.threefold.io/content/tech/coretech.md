@@ -12,7 +12,7 @@ os_content = " A light weight operating system that runs on a wide variety of ha
 # Zero Robot
 robot_img = "/img/favicon.png"
 robot_header = "Zero Robot"
-robot_content = "A general purpose **bot** that can be "trained" to perform millions of different tasks.  Similar to human beings that can develop themselves into artists, scientists or doctors by the Zero Robot "lives" on the Zero OS operating system and can be trained to perform tasks on Zero OS, system administration tasks, data processing tasks, data storage tasks etc.  The Zero Robot accepts tasks that are agreed and stored on the **Zero Chain**"
+robot_content = 'A general purpose **bot** that can be "trained" to perform millions of different tasks.  Similar to human beings that can develop themselves into artists, scientists or doctors by the Zero Robot "lives" on the Zero OS operating system and can be trained to perform tasks on Zero OS, system administration tasks, data processing tasks, data storage tasks etc.  The Zero Robot accepts tasks that are agreed and stored on the **Zero Chain**'
 
 # Zero Chain
 chain_img = "/img/favicon.png"
