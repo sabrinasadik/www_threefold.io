@@ -12,3 +12,5 @@ weight = 3
 +++
 
 This responsible Internet requires people to build it.  It is build by people for people.  We have innovated and created software to build this internet and now we need you, the people, to engage and create it.
+
+We welcome anyone to join our mission as an Ambassador.  A ThreeFold ambassador can be anyone that wants to contribute from as simple as spreading the message to deploying large quantities of capacity.  Have a look the ambassadors on the [ThreeFold Community page](https://www2.threefold.io/team/).
