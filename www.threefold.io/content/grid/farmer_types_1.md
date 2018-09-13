@@ -2,6 +2,7 @@
 # Don't Remove Title!
 title  ="farmer_types_1"
 
+
 header = "Source Hardware and Operational Environment"
 # Co-op Farmer
 farmer1_title = "Co-op Farmer"
