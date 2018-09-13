@@ -10,10 +10,10 @@ weight = 1
 
 A Distributed Responsible Internet creates **freedon**, **equality** and **fairness**.  For this we need technology that is available to everyone while respecting individual privacy, neutrality and data security and protects individual freedom and equality.
 
-This technology folows simpel rules.  
+This technology meets basic rules.  
 - **simple**: for everyone without any knowledge requirements
 - **accessible**: for everyone without any financial requirements
-- **immutable**: for everyone without anyone taking advantage
+- **immutable**: for everyone excluding others taking advantage
 
 #### The solution: a trinity of technology components
 
