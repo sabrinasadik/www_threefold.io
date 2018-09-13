@@ -340,7 +340,7 @@ a:hover {
 
 .earn-tokens-section {
   overflow: hidden;
-  padding-top: 75px;
+  padding-top: 10px;
   padding-bottom: 75px;
 }
 
@@ -838,7 +838,7 @@ a:hover {
 }
 
 .step1-section {
-  padding-top: 125px;
+  /* padding-top: 125px; */
 }
 
 .coop-diy-comp-row {
