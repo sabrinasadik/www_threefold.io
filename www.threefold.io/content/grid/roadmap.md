@@ -18,6 +18,6 @@ q3_subtitle="Grid Capacity Usage"
 q3_text="TF Capacity can be used for TF Tokens"
 q3_text2 =""
 
-weight = 5
+weight = 7
 
 +++
