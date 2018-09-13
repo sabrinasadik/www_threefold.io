@@ -11,9 +11,9 @@ weight = 2
 The Distributed Responsible Internet creates FREEDOM, EQUALITY and FAIRNESS.  For this we need technology for everyone, respecting individual privacy, neutrality and data security, protecting individual freedom and equality without needing specific technical knowledge.
 
 The technology has to follow a number of simpel rules.  
-- **It needs to be simple**: for everyone without any knowledge requirements
-- **It needs to the accesiible**: for everyone without any financial requirements
-- **It needs to be immutable**: for everyone without anyone taking advantage
+- It needs to be **simple**: for everyone without any knowledge requirements
+- It needs to the **accesiible**: for everyone without any financial requirements
+- It needs to be **immutable**: for everyone without anyone taking advantage
 
 Creating technology complying these rules requires a fundamental different approach.  You have to start from a blank sheet of paper.
 
