@@ -11,4 +11,4 @@ btn_txt = "Threefold Foundatio Repo's"
 weight = 3
 +++
 
-write awesome compelling copy about our technology.
+Find out all about ThreeFold's Zero Robot, Zero OS and Zero Chain 
