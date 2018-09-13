@@ -2,7 +2,7 @@
     <h1 class="text-blue h1 mb-3">{{ .Params.header }}</h1>
     <p>{{ .Params.sub_header }}</p>
     <div class="page-description">{{ .Content }}</div>
-    {{ if eq .Title "join" }}
+    {{if or (ne .Title "join") (ne .Title "calltoaction")}}
     <a href="{{ .Params.btn_link }}" class="btn btn-block btn-sm-inline btn-green" target="_blank">{{ .Params.btn_txt }}</a>
     <a href="{{ .Params.btn_link_video }}" class="btn btn-block btn-sm-inline btn-blue" target="_blank">{{ .Params.btn_txt_video }}</a>
     {{end}}
