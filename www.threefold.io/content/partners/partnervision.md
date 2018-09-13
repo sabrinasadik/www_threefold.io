@@ -1,6 +1,6 @@
 +++
 title ="partnervision"
-header = "Becoming part of our Mission"
+header = "Becoming part of the Mission"
 weight = 1
 +++
 
