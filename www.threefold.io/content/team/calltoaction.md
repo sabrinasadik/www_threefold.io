@@ -2,10 +2,10 @@
 # Don't Remove title!
 title = "calltoaction"
 
-header = "BECOME AN AMBASSADOR"
-sub_header = "Become an Ambassador and support our mission!"
+header = "JOIN OR CREATE YOUR OWN THREEFOLD CHAPTER"
+sub_header = "ThreeFold Ambassadors can now form local chapters and help contribute to the growth of ThreeFold in their communities. Host events, spread the grid, share the love and be the change they want to see in the world."
 btn_link = "mailto: connect@tfambassador.com "
-btn_txt = "Tell us why you want to become a ThreeFold Ambassador"
+btn_txt = "Tell Me More"
 
 weight = 2
 +++
