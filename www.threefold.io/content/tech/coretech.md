@@ -8,7 +8,7 @@ mainHeader = "Technology"
 os_img = "/img/favicon.png"
 os_header = "Zero OS"
 os_header_link ="https://github.com/zero-os"
-os_content = " A light weight operating system that runs on a wide variety of hardware components. It is open source, build on proven technology and requires very little knowledge and understanding to install and operate. It cannot be tampered and interacted with as it only accepts instructions from the Zero Robot.
+os_content = " A light weight operating system that runs on a wide variety of hardware components. It is open source, build on proven technology and requires very little knowledge and understanding to install and operate. It cannot be tampered and interacted with as it only accepts instructions from the Zero Robot."
 
 **Features**:
 - lightweight OS
