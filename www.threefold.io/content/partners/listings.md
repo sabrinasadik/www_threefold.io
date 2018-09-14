@@ -10,7 +10,7 @@ btc_txt = "Crypto Only"
 btc_manual = "https://threefoldfoundation.github.io/info_tokens/#/how_to_buy/btc-alpha?id=using-btc-alpha"
 
 # Btn
-link = "#"
+link = "mailto: info@threefoldtoken.com"
 txt = "Become a Partner"
 
 # Bitmeex
