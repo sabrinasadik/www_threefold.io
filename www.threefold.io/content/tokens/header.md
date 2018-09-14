@@ -19,8 +19,8 @@ token_url = "https://threefoldfoundation.github.io/info_tokens/#/how_to_buy/buy_
 token_txt = "How To Get ThreeFold Tokens"
 
 # Video btn
-video_url = "#modal-intro-movie"
-video_txt = "Play Intro Movie"
+video_url = ""
+video_txt = ""
 
 scroll = "Scroll to learn more"
 
