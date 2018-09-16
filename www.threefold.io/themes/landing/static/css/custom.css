@@ -715,4 +715,7 @@ section.home-page--roadmap .roadmap-container.mobile .roadmap-block.future .titl
   .fc-list{
         display: contents;
   }
+  .softPart .row{
+    text-align: center;
+  }
 }
