@@ -21,5 +21,10 @@ tf_farmers_text2 = "Each of them has installed at least 1TB of storage and 4 log
 community_button_name = "Watch Video"
 community_video_link = "https://www.youtube.com/embed/HuczdA9JYe8"
 community_button_text ="check out the recording of our latest community update call"
+
+header = "INTRODUCING: THREEFOLD CHAPTERS"
+sub_header = "ThreeFold Ambassadors can now form local chapters and help contribute to the growth of ThreeFold in their communities. Host events, spread the grid, share the love and be the change they want to see in the world."
+btn_link = "mailto: connect@tfambassador.com "
+btn_txt = "Tell Me More"
 weight = 1
 +++

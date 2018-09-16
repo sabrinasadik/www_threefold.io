@@ -136,7 +136,9 @@ body {
   font-family: "Nunito Sans", sans-serif;
 }
 
-.community, .tech {
+.community,
+.tech,
+.cta {
   padding-top: 5rem;
 }
 
@@ -270,6 +272,10 @@ button.close {
 
 .softPart .row {
   justify-content: space-around;
+}
+
+.cta .layout-inner-content {
+  margin-bottom: 0;
 }
 
 /* line 1, resources/assets/styles/layouts/home/_roadmap.scss */
@@ -712,10 +718,12 @@ section.home-page--roadmap .roadmap-container.mobile .roadmap-block.future .titl
   .layout-header.layout-header-fixed~.layout-content {
     padding-top: 80px;
   }
-  .fc-list{
-        display: contents;
+
+  .fc-list {
+    display: contents;
   }
-  .softPart .row{
+
+  .softPart .row {
     text-align: center;
   }
 }
