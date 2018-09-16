@@ -3,6 +3,6 @@
     <p style="font-family: 'Nunito Sans', sans-serif; ">{{ .Params.sub_header }}</p>
     <div class="page-description">{{ .Content }}</div>
     {{if or (ne .Title "join") (ne .Title "cta")}}
-    <a href="{{ .Params.btn_link }}" class="btn btn-block btn-sm-inline btn-blue">{{ .Params.btn_txt }}</a>
+    <a href="{{ .Params.btn_link }}" class="btn btn-block btn-sm-inline btn-green">{{ .Params.btn_txt }}</a>
     {{end}}
 </div>
