@@ -687,6 +687,8 @@ section.home-page--roadmap .roadmap-container.mobile .roadmap-block.future .titl
   .layout-header.layout-header-fixed~.layout-content {
     padding-top: 137px;
   }
+
+
 }
 
 @media only screen and (min-width: 320px) and (max-width: 479px) {
@@ -709,5 +711,8 @@ section.home-page--roadmap .roadmap-container.mobile .roadmap-block.future .titl
 
   .layout-header.layout-header-fixed~.layout-content {
     padding-top: 80px;
+  }
+  .fc-list{
+        display: contents;
   }
 }
