@@ -12,9 +12,9 @@ farm1_link_text ="www.bettertoken.com"
 
 # Bancadati
 farm2_img = "/img/bancadati.jpg"
-farm2_description = "Bancadati"
+farm2_description = "Edge Cloud Africa"
 farm2_link = "https://staging.threefold.io/partners/"
-farm2_link_text ="www.bancadati.com"
+farm2_link_text ="www.edgecloud.africa/"
 
 # new logo
 farm3_img = "/img/bancadati.jpg"
