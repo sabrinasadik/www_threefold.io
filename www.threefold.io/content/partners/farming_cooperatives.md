@@ -10,13 +10,13 @@ farm1_description = "Bettertoken"
 farm1_link = "https://bettertoken.shop"
 farm1_link_text ="www.bettertoken.shop"
 
-# Bancadati
+# Edge
 farm2_img = "/img/edgecloudafrika-logo.jpg"
 farm2_description = "Edge Cloud Africa"
 farm2_link = "https://www.edgecloud.africa"
 farm2_link_text ="www.edgecloud.africa"
 
-# new logo
+# Bancadati
 farm3_img = "/img/bancadati.jpg"
 farm3_description = "Bancadati"
 farm3_link = "https://www.bancadati.farm"
