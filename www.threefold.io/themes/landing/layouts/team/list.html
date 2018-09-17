@@ -19,12 +19,10 @@
     </div>
 
     {{ range .Data.Pages }}
-    <div class="layout-content pt-0">
+    <div class="layout-content" style="padding-bottom: 50px;">
       <div class="layout-container">
         {{ if eq .Title "community" }}
         <div class="team">{{ .Render "community" }}</div>
-        {{ else if eq .Title "ambassadoraCTA" }}
-        <div class="my-6 mt-sm-10">{{ .Render "calltoaction" }}</div>
         {{end}}
       </div>
     </div>

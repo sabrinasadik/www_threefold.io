@@ -73,13 +73,20 @@
 
 <div class="community">
     <!-- ambassdors sec -->
-    <div class="ambassdors">
+    <div class="ambassdors" >
         <div class="row">
             <div class="col-sm-12 col-md-4">
                 <h2>{{ .Params.tf_ambassadors_header }}</h2>
                 <p>{{ .Params.tf_ambassadors_text1 }}</p>
 
                 <p>{{ .Params.tf_ambassadors_text2 }}</p>
+
+                <div class="layout-inner-content">
+                    <h2>{{ .Params.ambassadors_header }}</h2>
+                    <p style="font-family: 'Nunito Sans', sans-serif; color:#1247b3 ;font-weight: bold;">{{ .Params.ambassadors_subHeader }}</p>
+                    <div class="page-description">{{ .Content }}</div>
+                    <a href="{{ .Params.ambassadors_btn_link }}" class="btn btn-block btn-md-inline">{{ .Params.ambassadorsbtn_txt }}</a>
+                </div>
             </div>
             <div class="col-sm-12 col-md-8">
                 <div id="ambassadors"></div>
