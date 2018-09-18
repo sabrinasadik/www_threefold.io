@@ -16,4 +16,4 @@ The internet should be inclusive to all of humanity. We are building a collectiv
 
 #### Fairness
 
-The internet is currently run by a handful of large companies who benefit financially from our data - everyone should be able to enjoy a return for participating and sharing internet capacity while maintaining their data privacy.
+The internet is currently run by a handful of large companies who benefit financially from our data - everyone should be able to enjoy a return for participating and sharing internet capacity while maintaining our data privacy.
