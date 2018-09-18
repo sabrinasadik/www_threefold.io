@@ -1,6 +1,6 @@
 +++
 title ="vision"
-header = "Democratized internet, what does it bring?"
+header = "Democratized Internet, what is it?"
 weight = 1
 +++
 
@@ -12,8 +12,8 @@ The current internet is controlled by large corporations that see internet users
 
 #### Equality
 
-The current internet is not inclusive to all of humanity. We are building a collectively owned internet that's deployed everywhere and accessible to all, not just in datacenters or high-income countries.
+The internet should be inclusive to all of humanity. We are building a collectively owned internet that's deployed everywhere and accessible to all, not just in datacenters or high-income countries.
 
 #### Fairness
 
-The current internet is run by a small number of large companies who enjoy all the returns - this is not right - everyone should be able to enjoy a return for participating and creating internet capacity.
+The internet is currently run by a handful of large companies who benefit financially from our data - everyone should be able to enjoy a return for participating and sharing internet capacity while maintaining their data privacy.
