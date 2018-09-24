@@ -4,7 +4,7 @@ title = "header"
 
 header = "ThreeFold Token"
 price_txt ="Current price:"
-price = "0.10 USD/TFT"
+price = "0.12 USD/TFT"
 intro_muted = ""
 desc = "ThreeFold Token — a decentralized digital currency backed by the fastest growing commodity in the world —"
 img = "/svg/ic-stocks.svg"
