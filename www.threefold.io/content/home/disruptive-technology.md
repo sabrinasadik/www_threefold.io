@@ -1,15 +1,14 @@
 +++
 title = "disruptive technology"
 
-header = "ThreeFold’s disruptive technology"
+header = "What technologies have we created to do this?"
 img = "/img/img-20-solution.png"
 weight = 9
 +++
-#### Self healing cloud
+#### Zero-OS
 
 A simple and efficient operating system to build this democratized grid of capacity, easy to install, easy to maintain and always available: Zero-OS.  This operating system is available to anyone that wants to build a part of this democratized internet at zero costs: it is open source.
 
-#### Best utilization of hardware
 
 #### Zero-Robot
 
