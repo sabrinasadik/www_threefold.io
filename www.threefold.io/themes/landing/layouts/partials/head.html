@@ -32,7 +32,21 @@
   <meta name="robots" content="all,follow">
   <meta name="googlebot" content="index,follow,snippet,archive">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>{{ .Title }} – ThreeFold Foundation</title>
+  <!-- Open Graph data -->
+      <meta property="og:title" content="THREEFOLD"/>
+      <meta property="og:url" content="https://threefold.io/" />
+      <meta property="og:type" content="website" />
+      <meta property="og:description" content="Responsible Internet For All." />
+      <!-- Facebook image -->
+      <meta property="og:image" content="https://threefoldtoken.com/img/facebook.jpg" />
+      <!-- Twitter Card -->
+      <meta property="twitter:card" content="summary" />
+      <meta name="twitter:image" content="https://threefoldtoken.com/img/twitter.jpg" />
+      <meta name="twitter:title" content="THREEFOLD"/>
+      <meta name="twitter:description" content="Responsible Internet For All.">
+      <meta name="twitter:site" content="@threefold.io"/>
+
+  <title>Responsible Internet For All</title>
   <meta name="author" content="{{ .Site.Author.name }}" />
 
   {{ if .Keywords }}
@@ -42,9 +56,9 @@
   {{ end }}
 
   {{ if .Description }}
-  <meta name="description" content="{{ .Description }}">
+  <meta name="description" content="Responsible Internet For All.">
   {{ else if .Site.Params.DefaultDescription }}
-  <meta name="description" content="{{ .Site.Params.DefaultDescription }}">
+  <meta name="description" content="Responsible Internet For All.">
   {{ end }}
   {{ .Hugo.Generator }}
 
@@ -80,14 +94,14 @@
   <link rel="apple-touch-icon" href="{{ .Site.BaseURL }}img/tf-webclip.png" />
 
   <!-- Facebook OpenGraph tags -->
-  <meta property="og:title" content="{{ .Title }}" />
+  <!-- <meta property="og:title" content="{{ .Title }}" />
   <meta property="og:type" content="website" />
   <meta property="og:url" content="{{ .URL }}/" />
-  <meta property="og:image" content="{{ .Site.Params.logo }}" />
+  <meta property="og:image" content="{{ .Site.Params.logo }}" /> -->
 
   <!-- Twitter tags -->
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="{{ .Site.Params.logo }}">
+  <!-- <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="{{ .Site.Params.logo }}"> -->
 
   <!-- Intercom -->
   <script src="{{ .Site.BaseURL }}js/intercom-config.js"></script>

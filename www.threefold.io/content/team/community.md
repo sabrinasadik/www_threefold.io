@@ -28,7 +28,7 @@ btn_link = "mailto: connect@tfambassador.com "
 btn_txt = "Tell Me More"
 
 ambassadors_header = "become an ambassador"
-ambassadors_subHeader = "Become an.Ambassdor and support our mission!"
+ambassadors_subHeader = "Become an Ambassador and support our mission!"
 ambassadors_btn_link = "mailto: connect@tfambassador.com"
 ambassadorsbtn_txt = "Tell us why"
 

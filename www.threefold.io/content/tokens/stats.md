@@ -5,7 +5,7 @@ title = "states"
 header = "ThreeFold Stats and Explorers"
 
 token_price = "Token Price:"
-priceVal = "$0.10"
+priceVal = "$0.12"
 
 token_capitalization = "Token Capitalization:"
 
