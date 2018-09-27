@@ -1,0 +1,140 @@
+<!-- threefold sec -->
+<div class="threefold-team mt-10">
+    <div class="row">
+        <div class="col-sm-12 col-md-4">
+            <h2>{{ .Params.tf_organization_header }}</h2>
+            <p>{{ .Params.tf_organization_text }}</p>
+            <div class="col-sm-4" style="padding-bottom: 50px">
+                <p style="font-family: 'Nunito Sans', sans-serif; color:#1247b3 ;font-weight: bold;">{{ .Params.community_button_text }}</p>
+                <a data-toggle="modal" href="/#modal-intro-movie" class="btn btn-block btn-md-inline">
+                    <div class="d-flex justify-content-center">
+                        <img src="/svg/ic-btn-playvideo.svg" class="mr-1" alt="">
+                        <span>{{ .Params.community_button_name }}</span>
+                    </div>
+                </a>
+            </div>
+        </div>
+
+        <div class="col-sm-12 col-md-8">
+            <div id="threefold" class="team-member"></div>
+        </div>
+    </div>
+
+
+
+    <!-- Founders video -->
+    <div id="modal-founders-movie" class="modal modal-lightbox fade">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">×</span>
+                    </button>
+                </div>
+
+                <div class="modal-body">
+                    <div class="video-wrapper">
+                        <iframe width="940" height="529" id="videoIframe" frameborder="0" allow="autoplay; encrypted-media"
+                            allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="clear-fix"></div>
+
+<!-- CTA SEC -->
+<div class="cta">
+    <div class="layout-inner-content">
+        <h1 style="color:#1247b3 ;font-weight: bold; ">{{ .Params.header }}</h1>
+        <p>{{ .Params.sub_header }}</p>
+        <div class="page-description">{{ .Content }}</div>
+        <a href="{{ .Params.btn_link }}" class="btn btn-block btn-sm-inline btn-green">{{ .Params.btn_txt }}</a>
+    </div>
+</div>
+
+
+<!-- tech sec -->
+<div class="tech">
+    <div class="row">
+        <div class="col-sm-12 col-md-4">
+            <h2>{{ .Params.developers_header }}</h2>
+            <p>{{ .Params.developers_text }}</p>
+        </div>
+        <div class="col-sm-12 col-md-8">
+            <div id="tech" class="team-member"></div>
+        </div>
+    </div>
+</div>
+
+<div class="clear-fix"></div>
+
+<div class="community">
+    <!-- ambassdors sec -->
+    <div class="ambassdors" >
+        <div class="row">
+            <div class="col-sm-12 col-md-4">
+                <h2>{{ .Params.tf_ambassadors_header }}</h2>
+                <p>{{ .Params.tf_ambassadors_text1 }}</p>
+
+                <p>{{ .Params.tf_ambassadors_text2 }}</p>
+
+                <div class="layout-inner-content">
+                    <h2>{{ .Params.ambassadors_header }}</h2>
+                    <p style="font-family: 'Nunito Sans', sans-serif; color:#1247b3 ;font-weight: bold;">{{ .Params.ambassadors_subHeader }}</p>
+                    <div class="page-description">{{ .Content }}</div>
+                    <a href="{{ .Params.ambassadors_btn_link }}" class="btn btn-block btn-md-inline">{{ .Params.ambassadorsbtn_txt }}</a>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-8">
+                <div id="ambassadors"></div>
+            </div>
+        </div>
+    </div>
+    <div class="clear-fix"></div>
+
+    <!-- hosters sec -->
+    <!-- <div class="hosters">
+        <div class="row">
+            <div class="col-sm-12 col-md-4">
+                <h2>{{ .Params.tf_farmers_header }}</h2>
+                <p>{{ .Params.tf_farmers_text1 }}</p>
+                <p>{{ .Params.tf_farmers_text2 }}</p>
+            </div>
+            <div class="col-sm-12 col-md-8">
+                <div id="hosters"></div>
+            </div>
+        </div>
+    </div> -->
+    <div class="row">
+        <!-- <div class="col-sm-4" style="padding-bottom: 50px">
+            <h2 style="font-family: 'Barlow Condensed', sans-serif;">check the last update of the community meeting</h2>
+            <a data-toggle="modal" href="/#modal-intro-movie" class="btn btn-block btn-md-inline">
+                <div class="d-flex justify-content-center">
+                    <img src="/svg/ic-btn-playvideo.svg" class="mr-1" alt="">
+                    <span>{{ .Params.community_button_name }}</span>
+                </div>
+            </a>
+        </div> -->
+        <div id="modal-intro-movie" class="modal modal-lightbox fade">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">×</span>
+                        </button>
+                    </div>
+
+                    <div class="modal-body">
+                        <div class="video-wrapper">
+                            <iframe width="940" height="529" src="{{ .Params.community_video_link }}" frameborder="0"
+                                allow="autoplay; encrypted-media" allowfullscreen=""></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

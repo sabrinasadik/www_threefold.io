@@ -15,7 +15,7 @@
           f.parentNode.insertBefore(j, f);
       })(window, document, 'script', 'dataLayer', 'GTM-58B4KK2');
     </script>
-  
+
   <!-- Hotjar Tracking Code for www.threefold.me -->
 <script>
     (function(h,o,t,j,a,r){
@@ -27,7 +27,7 @@
         a.appendChild(r);
     })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
 </script>
-  
+
   <meta charset="utf-8">
   <meta name="robots" content="all,follow">
   <meta name="googlebot" content="index,follow,snippet,archive">
@@ -54,12 +54,14 @@
   <link rel="stylesheet" href="{{ .Site.BaseURL }}css/custom.css">
 
   <!-- Bootstrap -->
-  {{ if eq .Section "community" }}
-  <link rel="stylesheet" href="{{ .Site.BaseURL }}css/bootstrap.min.css" >
-  {{end}}
+  <!-- <link rel="stylesheet" href="{{ .Site.BaseURL }}css/bootstrap.min.css" > -->
   <script src="https://www.youtube.com/iframe_api"></script>
 
   <!-- Custom stylesheet - for your changes -->
+  {{if or (ne .Section "grid") (ne .Title "cost")}}
+  <link rel="stylesheet" href="{{ .Site.BaseURL }}css/grid-webflow.css" >
+  <link rel="stylesheet" href="{{ .Site.BaseURL }}css/threefold-token-grid.webflow.css" >
+  {{end}}
   <link href='{{ .Site.BaseURL }}css/css.css' type='text/css'>
   <link href="{{ .Site.BaseURL }}css/svgs-attachment.css" rel="stylesheet">
   <link href="{{ .Site.BaseURL }}css/main.min.css" rel="stylesheet">

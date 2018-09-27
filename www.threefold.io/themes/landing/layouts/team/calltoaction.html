@@ -1,0 +1,8 @@
+<div class="layout-inner-content">
+    <h2>{{ .Params.header }}</h2>
+    <p style="font-family: 'Nunito Sans', sans-serif; color:#1247b3 ;font-weight: bold;">{{ .Params.sub_header }}</p>
+    <div class="page-description">{{ .Content }}</div>
+    {{if or (ne .Title "join") (ne .Title "cta") (ne .Title "ambassadoraCTA")}}
+    <a href="{{ .Params.btn_link }}" class="btn btn-block btn-md-inline">{{ .Params.btn_txt }}</a>
+    {{end}}
+</div>

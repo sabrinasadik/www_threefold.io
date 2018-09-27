@@ -35,7 +35,7 @@
                             {{ end }}
                         </ul>
                         {{ else }}
-                        {{ if or ( eq .Name "Info") (eq .Name "Whitepaper") }}
+                        {{ if or ( eq .Name "Blog") (eq .Name "Whitepaper") }}
                         <a class="nav-link {{ if $active }}active{{end}}" href="{{ .URL }}" target="_blank">{{ .Name }} <img class="ml-0h" src="/svg/ic-externallink.svg"></a>
                         {{else}}
                         <a class="nav-link {{ if $active }}active{{end}}" href="{{ .URL }}" >{{ .Name }}</a>

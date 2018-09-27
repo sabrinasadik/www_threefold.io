@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+{{ partial "head.html" . }}
+
+<body class="single single-page single-page-sample-page frontpage">
+
+    <div id="all">
+
+        <div class="layout-header layout-header-fixed">
+
+            {{ partial "nav.html" . }}
+
+        </div>
+
+        <div class="layout-content">
+          <div class="layout-container">
+            {{ range .Data.Pages }}
+            {{ if eq .Title "partnervision" }}
+            <div class="my-6 mt-sm-10">{{ .Render "partnervision" }}</div>
+            {{ else if eq .Title "corporatefarmers" }}
+            <div class="my-6 mt-sm-10">{{ .Render "corporatefarmers" }}</div>
+            {{ else if eq .Title "individualfarmers" }}
+            <div class="team">{{ .Render "individual_farmers" }}</div>
+            {{ else if eq .Title "farmingcooperatives" }}
+            <div class="team">{{ .Render "farming_cooperatives" }}</div>
+            {{ else if eq .Title "softwarepartners" }}
+            <div class="my-6 mt-sm-10">{{ .Render "softwarepartners" }}</div>
+            {{ else if eq .Title "tft listings" }}
+            <div class="my-6 mt-sm-10">{{ .Render "tft_listings" }}</div>
+
+            {{end}}
+            {{end}}
+          </div>
+        </div>
+    </div>
+    {{ partial "footer.html" . }} {{ partial "scripts.html" . }}
+</body>
+
+</html>

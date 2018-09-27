@@ -1,112 +1,121 @@
-@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700');
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700");
+
 * {
-    font-family: "'Open Sans'", sans-serif
+  font-family: "'Open Sans'", sans-serif;
 }
 
 html {
-    font-size: 100%;
+  font-size: 100%;
 }
 
 body {
-    font-weight: 400;
-    font-style: normal;
-    font-size: 14px;
-    letter-spacing: 0;
-    line-height: 1.6em;
-    text-transform: none
+  font-weight: 400;
+  font-style: normal;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: 1.6em;
+  text-transform: none;
 }
 
 html,
 body {
-    height: 100%;
-    margin: 0;
-    padding: 0;
+  height: 100%;
+  margin: 0;
+  padding: 0;
 }
 
 .box {
-    padding: 0;
-    /* -moz-box-shadow: 0 9px 0px 0px white, 0 -9px 0px 0px white, 2px 0 15px -4px #ccc, -2px 0 15px -4px #ccc;
+  padding: 0;
+  /* -moz-box-shadow: 0 9px 0px 0px white, 0 -9px 0px 0px white, 2px 0 15px -4px #ccc, -2px 0 15px -4px #ccc;
     -webkit-box-shadow: 0 9px 0px 0px white, 0 -9px 0px 0px white, 2px 0 15px -4px #ccc, -2px 0 15px -4px #ccc;
     box-shadow: 0 9px 0px 0px white, 0 -9px 0px 0px white, 2px 0 15px -4px #ccc, -2px 0 15px -4px #ccc; */
 }
 
-h2 {
+/* h2 {
     font: normal 400 1.5em/1.2em 'Open Sans', sans-serif;
     text-transform: none;
     letter-spacing: .05em;
-}
-
+} */
 .clear-fix {
-    clear: both
+  clear: both;
 }
 
 body {
-    color: #757575
+  color: #757575;
+}
+
+.layout-intro .intro-lead p,
+.intro-price {
+  color: #cfd6e6;
+}
+
+.btn-outline.btn-white {
+  background-color: rgba(255, 255, 255, 0.2);
+  border-color: transparent;
 }
 
 .rj-team .rj-team-member .rj-team-member-info-text,
 .rj-team .rj-team-member .rj-team-member-info-text .member-name {
-    color: #fff
+  color: #fff;
 }
 
 .rj-team .member-photo.selected:after {
-    border-bottom-color: #77aae6;
+  border-bottom-color: #0d2e75;
 }
 
-.col-sm-4:nth-child(3n+1) {
-    clear: both
+.col-sm-4:nth-child(3n + 1) {
+  clear: both;
 }
 
 .rj-team-member-photo-rollover {
-    -webkit-filter: grayscale(100%);
-    filter: grayscale(100%)
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
 }
 
 .rj-team-member-photo-rollover:hover {
-    -webkit-filter: grayscale();
-    filter: grayscale(0%)
+  -webkit-filter: grayscale();
+  filter: grayscale(0%);
 }
 
 .rj-team .rj-team-member .rj-team-member-info-text {
-    background-color: #77aae6
+  background-color: #0d2e75;
 }
 
-.team img {
-    width: 100%;
-}
-
+/* .team img {
+  width: 100%;
+} */
 .container::after {
-    content: "";
-    clear: both;
-    display: table
+  content: "";
+  clear: both;
+  display: table;
 }
 
-.team {
+/* .team {
     padding: 100px 0;
-}
-
-.team h2 {
-    padding-top: 15px;
-}
+} */
+/* .team h2 {
+  padding-top: 15px;
+} */
 
 .nav-link {
-    text-align: left;
+  text-align: left;
 }
 
 .w-col-stack {
-    margin-bottom: 20px;
+  margin-bottom: 20px;
+  margin-top: 15px;
 }
 
 .nav>li>a:hover {
-    background-color: transparent;
+  background-color: transparent;
 }
 
 .nav>li>a:focus {
-    background-color: transparent;
+  background-color: transparent;
 }
 
 .join {
-    height: 100%;
+  height: 100%;
 }
 
 .team .threefold-team h2,
@@ -116,7 +125,7 @@ body {
 .hosters h2,
 .footer-section a,
 .footer-section h4 {
-    font-family: 'Barlow Condensed', sans-serif;
+  font-family: "Barlow Condensed", sans-serif;
 }
 
 .team .threefold-team p,
@@ -124,98 +133,597 @@ body {
 .ambassdors p,
 .hosters p,
 .rj-team-member-info-text .bio-excerpt {
-    font-family: 'Nunito Sans', sans-serif;
+  font-family: "Nunito Sans", sans-serif;
 }
 
-.community {
-    padding-top: 5rem;
+.community,
+.tech,
+.cta {
+  padding-top: 5rem;
 }
 
 .pager>li::before {
-    display: none;
+  display: none;
 }
 
 .pager {
-    margin: 20px auto;
+  margin: 20px auto;
 }
 
 .news-aside .row {
-    display: block;
+  display: block;
+}
+
+.row {
+  -webkit-box-align: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
 }
 
 /* Video modal */
-
 .modal-content {
-    background-color: transparent;
-    border: none;
-    position: static;
-    -webkit-box-shadow: none;
-    box-shadow: none;
+  background-color: transparent;
+  border: none;
+  position: static;
+  -webkit-box-shadow: none;
+  box-shadow: none;
 }
 
 .modal-header {
-    padding: 0px;
-    border-bottom: none;
+  padding: 0px;
+  border-bottom: none;
 }
 
 button.close {
-    -webkit-appearance: button;
-    -moz-appearance: button;
-    appearance: button;
+  -webkit-appearance: button;
+  -moz-appearance: button;
+  appearance: button;
 }
 
 .modal.in .modal-dialog {
-    transform: none;
+  -webkit-transform: none;
+  transform: none;
 }
 
 .modal.fade .modal-dialog {
-    transition: none;
-    transform: none;
+  -webkit-transition: none;
+  transition: none;
+  -webkit-transform: none;
+  transform: none;
 }
 
 .modal-dialog {
-    position: static;
+  position: static;
+}
+
+.farmer-card {
+  margin-right: 10px;
+  margin-bottom: 10px;
+  margin-left: 5px;
+  padding: 10px 25px 20px;
+  -ms-flex-preferred-size: 32%;
+  flex-basis: 32%;
+  border-radius: 20px;
+  background-color: #f5f6fa;
+  -webkit-transition: box-shadow 350ms ease, z-index 200ms ease;
+  -webkit-transition: z-index 200ms ease, -webkit-box-shadow 350ms ease;
+  transition: z-index 200ms ease, -webkit-box-shadow 350ms ease;
+  transition: box-shadow 350ms ease, z-index 200ms ease;
+  transition: box-shadow 350ms ease, z-index 200ms ease, -webkit-box-shadow 350ms ease;
+}
+
+.farmer-card:hover {
+  position: relative;
+  z-index: 1;
+  -webkit-box-shadow: 0 30px 50px -10px rgba(18, 71, 179, .2);
+  box-shadow: 0 30px 50px -10px rgba(18, 71, 179, .2);
+}
+
+.f-contry {
+  margin-bottom: 5px;
+}
+
+.fc-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: -10px;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+.farmer-card:hover {
+  position: relative;
+  z-index: 1;
+  -webkit-box-shadow: 0 30px 50px -10px rgba(18, 71, 179, 0.2);
+  box-shadow: 0 30px 50px -10px rgba(18, 71, 179, 0.2);
+}
+
+.f-contry {
+  margin-bottom: 5px;
+}
+
+.fc-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: -10px;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+.rj-team-member .video {
+  margin-top: 20px;
+  width: 100%;
+}
+
+.rj-team-member .video span {
+  text-transform: uppercase;
+  color: #0d2e75;
+}
+
+.intro-main-content .row {
+  align-items: center;
+}
+
+#hosters .rj-team .member-photo.selected:after {
+  display: none;
+}
+
+.softPart .row {
+  justify-content: space-around;
+}
+
+.cta .layout-inner-content {
+  margin-bottom: 0;
+}
+
+/* line 1, resources/assets/styles/layouts/home/_roadmap.scss */
+section.home-page--roadmap {
+  position: relative;
+  margin-bottom: 25px;
+}
+
+/* line 4, resources/assets/styles/layouts/home/_roadmap.scss */
+section.home-page--roadmap .section-title {
+  color: #0c2e73;
+  font-size: 38px;
+}
+
+/* line 9, resources/assets/styles/layouts/home/_roadmap.scss */
+section.home-page--roadmap .roadmap-container.desktop {
+  margin-top: 25px;
+  margin-bottom: 50px;
+}
+
+/* line 12, resources/assets/styles/layouts/home/_roadmap.scss */
+section.home-page--roadmap .roadmap-container.desktop .details {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  margin-bottom: 20px;
+}
+
+/* line 18, resources/assets/styles/layouts/home/_roadmap.scss */
+section.home-page--roadmap .roadmap-container.desktop .details.future {
+  opacity: 0.6;
+}
+
+/* line 22, resources/assets/styles/layouts/home/_roadmap.scss */
+section.home-page--roadmap .roadmap-container.desktop .details .date {
+  color: #0c2e73;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+/* line 30, resources/assets/styles/layouts/home/_roadmap.scss */
+section.home-page--roadmap .roadmap-container.desktop .details .title {
+  margin-top: 10px;
+  color: #0c2e73;
+  font-weight: 600;
+  font-size: 22px;
+  font-family: "Barlow Condensed", sans-serif;
+}
+
+/* line 40, resources/assets/styles/layouts/home/_roadmap.scss */
+section.home-page--roadmap .roadmap-container.desktop .timeline-line div {
+  position: relative;
+}
+
+section.home-page--roadmap .roadmap-container.desktop .timeline-line div::before {
+  position: absolute;
+  width: calc(100% + 15px);
+  border-top: solid 2px #0c2e73;
+  content: "";
+}
+
+/* line 57, resources/assets/styles/layouts/home/_roadmap.scss */
+section.home-page--roadmap .roadmap-container.desktop .timeline-line:last-child div::before {
+  width: 100%;
+}
+
+/* line 61, resources/assets/styles/layouts/home/_roadmap.scss */
+section.home-page--roadmap .roadmap-container.desktop .timeline-line:last-child div::after {
+  position: absolute;
+  top: -5px;
+  right: -1px;
+  width: 8px;
+  height: 12px;
+  background-image: url(data:image/svg+xml;
+  base64, PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHN2ZyB3aWR0aD0iOHB4IiBoZWlnaHQ9IjEycHgiIHZpZXdCb3g9IjAgMCA4IDEyIiB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiPgogICAgPCEtLSBHZW5lcmF0b3I6IHNrZXRjaHRvb2wgNTAuMiAoNTUwNDcpIC0gaHR0cDovL3d3dy5ib2hlbWlhbmNvZGluZy5jb20vc2tldGNoIC0tPgogICAgPHRpdGxlPjkxOUVDOEIzLTMwM0MtNDgwMC04RUFFLUZDMTBGN0M1NzE3NTwvdGl0bGU+CiAgICA8ZGVzYz5DcmVhdGVkIHdpdGggc2tldGNodG9vbC48L2Rlc2M+CiAgICA8ZGVmcz48L2RlZnM+CiAgICA8ZyBpZD0iUGFnZS0xIiBzdHJva2U9Im5vbmUiIHN0cm9rZS13aWR0aD0iMSIgZmlsbD0ibm9uZSIgZmlsbC1ydWxlPSJldmVub2RkIj4KICAgICAgICA8ZyBpZD0iTm9pYS1sYW5kaW5nIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgtMTI5Ny4wMDAwMDAsIC0yMTkyLjAwMDAwMCkiIGZpbGw9IiNGRkZGRkYiIGZpbGwtcnVsZT0ibm9uemVybyI+CiAgICAgICAgICAgIDxnIGlkPSJzbWFsbC1yaWdodCIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMTI5Ny4wMDAwMDAsIDIxOTIuMDAwMDAwKSI+CiAgICAgICAgICAgICAgICA8cG9seWdvbiBpZD0iU2hhcGUiIHBvaW50cz0iMiAxMS40IDAuNiAxMCA0LjYgNiAwLjYgMiAyIDAuNiA3LjQgNiI+PC9wb2x5Z29uPgogICAgICAgICAgICA8L2c+CiAgICAgICAgPC9nPgogICAgPC9nPgo8L3N2Zz4=);
+  background-repeat: no-repeat;
+  content: "";
+}
+
+/* line 76, resources/assets/styles/layouts/home/_roadmap.scss */
+section.home-page--roadmap .roadmap-container.desktop .timeline-line.past div::before {
+  border-color: #2cbea0;
+}
+
+/* line 84, resources/assets/styles/layouts/home/_roadmap.scss */
+section.home-page--roadmap .roadmap-container.desktop .timeline-line.future div::before {
+  border-color: #0c2e73;
+}
+
+/* line 92, resources/assets/styles/layouts/home/_roadmap.scss */
+section.home-page--roadmap .roadmap-container.desktop .timeline-line.current div::before {
+  margin-left: 20px;
+  width: calc(100% + 10px);
+  border-color: #0c2e73;
+}
+
+/* line 102, resources/assets/styles/layouts/home/_roadmap.scss */
+section.home-page--roadmap .roadmap-container.desktop .timeline-line:not(:last-child) div::before {
+  width: calc(100% + 30px);
+}
+
+/* line 109, resources/assets/styles/layouts/home/_roadmap.scss */
+section.home-page--roadmap .roadmap-container.desktop .timeline-dots {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+/* line 112, resources/assets/styles/layouts/home/_roadmap.scss */
+section.home-page--roadmap .roadmap-container.desktop .timeline-dots .timeline-dot {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+/* line 116, resources/assets/styles/layouts/home/_roadmap.scss */
+section.home-page--roadmap .roadmap-container.desktop .timeline-dots .timeline-dot span {
+  position: relative;
+}
+
+/* line 119, resources/assets/styles/layouts/home/_roadmap.scss */
+section.home-page--roadmap .roadmap-container.desktop .timeline-dots .timeline-dot span::before {
+  position: absolute;
+  top: -5px;
+  left: 0;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #2cbea0;
+  content: "";
+}
+
+/* line 133, resources/assets/styles/layouts/home/_roadmap.scss */
+section.home-page--roadmap .roadmap-container.desktop .timeline-dots .timeline-dot.past span::before {
+  background-color: #2cbea0;
+}
+
+/* line 141, resources/assets/styles/layouts/home/_roadmap.scss */
+section.home-page--roadmap .roadmap-container.desktop .timeline-dots .timeline-dot.current span::before {
+  top: -3px;
+  left: 8px;
+  width: 6px;
+  height: 6px;
+  background-color: #0c2e73;
+}
+
+/* line 149, resources/assets/styles/layouts/home/_roadmap.scss */
+section.home-page--roadmap .roadmap-container.desktop .timeline-dots .timeline-dot.current span::after {
+  position: absolute;
+  top: -11px;
+  left: 0;
+  width: 22px;
+  height: 22px;
+  border: solid 2px #0c2e73;
+  border-radius: 50%;
+  content: "";
+}
+
+/* line 164, resources/assets/styles/layouts/home/_roadmap.scss */
+section.home-page--roadmap .roadmap-container.desktop .timeline-dots .timeline-dot.future span::before {
+  background-color: #0c2e73;
+}
+
+/* line 172, resources/assets/styles/layouts/home/_roadmap.scss */
+section.home-page--roadmap .roadmap-container.desktop .content-container {
+  margin-top: 20px;
+  letter-spacing: 0.1px;
+  line-height: 1.5;
+}
+
+/* line 177, resources/assets/styles/layouts/home/_roadmap.scss */
+section.home-page--roadmap .roadmap-container.desktop .content-container.future {
+  opacity: 0.6;
+}
+
+/* line 181, resources/assets/styles/layouts/home/_roadmap.scss */
+section.home-page--roadmap .roadmap-container.desktop .content-container .content-block {
+  color: #0c2e73;
+}
+
+/* line 184, resources/assets/styles/layouts/home/_roadmap.scss */
+section.home-page--roadmap .roadmap-container.desktop .content-container .content-block a {
+  text-decoration: underline;
+}
+
+/* line 187, resources/assets/styles/layouts/home/_roadmap.scss */
+section.home-page--roadmap .roadmap-container.desktop .content-container .content-block a:hover {
+  color: #0c2e73;
+}
+
+/* line 192, resources/assets/styles/layouts/home/_roadmap.scss */
+section.home-page--roadmap .roadmap-container.desktop .content-container .content-block:not(:first-child) {
+  margin-top: 10px;
+}
+
+@media (max-width: 767.98px) {
+
+  /* line 200, resources/assets/styles/layouts/home/_roadmap.scss */
+  section.home-page--roadmap .section-title {
+    font-size: 22px;
+  }
+}
+
+/* line 3, resources/assets/styles/layouts/home/_roadmap-mobile.scss */
+section.home-page--roadmap .roadmap-container.mobile .roadmap-block {
+  position: relative;
+  padding-bottom: 20px;
+  padding-left: 52px;
+}
+
+/* line 8, resources/assets/styles/layouts/home/_roadmap-mobile.scss */
+section.home-page--roadmap .roadmap-container.mobile .roadmap-block::before {
+  position: absolute;
+  top: 15px;
+  left: 4px;
+  width: 2px;
+  height: calc(100% - 5px);
+  background-color: #2cbea0;
+  content: "";
+}
+
+/* line 19, resources/assets/styles/layouts/home/_roadmap-mobile.scss */
+section.home-page--roadmap .roadmap-container.mobile .roadmap-block:last-child::after {
+  position: absolute;
+  bottom: -14px;
+  left: 2px;
+  width: 6.8px;
+  height: 10.8px;
+  background-image: url(data:image/svg+xml;
+  base64, PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHN2ZyB3aWR0aD0iOHB4IiBoZWlnaHQ9IjEycHgiIHZpZXdCb3g9IjAgMCA4IDEyIiB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiPgogICAgPCEtLSBHZW5lcmF0b3I6IHNrZXRjaHRvb2wgNTAuMiAoNTUwNDcpIC0gaHR0cDovL3d3dy5ib2hlbWlhbmNvZGluZy5jb20vc2tldGNoIC0tPgogICAgPHRpdGxlPjkxOUVDOEIzLTMwM0MtNDgwMC04RUFFLUZDMTBGN0M1NzE3NTwvdGl0bGU+CiAgICA8ZGVzYz5DcmVhdGVkIHdpdGggc2tldGNodG9vbC48L2Rlc2M+CiAgICA8ZGVmcz48L2RlZnM+CiAgICA8ZyBpZD0iUGFnZS0xIiBzdHJva2U9Im5vbmUiIHN0cm9rZS13aWR0aD0iMSIgZmlsbD0ibm9uZSIgZmlsbC1ydWxlPSJldmVub2RkIj4KICAgICAgICA8ZyBpZD0iTm9pYS1sYW5kaW5nIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgtMTI5Ny4wMDAwMDAsIC0yMTkyLjAwMDAwMCkiIGZpbGw9IiNGRkZGRkYiIGZpbGwtcnVsZT0ibm9uemVybyI+CiAgICAgICAgICAgIDxnIGlkPSJzbWFsbC1yaWdodCIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMTI5Ny4wMDAwMDAsIDIxOTIuMDAwMDAwKSI+CiAgICAgICAgICAgICAgICA8cG9seWdvbiBpZD0iU2hhcGUiIHBvaW50cz0iMiAxMS40IDAuNiAxMCA0LjYgNiAwLjYgMiAyIDAuNiA3LjQgNiI+PC9wb2x5Z29uPgogICAgICAgICAgICA8L2c+CiAgICAgICAgPC9nPgogICAgPC9nPgo8L3N2Zz4=);
+  background-repeat: no-repeat;
+  content: "";
+  -webkit-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+
+/* line 32, resources/assets/styles/layouts/home/_roadmap-mobile.scss */
+section.home-page--roadmap .roadmap-container.mobile .roadmap-block .timeline-dot {
+  position: absolute;
+  top: 7px;
+  left: 0;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #2cbea0;
+}
+
+/* line 41, resources/assets/styles/layouts/home/_roadmap-mobile.scss */
+section.home-page--roadmap .roadmap-container.mobile .roadmap-block .timeline-dot::before {
+  position: absolute;
+  top: 4px;
+  left: 8px;
+  width: 34px;
+  height: 2px;
+  background-color: #2cbea0;
+  content: "";
+}
+
+/* line 52, resources/assets/styles/layouts/home/_roadmap-mobile.scss */
+section.home-page--roadmap .roadmap-container.mobile .roadmap-block .date {
+  color: #0c2e73;
+  font-weight: 600;
+  font-size: 16px;
+  font-family: "Barlow Condensed", sans-serif;
+}
+
+/* line 59, resources/assets/styles/layouts/home/_roadmap-mobile.scss */
+section.home-page--roadmap .roadmap-container.mobile .roadmap-block .title {
+  margin-top: 10px;
+  color: #0c2e73;
+  font-weight: 600;
+  font-size: 22px;
+  font-family: "Barlow Condensed", sans-serif;
+}
+
+/* line 68, resources/assets/styles/layouts/home/_roadmap-mobile.scss */
+section.home-page--roadmap .roadmap-container.mobile .roadmap-block .content-container .content-block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  margin-top: 10px;
+  color: #0c2e73;
+  letter-spacing: 0.1px;
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+  line-height: 1.5;
+}
+
+/* line 82, resources/assets/styles/layouts/home/_roadmap-mobile.scss */
+section.home-page--roadmap .roadmap-container.mobile .roadmap-block.current::before {
+  background-color: #0c2e73;
+}
+
+/* line 86, resources/assets/styles/layouts/home/_roadmap-mobile.scss */
+section.home-page--roadmap .roadmap-container.mobile .roadmap-block.current .timeline-dot {
+  background-color: #0c2e73;
+}
+
+/* line 89, resources/assets/styles/layouts/home/_roadmap-mobile.scss */
+section.home-page--roadmap .roadmap-container.mobile .roadmap-block.current .timeline-dot::before {
+  background-color: #0c2e73;
+}
+
+/* line 96, resources/assets/styles/layouts/home/_roadmap-mobile.scss */
+section.home-page--roadmap .roadmap-container.mobile .roadmap-block.future::before {
+  background-color: #0c2e73;
+}
+
+/* line 100, resources/assets/styles/layouts/home/_roadmap-mobile.scss */
+section.home-page--roadmap .roadmap-container.mobile .roadmap-block.future .timeline-dot {
+  background-color: #0c2e73;
+}
+
+/* line 103, resources/assets/styles/layouts/home/_roadmap-mobile.scss */
+section.home-page--roadmap .roadmap-container.mobile .roadmap-block.future .timeline-dot::before {
+  background-color: #0c2e73;
+}
+
+/* line 108, resources/assets/styles/layouts/home/_roadmap-mobile.scss */
+section.home-page--roadmap .roadmap-container.mobile .roadmap-block.future .date {
+  opacity: 0.6;
+}
+
+/* line 112, resources/assets/styles/layouts/home/_roadmap-mobile.scss */
+section.home-page--roadmap .roadmap-container.mobile .roadmap-block.future .title {
+  opacity: 0.6;
+}
+
+@media (max-width: 991.98px) {
+
+  /* line 2, resources/assets/styles/layouts/home/_roadmap-mobile.scss */
+  section.home-page--roadmap .roadmap-container.mobile {
+    margin-top: 42px;
+  }
+}
+
+@media (max-width: 767.98px) {
+
+  /* line 2, resources/assets/styles/layouts/home/_roadmap-mobile.scss */
+  section.home-page--roadmap .roadmap-container.mobile {
+    margin-top: 30px;
+  }
+
+  /* line 125, resources/assets/styles/layouts/home/_roadmap-mobile.scss */
+  section.home-page--roadmap .roadmap-container.mobile .roadmap-block {
+    position: relative;
+    padding-bottom: 30px;
+    padding-left: 36px;
+  }
+
+  /* line 130, resources/assets/styles/layouts/home/_roadmap-mobile.scss */
+  section.home-page--roadmap .roadmap-container.mobile .roadmap-block .title {
+    font-size: 18px;
+  }
+
+  /* line 135, resources/assets/styles/layouts/home/_roadmap-mobile.scss */
+  section.home-page--roadmap .roadmap-container.mobile .roadmap-block .timeline-dot::before {
+    width: 13px;
+  }
+
+  /* line 141, resources/assets/styles/layouts/home/_roadmap-mobile.scss */
+  section.home-page--roadmap .roadmap-container.mobile .roadmap-block .content-container .content-block {
+    margin-top: 10px;
+    font-size: 14px;
+  }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-    p {
-        font-size: 100%;
-    }
-    .container {
-        margin: 0;
-        padding: 0;
-        width: 100%;
-        overflow: hidden;
-    }
-    .rj-team {
-        padding-bottom: 10rem;
-    }
+  p {
+    font-size: 100%;
+  }
+
+  .container {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    overflow: hidden;
+  }
+
+  .rj-team {
+    padding-bottom: 10rem;
+  }
 }
 
 @media only screen and (min-width: 480px) and (max-width: 767px) {
-    h2 {
-        font-size: 120%;
-    }
-    p {
-        font-size: 100%;
-    }
-    .container {
-        padding: 0;
-    }
+  h2 {
+    font-size: 120%;
+  }
+
+  p {
+    font-size: 100%;
+  }
+
+  .container {
+    padding: 0;
+  }
+
+  .layout-header.layout-header-fixed~.layout-content {
+    padding-top: 137px;
+  }
+
+
 }
 
 @media only screen and (min-width: 320px) and (max-width: 479px) {
-    .container {
-        padding: 0;
-    }
-    h2 {
-        font-weight: 600;
-    }
-    .member-name {
-        text-align: center
-    }
-    .rj-team {
-        padding-top: 1rem;
-        padding-bottom: 2rem;
-    }
+  .container {
+    padding: 0;
+  }
+
+  h2 {
+    font-weight: 600;
+  }
+
+  .member-name {
+    text-align: center;
+  }
+
+  .rj-team {
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+  }
+
+  .layout-header.layout-header-fixed~.layout-content {
+    padding-top: 80px;
+  }
+
+  .fc-list {
+    display: contents;
+  }
+
+  .softPart .row {
+    text-align: center;
+  }
 }

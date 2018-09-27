@@ -20,8 +20,8 @@ xhr.onload = function () {
 
     if (xhr.status >= 200 && xhr.status < 400) {
 
-        price.innerHTML = data.data.currency.tftPrice.pairs.TFT_USD.price + ' USD/TFT';
-        stats.innerHTML = '$' + data.data.currency.tftPrice.pairs.TFT_USD.price;
+        // price.innerHTML = data.data.currency.tftPrice.pairs.TFT_USD.price + ' USD/TFT';
+        // stats.innerHTML = '$' + data.data.currency.tftPrice.pairs.TFT_USD.price;
         capSum = Math.round((data.data.totalSupply / 1000000000) * data.data.currency.tftPrice.weightedAveragePrice);
         res = capSum.toString();
         capitalization.innerHTML = '$' + res.slice(0, 2) + ' million';

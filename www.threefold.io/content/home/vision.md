@@ -1,20 +1,20 @@
 +++
 title ="vision"
-header = "vision"
+header = "Democratized Internet, what does that mean?"
 weight = 1
 +++
 Data will be the gold of the new digital economy.
 
-Increasing internet use and technologies such as self-driving cars and the Internet of Things mean data demand is growing exponentially.
 
-The existing global economic model is reaching its limits, excluding many and diminishing finite resources.
+
+#### Freedom
 
 To achieve our dream of a more empowered global community, resource-saving technology and a more inclusive economy, our vision is to:
 
-* Decentralize storage and compute capacity, to allow for a maximally distributed, affordable, energy-efficient grid to enable a neutral internet - by all for all.
-* Create a next generation currency, which unlike digital currencies to date, is 100% asset backed by the fastest growing commodity today - the internet, and runs on a new improved Blockchain.
-* Catalyze a community of IT developers, supporters, and responsible global citizens to share in the vision, and to support the development of further value-adding peer-to-peer technologies.
+#### Equality
 
-We wanted to do all this as a transparent collective, a responsible digital organization which reflects our core values - so we started the Threefold Foundation.
+The internet should be inclusive to all of humanity. We are building a collectively owned internet that's deployed everywhere and accessible to all, not just in datacenters or high-income countries.
 
-**Together we are making our dream of a neutral, green distributed internet a reality.**
+#### Fairness
+
+The internet is currently run by a handful of large companies who benefit financially from our data - everyone should be able to enjoy a return for participating and sharing internet capacity while maintaining our data privacy.

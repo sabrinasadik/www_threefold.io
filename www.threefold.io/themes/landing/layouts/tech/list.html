@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+{{ partial "head.html" . }}
+
+<body class="single single-page single-page-sample-page frontpage">
+
+    <div id="all">
+
+        <div class="layout-header layout-header-fixed">
+
+            {{ partial "nav.html" . }}
+
+        </div>
+
+        <div class="layout-content">
+            {{ range .Data.Pages }}
+            {{ if eq .Title "techcards" }}
+            <div class="my-6 mt-sm-10">{{ .Render "techcards" }}</div>
+            <div class="layout-container">
+            {{ else if eq .Title "techbenefit" }}
+            <div class="my-6 mt-sm-10">{{ .Render "techbenefit" }}</div>
+            {{ else if eq .Title "calltoaction" }}
+            <div class="my-6 mt-sm-10">{{ .Render "calltoaction" }}</div>
+          </div>
+            {{end}}
+            {{end}}
+        </div>
+    </div>
+    {{ partial "footer.html" . }} {{ partial "scripts.html" . }}
+</body>
+
+</html>

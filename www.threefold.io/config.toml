@@ -1,5 +1,5 @@
 baseurl = "/"
-title = "ThreeFold Foundation"
+title = "Responsible Internet For All"
 theme = "landing"
 themesDir = "themes"
 languageCode = "en-us"
@@ -29,8 +29,13 @@ paginate = 6
     weight = 2
 
 [[menu.main]]
+<<<<<<< HEAD
     name = "Tokens"
     url  = "/tokens"
+=======
+    name = "Technology"
+    url  = "/tech"
+>>>>>>> master
     weight = 3
 
 [[menu.main]]
@@ -39,8 +44,13 @@ paginate = 6
     weight = 4
 
 [[menu.main]]
+<<<<<<< HEAD
     name = "Whitepaper"
     url  = "https://docs.google.com/document/d/16C3EKKBaK4_DyWFUcvdLnvDyN57h77e0Q1mWMpZL5vc/edit"
+=======
+    name = "Team"
+    url  = "/team"
+>>>>>>> master
     weight = 5
 
 [[menu.main]]
@@ -83,46 +93,10 @@ paginate = 6
     network = "youtube"
 
 [[params.social]]
-    title = "linkedin"
-    url = "https://www.linkedin.com/company/13594159/"
-    icon = "/svg/ic-linkedin.svg"
-    Bicon = "/svg/ic-linkedin-dark-blue.svg"
-    footer = true
-    sharethis = false
-    network = "linkedin"
-
-[[params.social]]
-    title = "instagram"
-    url = "https://www.instagram.com/threefold.foundation/"
-    icon = "/svg/instagram-brands.svg"
-    Bicon = "/svg/instagram-brands-dark-blue.svg"
-    footer = true
-    sharethis = false
-    network = "instagram"
-
-[[params.social]]
-    title = "github"
-    url = "https://threefoldfoundation.github.io/info_tokens/"
-    icon = "/svg/ic-github.svg"
-    Bicon = "/svg/ic-github-dark-blue.svg"
-    footer = true
-    sharethis = false
-    network = "github"
-
-[[params.social]]
-    title = "telegram"
-    url = "https://t.me/threefoldtoken"
-    icon = "/svg/ic-telegram.svg"
-    Bicon = "/svg/ic-telegram-dark-blue.svg"
-    footer = true
-    sharethis = false
-    network = "telegram"
-
-[[params.social]]
     title = "telegram"
     url = "https://t.me/threefoldtoken_chat"
-    icon = "/svg/ic-telegram-light-blue.svg"
-    Bicon = "/svg/ic-telegram-light-blue.svg"
+    icon = "/svg/ic-telegram.svg"
+    Bicon = "/svg/ic-telegram.svg"
     footer = true
     sharethis = false
     network = "telegram"

@@ -16,32 +16,28 @@
             <p class="num-p">1</p>
             <h3 class="step-title f-title c-blue">{{ .Params.stWay }}</h3>
             <p class="intro-p-dark">{{ .Params.stWay_header }}</p>
-            <p>
-                <strong>{{ .Params.stWay_desc1 }}</strong>
-            </p>
-            <p>{{ .Params.stWay_desc2 }}</p>
+            {{ .Params.stWay_desc1 }}
+            {{ .Params.stWay_desc2 }}
         </div>
         <div class="w-hidden-medium w-hidden-small w-hidden-tiny w-col w-col-1 w-col-medium-1 w-col-small-small-stack"></div>
         <div class="earn-tokens-col-md w-col w-col-4 w-col-medium-4 w-col-small-small-stack">
             <p class="num-p">2</p>
             <h3 class="step-title f-title c-blue">{{ .Params.secWay }}</h3>
             <p class="intro-p-dark">{{ .Params.secWay_header }}</p>
-            <p>
-                <strong>{{ .Params.secWay_desc }}</strong>
-            </p>
+            {{ .Params.secWay_desc }}
             <h3 class="text-blue">{{ .Params.TF_dir }}</h3>
-            <div class="list-item-w">
+            <!-- <div class="list-item-w">
                 <p>{{ .Params.TF_dir_desc }}</p>
                 <div class="list-item-l"></div>
-            </div>
-            <div class="list-item-w">
-                <p>{{ .Params.TF_dir_desc2 }}</p>
+            </div> -->
+            <!-- <div class="list-item-w">
+                {{ .Params.TF_dir_desc2 }}
                 <div class="list-item-l"></div>
-            </div>
-            <div class="list-item-w">
+            </div> -->
+            <!-- <div class="list-item-w">
                 <p>{{ .Params.TF_dir_desc3 }}</p>
                 <div class="list-item-l"></div>
-            </div>
+            </div> -->
             <p>{{ .Params.TF_dir_desc4 }}</p>
         </div>
         <div class="w-hidden-medium w-hidden-small w-hidden-tiny w-col w-col-1 w-col-medium-1 w-col-small-small-stack"></div>

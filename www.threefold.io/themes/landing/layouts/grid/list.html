@@ -1,7 +1,20 @@
 <!DOCTYPE html>
 <html>
 
-{{ partial "grid-head.html" . }}
+{{ partial "head.html" . }}
+{{ if eq .Section "grid" }}
+<style>
+    .layout-header.layout-header-fixed~.layout-content {
+        padding-top: 0;
+    }
+
+    @media only screen and (min-width: 320px) and (max-width: 479px) {
+        .layout-header.layout-header-fixed~.layout-content {
+            padding-top: 80px;
+        }
+    }
+</style>
+{{end}}
 
 <body class="single single-page single-page-sample-page frontpage">
 
@@ -13,31 +26,36 @@
 
         </div>
 
-        <div class="layout-content" style="padding-top: 0px;">
-            {{ range .Data.Pages }} {{ if eq .Title "intro" }}
-            <div class="intro-screen">{{ .Render "intro" }}</div>
-            {{ else if eq .Title "about farming" }}
-            <div class="about-farming-section">{{ .Render "about-farming" }}</div>
-            {{ else if eq .Title "how to" }}
-            <div class="how-to-section">{{ .Render "how-to" }}</div>
-            {{ else if eq .Title "step 1" }}
-            <div class="step1-section">{{ .Render "step1" }}</div>
-            {{ else if eq .Title "step 2" }}
-            <div class="step1-section">{{ .Render "step2" }}</div>
-            {{ else if eq .Title "step 3" }}
-            <div class="step1-section">{{ .Render "step3" }}</div>
-            {{ else if eq .Title "cost" }}
-            <div class="cost-section">{{ .Render "cost" }}</div>
-            {{ else if eq .Title "earn tokens" }}
-            <div class="earn-tokens-section">{{ .Render "earn_tokens" }}</div>
-            {{ else if eq .Title "partners" }}
-            <div class="container-wide">{{ .Render "partners" }}</div>
-            {{ else if eq .Title "community" }}
-            <div class="community-section">{{ .Render "community" }}</div>
-            {{ else if eq .Title "video" }}
-            <div id="modal-intro-movie" class="modal modal-lightbox fade">{{ .Render "video" }}</div>
-            {{end}} {{end}}
+        <div class="layout-content">
+            {{ range .Data.Pages }}
+            {{ if eq .Title "header" }}
+            <div class="intro-screen">{{ .Render "header" }}</div>
+            <div class="layout-container">
 
+                {{ else if eq .Title "grid_aspects" }}
+                <div class="my-6 mt-sm-10">{{ .Render "copy-body" }}</div>
+                {{ else if eq .Title "whats-internet" }}
+                <div class="my-6 mt-sm-10">{{ .Render "copy-body" }}</div>
+                {{ else if eq .Title "use cases" }}
+                <div class="how-to-section">{{ .Render "usecases" }}</div>
+                {{ else if eq .Title "roadmap" }}
+                <div class="step1-section">{{ .Render "roadmap" }}</div>
+                {{ else if eq .Title "calltoaction" }}
+                <div class="step1-section">{{ .Render "copy-body" }}</div>
+                {{ else if eq .Title "farmer_types_1" }}
+                <div class="step1-section">{{ .Render "farmertypes1" }}</div>
+                {{ else if eq .Title "farmer_types_2" }}
+                <div class="step1-section">{{ .Render "farmertypes2" }}</div>
+                {{ else if eq .Title "whatarefarmers" }}
+                <div class="my-6 mt-sm-10">{{ .Render "copy-body" }}</div>
+                {{ else if eq .Title "earn tokens" }}
+                <div class="earn-tokens-section">{{ .Render "earn_tokens" }}</div>
+                {{ else if eq .Title "earn tokens" }}
+                <div class="earn-tokens-section">{{ .Render "earn_tokens" }}</div>
+                {{ else if eq .Title "video" }}
+                <div id="modal-grid-movie" class="modal modal-lightbox fade">{{ .Render "video" }}</div>
+                {{end}} {{end}}
+            </div>
         </div>
     </div>
     {{ partial "footer.html" . }} {{ partial "scripts.html" . }}

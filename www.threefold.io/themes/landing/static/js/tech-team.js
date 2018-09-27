@@ -64,19 +64,21 @@ $(function () {
                         a.append(img);
                         parent.append(a);
                         var div = $("<div>").addClass("rj-team-member-info-text").css('display', 'none');
+                        var row = $("<div>").addClass("row");
                         var imgCol = $("<div>").addClass('col-sm-3');
                         var dataCol = $("<div>").addClass('col-sm-9');
                         var close = $('<div>').addClass('close-bio').text('x');
-                        div.append(imgCol);
+                        div.append(row);
+                        row.append(imgCol);
                         if (random_details.avatar == "") {
                             imgCol.append($("<img/>").width('93px').height('93px').prop('src', '/img/Jobs-CTA-inline.png'));
                         } else {
                             imgCol.append($("<img/>").prop("src", "/avatars/" + encodeURIComponent(random_details.avatar)));
                         }
-                        div.append(dataCol);
+                        row.append(dataCol);
                         dataCol.append($("<div>").addClass('member-name').text(random_details.name));
                         dataCol.append($("<div>").addClass('bio-excerpt').text(random_details.description));
-                        div.append(close);
+                        row.append(close);
                         parent.append(div);
                         rjteam.append(parent);
                     }

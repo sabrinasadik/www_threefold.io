@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+{{ partial "head.html" . }}
+
+<body class="single single-page single-page-sample-page frontpage">
+
+  <!-- GTM scripts -->
+  <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-58B4KK2" height="0" width="0" style="display:none;visibility:hidden"></iframe>
+
+
+
+  <div id="all">
+
+    <div class="layout-header layout-header-fixed">
+
+      {{ partial "nav.html" . }}
+
+    </div>
+
+    {{ range .Data.Pages }}
+    <div class="layout-content" style="padding-bottom: 50px;">
+      <div class="layout-container">
+        {{ if eq .Title "community" }}
+        <div class="team">{{ .Render "community" }}</div>
+        {{end}}
+      </div>
+    </div>
+    {{end}}
+
+  </div>
+  {{ partial "footer.html" . }} {{ partial "scripts.html" . }}
+</body>
+
+</html>
