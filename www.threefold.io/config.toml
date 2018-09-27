@@ -29,39 +29,35 @@ paginate = 6
     weight = 2
 
 [[menu.main]]
-<<<<<<< HEAD
-    name = "Tokens"
-    url  = "/tokens"
-=======
     name = "Technology"
     url  = "/tech"
->>>>>>> master
     weight = 3
 
+
 [[menu.main]]
-    name = "Community"
-    url  = "/community"
+    name = "Tokens"
+    url  = "/tokens"
     weight = 4
 
 [[menu.main]]
-<<<<<<< HEAD
-    name = "Whitepaper"
-    url  = "https://docs.google.com/document/d/16C3EKKBaK4_DyWFUcvdLnvDyN57h77e0Q1mWMpZL5vc/edit"
-=======
     name = "Team"
     url  = "/team"
->>>>>>> master
     weight = 5
 
 [[menu.main]]
-    name = "Info"
-    url  = "https://threefoldfoundation.github.io/info_foundation/#/blog/README"
+    name = "Partners"
+    url  = "/partners"
     weight = 6
+
+[[menu.main]]
+    name = "Blog"
+    url  = "https://threefoldfoundation.github.io/info_foundation/#/blog/README"
+    weight = 7
 
 [[menu.main]]
     name = "Join & Follow"
     url  = "/join/"
-    weight = 7
+    weight = 8
 
 # Social icons
 
@@ -128,7 +124,7 @@ paginate = 6
     # Google Maps API key (if not set will default to not passing a key.)
     googleMapsApiKey = ""
 
-    # Style options: default (light-blue), blue, green, marsala, pink, red, turquoise, violet
+    # Style options: default (light-blue), blue, green, marsala, pink, red, turquoise, violet
     style = "default"
 
     # Since this template is static, the contact form uses www.formspree.io as a
@@ -143,7 +139,7 @@ paginate = 6
     # - click the confirm link in the email from www.formspree.io
     # - you're done. Happy mailing!
     #
-    # Enable the contact form by entering your Formspree.io email
+    # Enable the contact form by entering your Formspree.io email
     email = "info@threefoldtoken.com"
 
     copyright = "Copyright © 2017, ThreeFold Foundation all rights reserved."
