@@ -13,7 +13,7 @@ A simple and efficient operating system to build this democratized grid of capac
 
 #### Zero-Robot
 
-They manage the grid of Zero-OSs to deliver an always on self healing responsible internet.
+They manage the Zero-OS Grid to deliver a self healing responsible internet.
 
 #### Zero-Chain
 
