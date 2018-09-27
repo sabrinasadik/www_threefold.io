@@ -3,13 +3,12 @@ title ="vision"
 header = "Democratized Internet, what does that mean?"
 weight = 1
 +++
-Data will be the gold of the new digital economy.
 
 
 
 #### Freedom
 
-To achieve our dream of a more empowered global community, resource-saving technology and a more inclusive economy, our vision is to:
+The current internet is controlled by large corporations that see internet users as a product, sheeple. The new internet should be responsible and democratized, protecting individual privacy, neutrality, and security.
 
 #### Equality
 
