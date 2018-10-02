@@ -4,16 +4,14 @@
     <div class="layout-intro">
         <div class="layout-container">
             <div class="row align-items-lg-end">
-
                 <div class="col-12 col-sm-10 col-md-8 col-lg-6">
                     <h1 class="mt-0">{{doc.part_get(cat="header", nr=0).title}}</h1>
-
                     <div class="lead intro-lead">{{doc.part_get(cat="block", nr=0).html | safe}}</div>
                     <div class="mt-3h">
-                        <a data-toggle="modal" href='/#modal-intro-movie' class="btn btn-block btn-sm-inline btn-white">
+                        <a data-toggle="modal" href="/#modal-intro-movie" class="btn btn-block btn-sm-inline btn-white">
                             <div class="d-flex justify-content-center">
                                 <img src="/threefoldtoken/static/svg/ic-btn-playvideo.svg" class="mr-1" alt="">
-                                <span>{{doc.link_get(nr=16).link_descr}}</span>
+                                <span>Watch Video</span>
                             </div>
                         </a>
                     </div>
@@ -24,271 +22,261 @@
         <div class="intro-scrollhint-container">
             <div class="layout-container">
                 <div class="intro-scrollhint text-white">
-                    <strong>Scroll to learn more</strong>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="layout-keynotes">
-        <div class="layout-container">
-            <h1 class="mb-2h mt-4"></h1>
-            <div class="layout-inner-content mb-4">
-                <h4 class="alt normal mb-2"></h4>
-            </div>
-            <div class="layout-inner-content">
-                <div class="page-description mb-8">
-                    {{doc.part_get(cat="block", nr=1).html | safe}}
-                    {{doc.part_get(cat="block", nr=2).html | safe}}
-                    {{doc.part_get(cat="block", nr=3).html | safe}}
-                    {{doc.part_get(cat="block", nr=4).html | safe}}
-
-                    <ul>
-                        <li>building a new neutral, green internet.</li>
-                        <li>promoting a decentralized, circular economy.</li>
-                        <li>supporting a connected and empowered global citizenry.</li>
-                    </ul>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-12 col-md-6 col-lg-4 mb-4">
-                    <a href="/{{name}}/{{doc.link_get(nr=0).filename | safe}}" class="block-white block-outline block-icon block-more">
-                        <h4 class="mt-0 mb-0h">{{doc.part_get(cat="header", nr=1).title}}</h4>
-
-                        <div class="no-link">
-                            {{doc.part_get(cat="block", nr=6).html | safe}}
-                            {{doc.part_get(cat="block", nr=7).html | safe}}
-                        </div>
-
-                        <span class="more-link">Learn More</span>
-                    </a>
-                </div>
-                <div class="col-12 col-md-6 col-lg-4 mb-4">
-                    <a href="/{{name}}/{{doc.link_get(nr=1).filename | safe}}" class="block-white block-outline block-icon block-more">
-                        <h4 class="mt-0 mb-0h">{{doc.part_get(cat="header", nr=2).title}}</h4>
-
-                        <div class="no-link">
-                            {{doc.part_get(cat="block", nr=9).html | safe}}
-                            {{doc.part_get(cat="block", nr=10).html | safe}}
-                        </div>
-
-                        <span class="more-link">Learn More</span>
-                    </a>
-                </div>
-                <div class="col-12 col-md-6 col-lg-4 mb-4">
-                    <a href="/{{name}}/{{doc.link_get(nr=2).filename | safe}}" class="block-white block-outline block-icon block-more">
-                        <h4 class="mt-0 mb-0h">{{doc.part_get(cat="header", nr=3).title}}</h4>
-
-                        <div class="no-link">
-                            {{doc.part_get(cat="block", nr=12).html | safe}}
-                            {{doc.part_get(cat="block", nr=13).html | safe}}
-                            {{doc.part_get(cat="block", nr=14).html | safe}}
-                            {{doc.part_get(cat="block", nr=15).html | safe}}
-                        </div>
-
-                        <span class="more-link">Learn More</span>
-                    </a>
+                    <strong>{{doc.part_get(cat="block", nr=1).html | safe}}</strong>
                 </div>
             </div>
         </div>
     </div>
 </div>
-<!-- vision block -->
 <div class="layout-content">
     <div class="layout-container">
         <div class="layout-inner-content">
-            <h1 class="text-blue mb-3">{{doc.part_get(cat="header", nr=4).title}}</h1>
+            <h1 class="text-blue h1 mb-3">{{doc.part_get(cat="header", nr=1).title}}</h1>
             <div class="page-description mb-3">
-                    {{doc.part_get(cat="block", nr=16).html | safe}}
-                    {{doc.part_get(cat="block", nr=17).html | safe}}
-                    {{doc.part_get(cat="block", nr=18).html | safe}}
-                    {{doc.part_get(cat="block", nr=19).html | safe}}
-
-                <ul>
-                    <li>Decentralize storage and compute capacity, to allow for a maximally distributed, affordable, energy-efficient
-                        grid to enable a neutral internet- by all for all.</li>
-                    <li>Create a next generation currency, which unlike digital currencies to date, is 100% asset backed
-                        by the fastest growing commodity today- the internet, and run on a new improved Blockchain.
-                    </li>
-                    <li>Catalyze a community of IT developers, supporters, and responsible global citizens to share in the
-                        vision, and to support the development of further value-adding peer-to-peer technologies.
-                    </li>
-                </ul>
-                {{doc.part_get(cat="block", nr=20).html | safe}}
-                {{doc.part_get(cat="block", nr=21).html | safe}}
+                <h4>{{doc.part_get(cat="header", nr=2).title}}</h4>
+                {{doc.part_get(cat="block", nr=2).html | safe}}
+                <h4>{{doc.part_get(cat="header", nr=3).title}}</h4>
+                {{doc.part_get(cat="block", nr=3).html | safe}}
+                <h4>{{doc.part_get(cat="header", nr=4).title}}</h4>
+                {{doc.part_get(cat="block", nr=4).html | safe}}
             </div>
         </div>
-        <!-- why section -->
+    </div>
+    <!-- Components Section -->
+    <div class="layout-container">
         <div class="layout-inner-content">
-            <h1 class="text-blue mb-3">{{doc.part_get(cat="header", nr=5).title}}</h1>
+            <h1 class="text-blue h1 mb-3">{{doc.part_get(cat="header", nr=5).title}}</h1>
             <div class="page-description mb-3">
-                {{doc.part_get(cat="block", nr=22).html | safe}}
-                {{doc.part_get(cat="block", nr=23).html | safe}}
+                <h4>{{doc.part_get(cat="header", nr=6).title}}</h4>
+                {{doc.part_get(cat="block", nr=5).html | safe}}
+                <h4>{{doc.part_get(cat="header", nr=7).title}}</h4>
+                {{doc.part_get(cat="block", nr=6).html | safe}}
+                <h4>{{doc.part_get(cat="header", nr=8).title}}</h4>
+                {{doc.part_get(cat="block", nr=7).html | safe}}
+                <h4>{{doc.part_get(cat="header", nr=9).title}}</h4>
+                {{doc.part_get(cat="block", nr=8).html | safe}}
             </div>
         </div>
-
-        <!-- The need for capacity is constantly growing. -->
-        <div class="layout-inner-content mb-3h mt-7">
-            <h2 class="h1 lower">{{doc.part_get(cat="header", nr=6).title}}</h2>
-        </div>
-        <img width="780" height="373" src="{{doc.link_get(nr=3).link_source | safe}}" alt="" class="mb-1" sizes="(max-width: 780px) 100vw, 780px">
-        <div class="layout-tiny-inner-content mb-5 mb-lg-8"></div>
-
-        <!-- Today most storage and compute capacity is generated by hyperscale data centers. -->
-        <div class="layout-inner-content mb-3h mt-7">
-            <h2 class="h1 lower">{{doc.part_get(cat="header", nr=7).title}}</h2>
-        </div>
-
-        <img width="780" height="373" src="{{doc.link_get(nr=4).link_source | safe}}" alt="" class="mb-1" sizes="(max-width: 780px) 100vw, 780px">
-        <div class="layout-tiny-inner-content mb-5 mb-lg-8">
-            {{doc.part_get(cat="block", nr=26).html | safe}}
-        </div>
-        <!-- The internet today is highly centralized. -->
-        <div class="layout-inner-content mb-3h mt-7">   
-            <h2 class="h1 lower">{{doc.part_get(cat="header", nr=8).title}}</h2>
-        </div>
-
-        <img width="780" height="373" src="{{doc.link_get(nr=5).link_source | safe}}" alt="" class="mb-1" sizes="(max-width: 780px) 100vw, 780px">
-        <div class="layout-tiny-inner-content mb-5 mb-lg-8"></div>
-
-        <h1 class="mb-2h mt-4"></h1>
-        <div class="layout-inner-content mb-4">
-            <h4 class="alt normal mb-2"></h4>
-        </div>
+        <!-- Technologies Section -->
         <div class="layout-inner-content">
-            <div class="page-description mb-8">
-                <h2 class="font-weight-bold">{{doc.part_get(cat="header", nr=9).title}}</h2>
-
-                <h4>{{doc.part_get(cat="header", nr=10).title}}</h4>
-                {{doc.part_get(cat="block", nr=28).html | safe}}
-                {{doc.part_get(cat="block", nr=29).html | safe}}
-            </div>
-        </div>
-        <!-- Some of the major technical problems with the internet are: -->
-        <div class="block-red px-5 py-3 mb-5 mb-lg-8">
-            <div class="text-center mt-1">
-               {{doc.part_get(cat="block", nr=30).html | safe}}       
-            </div>
-
-            <div class="row mb-n3 mb-lg-n1">
-
-                <div class="col-12 col-md-6 col-lg-3 mb-3 mb-lg-1 d-flex align-items-center">
-                    <img width="70" height="70" src="{{doc.link_get(nr=6).link_source | safe}}" alt="Latency">
-                    <h6 class="text-inherit ml-2 my-2">{{doc.part_get(cat="header", nr=11).title}}</h6>
-                </div>
-
-
-                <div class="col-12 col-md-6 col-lg-3 mb-3 mb-lg-1 d-flex align-items-center">
-                    <img width="70" height="70" src="{{doc.link_get(nr=7).link_source | safe}}" alt="Bandwith">
-                    <h6 class="text-inherit ml-2 my-2">{{doc.part_get(cat="header", nr=12).title}}</h6>
-                </div>
-
-
-                <div class="col-12 col-md-6 col-lg-3 mb-3 mb-lg-1 d-flex align-items-center">
-                    <img width="70" height="70" src="{{doc.link_get(nr=8).link_source | safe}}" alt="Autonomy">
-                    <h6 class="text-inherit ml-2 my-2">{{doc.part_get(cat="header", nr=13).title}}</h6>
-                </div>
-
-
-                <div class="col-12 col-md-6 col-lg-3 mb-3 mb-lg-1 d-flex align-items-center">
-                    <img width="70" height="70" src="{{doc.link_get(nr=9).link_source | safe}}" alt="Privacy and Security">
-                    <h6 class="text-inherit ml-2 my-2">{{doc.part_get(cat="header", nr=14).title}}</h6>
-                </div>
-
-            </div>
-        </div>
-
-        <div class="layout-inner-content">
-            <h1 class="text-blue mb-3"></h1>
-            <div class="page-description mb-3">
-                {{doc.part_get(cat="block", nr=35).html | safe}}       
-            </div>
-        </div>
-        <!-- how? -->
-        <div class="layout-inner-content">
-            <h1 class="text-blue mb-3">{{doc.part_get(cat="header", nr=15).title}}</h1>
-            <div class="page-description mb-3">
-                    {{doc.part_get(cat="block", nr=36).html | safe}}       
-                <ul>
-                    <li>These nodes are self healing, without needing maintenance by IT specialists, and the grid they create
-                        consumes 10x less energy than traditional data centers.</li>
-                    <li>The Threefold green grid is scalable, sustainable, affordable, and allows people even in areas of
-                        the least connectivity to participate in the network.</li>
-                    <li>The grid promotes prosperity for farmers via the Threefold Token (TFT), a next generation currency
-                        100% backed by the asset of the grid’s data and compute capacity.</li>
-                </ul>
-            </div>
-        </div>
-        <!-- ThreeFold’s disruptive technology -->
-        <div class="layout-inner-content">
-            <h2 class="h1 lower mb-3">{{doc.part_get(cat="header", nr=16).title}}</h2>
+            <h2 class="text-blue h2 mb-3">{{doc.part_get(cat="header", nr=10).title}}</h2>
         </div>
 
         <div class="row mb-3 mb-lg-5h">
             <div class="col-12 col-lg-5">
-                <img width="300" height="300" src="{{doc.link_get(nr=10).link_source | safe}}" alt="ThreeFold’s disruptive technology"
-                    class="d-block mx-auto mx-lg-0 mb-4" sizes="(max-width: 300px) 100vw, 300px"> </div>
+                <img width="300" height="300" src="{{doc.link_get(nr=0).link_source | safe}}" alt="" class="d-block mx-auto mx-lg-0 mb-4" sizes="(max-width: 300px) 100vw, 300px"> 
+            </div>
             <div class="col-12 col-lg-7 order-lg-first">
                 <div class="layout-tiny-inner-content">
-                    <h4>{{doc.part_get(cat="header", nr=17).title}}</h4>
-                    {{doc.part_get(cat="block", nr=38).html | safe}}       
-                    <h4>{{doc.part_get(cat="header", nr=18).title}}</h4>
-                    {{doc.part_get(cat="block", nr=39).html | safe}}       
+                    <h4>{{doc.part_get(cat="header", nr=11).title}}</h4>
+                    {{doc.part_get(cat="block", nr=10).html | safe}}
+                    <h4>{{doc.part_get(cat="header", nr=12).title}}</h4>
+                    {{doc.part_get(cat="block", nr=11).html | safe}}
+                    <h4>{{doc.part_get(cat="header", nr=13).title}}</h4>
+                    {{doc.part_get(cat="block", nr=12).html | safe}}
                 </div>
             </div>
         </div>
 
-        <h2 class="text-blue mt-6 mb-2h">{{doc.part_get(cat="header", nr=19).title}}</h2>
-
-        <div class="mb-6">
-            <img width="980" height="0" src="{{doc.link_get(nr=11).link_source | safe}}" alt="">
-        </div>
-        <!-- values -->
-        <div class="layout-inner-content">
-            <h1 class="text-blue mb-3">{{doc.part_get(cat="header", nr=20).title}}</h1>
-            <div class="page-description mb-3">
-                <ul>
-                    <li>We believe in a sustainable, environmentally friendly, neutral and accessible edge-internet, and
-                        a more inclusive, equitable economy.</li>
-                    <li>We believe that people are people not products, catalysts not consumers- and that together we can
-                        make the world a better place.</li>
-                    <li>We aim to have a Threefold benefit in all we do: for individuals, communities and the environment.</li>
-                </ul>
+        <!-- Roadmap Section -->
+        <h2 class="text-blue h2 mt-6 mb-2h">{{doc.part_get(cat="header", nr=14).title}}</h2>
+        <section class="home-page--roadmap jarallax">
+            <div class="container">
+                <div class="row flex-column">
+                    <!-- <div class="col-12">
+                    <div class="noia-section-indicator">
+                       <svg>
+                         <use xlink:href="https://noia.network/wp-content/themes/noia-rebrand/dist/images/spritemap.svg#sprite-icon-section-indicator"></use>
+                       </svg>
+                       </div>
+                 </div> -->
+                    <!-- <div class="col-12">
+                    <h2 class="section-title">Roadmap</h2>
+                    </div> -->
+                </div>
+                <div class="roadmap-container desktop d-none d-lg-block">
+                    <div class="details-row row">
+                        <div class="details current col">
+                            <div class="date"> 
+                                {{doc.part_get(cat="block", nr=13).html | safe}}
+                            </div>
+                            <div class="title">
+                                {{doc.part_get(cat="block", nr=14).html | safe}}
+                            </div>
+                        </div>
+                        <div class="details past col">
+                            <div class="date">
+                                {{doc.part_get(cat="block", nr=15).html | safe}}
+                            </div>
+                            <div class="title">
+                                {{doc.part_get(cat="block", nr=16).html | safe}}
+                            </div>
+                        </div>
+                        <div class="details future col">
+                            <div class="date">
+                                {{doc.part_get(cat="block", nr=17).html | safe}}
+                            </div>
+                            <div class="title">
+                                {{doc.part_get(cat="block", nr=18).html | safe}}
+                            </div>
+                        </div>
+                        <div class="details future col">
+                            <div class="date">
+                                {{doc.part_get(cat="block", nr=19).html | safe}}
+                            </div>
+                            <div class="title">
+                                {{doc.part_get(cat="block", nr=20).html | safe}}
+                            </div>
+                        </div>
+                        <div class="details future col">
+                            <div class="date">
+                                {{doc.part_get(cat="block", nr=21).html | safe}}
+                            </div>
+                            <div class="title">
+                                {{doc.part_get(cat="block", nr=22).html | safe}}
+                            </div>
+                        </div>
+                    </div>
+                    <div class="timeline-lines row">
+                        <div class="timeline-line past col">
+                            <div></div>
+                        </div>
+                        <div class="timeline-line current col">
+                            <div></div>
+                        </div>
+                        <div class="timeline-line future col">
+                            <div></div>
+                        </div>
+                        <div class="timeline-line future col">
+                            <div></div>
+                        </div>
+                        <div class="timeline-line future col">
+                            <div></div>
+                        </div>
+                    </div>
+                    <div class="timeline-dots row">
+                        <div class="timeline-dot past col">
+                            <span></span>
+                        </div>
+                        <div class="timeline-dot current col">
+                            <span></span>
+                        </div>
+                        <div class="timeline-dot future col">
+                            <span></span>
+                        </div>
+                        <div class="timeline-dot future col">
+                            <span></span>
+                        </div>
+                        <div class="timeline-dot future col">
+                            <span></span>
+                        </div>
+                    </div>
+                    <div class="content-row row">
+                        <div class="content-container past col d-flex flex-column">
+                            <div class="content-block">
+                                <!-- Q1 text here -->
+                            </div>
+                        </div>
+                        <div class="content-container current col d-flex flex-column">
+                            <div class="content-block">
+                                <!-- Q2 text here -->
+                            </div>
+                        </div>
+                        <div class="content-container future col d-flex flex-column">
+                            <div class="content-block">
+                                <!-- Q3 text here -->
+                            </div>
+                        </div>
+                        <div class="content-container future col d-flex flex-column">
+                            <div class="content-block">
+                                <!-- Q4 text here -->
+                            </div>
+                        </div>
+                        <div class="content-container future col d-flex flex-column">
+                            <div class="content-block">
+                                <!-- Q5 text here -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="roadmap-container mobile d-block d-lg-none">
+                    <div class="roadmap-block past d-flex flex-column">
+                        <div class="timeline-dot"></div>
+                        <div class="date">
+                            {{doc.part_get(cat="block", nr=13).html | safe}}
+                        </div>
+                        <div class="title">
+                            {{doc.part_get(cat="block", nr=14).html | safe}}
+                        </div>
+                        <div class="content-container row">
+                            <div class="content-block col-12 col-md-3">
+                                <!-- Q1 text here  -->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="roadmap-block current d-flex flex-column">
+                        <div class="timeline-dot"></div>
+                        <div class="date">
+                            {{doc.part_get(cat="block", nr=15).html | safe}}
+                        </div>
+                        <div class="title">
+                            {{doc.part_get(cat="block", nr=16).html | safe}}
+                        </div>
+                        <div class="content-container row">
+                            <div class="content-block col-12 col-md-3">
+                                <!-- Q2 text here -->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="roadmap-block future d-flex flex-column">
+                        <div class="timeline-dot"></div>
+                        <div class="date">
+                            {{doc.part_get(cat="block", nr=17).html | safe}}
+                        </div>
+                        <div class="title">
+                            {{doc.part_get(cat="block", nr=18).html | safe}}
+                        </div>
+                        <div class="content-container row">
+                            <div class="content-block col-12 col-md-3">
+                                <!-- Q3 text here  -->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="roadmap-block future d-flex flex-column">
+                        <div class="timeline-dot"></div>
+                        <div class="date">
+                            {{doc.part_get(cat="block", nr=19).html | safe}}
+                        </div>
+                        <div class="title">
+                            {{doc.part_get(cat="block", nr=20).html | safe}}
+                        </div>
+                        <div class="content-container row">
+                            <div class="content-block col-12 col-md-3">
+                                <!-- Q4 text here -->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="roadmap-block future d-flex flex-column">
+                        <div class="timeline-dot"></div>
+                        <div class="date">
+                            {{doc.part_get(cat="block", nr=21).html | safe}}
+                        </div>
+                        <div class="title">
+                            {{doc.part_get(cat="block", nr=22).html | safe}}
+                        </div>
+                        <div class="content-container row">
+                            <div class="content-block col-12 col-md-3">
+                                <!-- Q5 text here -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-        </div>
-        <!-- Roadmap -->
-        <h2 class="text-blue mt-6 mb-2h">{{doc.part_get(cat="header", nr=21).title}}</h2>
+            <div id="jarallax-container-1" style="position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; overflow: hidden; pointer-events: none; z-index: -100;">
+            </div>
+        </section>
 
-        <div class="mb-6">
-            <img width="980" height="0" src="{{doc.link_get(nr=12).link_source | safe}}" alt="Roadmap">
-        </div>
-        <!-- Find out more about the Grid and farming -->
         <div class="row">
-            <div class="col-12 col-md-6 col-lg-4 mb-4">
-                <a href="/{{name}}/{{doc.link_get(nr=13).filename | safe}}" class="block-white block-outline block-icon block-more">
-
-                    <h4 class="mt-0 mb-0h">{{doc.part_get(cat="header", nr=22).title}}</h4>
-
-                    <span class="more-link">Learn More</span>
-                </a>
-            </div>
-            <!-- Find out more about TFT, how to buy tokens. -->
-            <div class="col-12 col-md-6 col-lg-4 mb-4">
-                <a href="/{{name}}/{{doc.link_get(nr=14).filename | safe}}" class="block-white block-outline block-icon block-more">
-
-                    <h4 class="mt-0 mb-0h">{{doc.part_get(cat="header", nr=23).title}}</h4>
-
-                    <span class="more-link">Learn More</span>
-                </a>
-            </div>
-            <!-- Contact us with any questions you may have. -->
-            <div class="col-12 col-md-6 col-lg-4 mb-4">
-                <a href="/{{name}}/{{doc.link_get(nr=15).filename | safe}}" class="block-white block-outline block-icon block-more">
-
-                    <h4 class="mt-0 mb-0h">{{doc.part_get(cat="header", nr=24).title}}</h4>
-
-                    <span class="more-link">Learn More</span>
-                </a>
-            </div>
             <div id="modal-intro-movie" class="modal modal-lightbox fade">
                 <div class="modal-dialog">
                     <div class="modal-content">
@@ -300,7 +288,7 @@
 
                         <div class="modal-body">
                             <div class="video-wrapper">
-                                <iframe width="940" height="529" src="{{doc.link_get(nr=16).link_source | safe}}" frameborder="0" allow="autoplay; encrypted-media"
+                                <iframe width="940" height="529" src="{{doc.link_get(nr=1).link_source | safe}}" frameborder="0" allow="autoplay; encrypted-media"
                                     allowfullscreen=""></iframe>
                             </div>
                         </div>

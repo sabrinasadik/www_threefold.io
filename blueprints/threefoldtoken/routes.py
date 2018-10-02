@@ -1,6 +1,6 @@
 import os
 from PIL import Image
-from jumpscale import j
+from Jumpscale import j
 from flask import render_template, redirect
 from . import blueprint, name
 
@@ -64,7 +64,7 @@ def process_team():
             continue
         print("Processing: %s" % person_path)
         try:
-            person = j.data.serializer.toml.load(files['toml'])
+            person = j.data.serializers.toml.load(files['toml'])
         except Exception as e:
             print("Error: {}".format(files['toml']))
             continue
@@ -108,7 +108,7 @@ def process_team():
         })
 
     # write dict to the javascript file
-    data = j.data.serializer.json.dumps(sections)
+    data = j.data.serializers.json.dumps(sections)
     j.sal.fs.writeFile(js_target, "var team = {};".format(data))
 
 

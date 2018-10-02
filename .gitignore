@@ -1,4 +1,4 @@
-www.threefold.io/en/
-threefold.io/themes/landing/static/avatars/
-threefold.io/themes/landing/static/js/data.js
-threefold.io/themes/landing/static/js/community_data.js
+blueprints/threefoldtoken/static/avatars/
+blueprints/threefoldtoken/static/js/data.js
+blueprints/threefoldtoken/static/js/community_data.js
+blueprints/threefoldtoken/__pycache__/

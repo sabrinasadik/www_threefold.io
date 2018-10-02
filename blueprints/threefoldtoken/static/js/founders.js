@@ -35,33 +35,64 @@ $(function () {
                 var parent = $("<div>").addClass("rj-team-member");
                 var a = $("<div>").addClass('member-photo');
                 var img = $("<img/>").addClass('rj-team-member-photo-rollover');
-                img.prop('src', '/threefoldtoken/static/avatars/' + encodeURIComponent(details[i].avatar));
+                img.prop('src', '/avatars/' + encodeURIComponent(details[i].avatar));
                 if (details[i].avatar == "") {
                     var img = $("<img/>").width('93px').height('94px').prop('src', '/img/Jobs-CTA-inline.png');
                 }
                 a.append(img);
                 parent.append(a)
+
+                // video vars
+                var videoContainer = $('<div>').addClass('d-flex justify-content-center');
+                var vImg = $('<img>').attr({
+                    src: '/svg/ic-btn-playvideo.svg',
+                    class: 'mr-1'
+                }).css({
+                    height: 20,
+                    width: 11
+                });
+                var span = $('<span>').text('Play Video');
+
                 var div = $("<div>").addClass("rj-team-member-info-text").css('display', 'none');
+                var row = $("<div>").addClass("row");
                 var imgCol = $("<div>").addClass('col-sm-4');
                 var dataCol = $("<div>").addClass('col-sm-8');
                 var close = $('<div>').addClass('close-bio').text('x');
+                var clearFix = $('<div>').addClass('clear-fix');
+                var foundVideo = document.getElementById('videoIframe');
 
                 if (details[i].core && details[i].rank > 0) {
-                    div.append(imgCol);
+                    var anchor = $('<a>').attr({
+                        "data-toggle": 'modal',
+                        href: '/#modal-founders-movie',
+                        class: 'btn btn-block btn-sm-inline btn-white video'
+                    });
+                    div.append(row);
+                    row.append(imgCol);
                     if (details[i].avatar == "") {
                         imgCol.append($("<img/>").width('93px').height('94px').prop('src', '/img/Jobs-CTA-inline.png'));
                     } else {
-                        imgCol.append($("<img/>").prop("src", "/threefoldtoken/static/avatars/" + encodeURIComponent(details[i].avatar)));
+                        imgCol.append($("<img/>").prop("src", "/avatars/" + encodeURIComponent(details[i].avatar)));
                     }
-                    div.append(dataCol);
+                    row.append();
+                    row.append(dataCol);
                     dataCol.append($("<div>").addClass('member-name').text(details[i].name));
                     dataCol.append($("<div>").addClass('bio-excerpt').text(details[i].description));
-                    div.append(close);
+                    if (details[i].video !== null) {
+                        imgCol.append(anchor);
+                        anchor.append(videoContainer);
+                        videoContainer.append(vImg);
+                        videoContainer.append(span);
+                        foundVideo.src = details[i].video;
+                        imgCol.append($("<div>").addClass('bio-excerpt'));
+                    }
+                    row.append(close);
                     parent.append(div);
                     rjteam.append(parent);
                 }
             }
         }
+
         for (var i = 0; i < 8; i++) {
             if (details.length == 0) {
                 var parent = $("<div>").addClass("rj-team-member");
