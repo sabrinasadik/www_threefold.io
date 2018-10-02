@@ -1,0 +1,96 @@
+{% extends "threefoldtoken/base.html" %}
+{%block css%} 
+<link rel='stylesheet' href='/threefoldtoken/static/css/bootstrap.min.css'>
+{%endblock%}
+
+{% block content %}
+<div class="container box">
+    <div class="team">
+        <!-- threefold sec -->
+        <div class="threefold-team">
+            <div class="col-sm-4">
+                <h2>{{doc.part_get(cat="header", nr=0).title}}</h2>
+                {{doc.part_get(cat="block", nr=0).html | safe}}
+            </div>
+
+            <div class="col-sm-8">
+                <div id="threefold" class="team-member"></div>
+            </div>
+        </div>
+
+        <div class="clear-fix"></div>
+
+        <!-- tech sec -->
+        <div class="tech">
+            <div class="col-sm-4">
+                <h2>{{doc.part_get(cat="header", nr=1).title}}</h2>
+                {{doc.part_get(cat="block", nr=1).html | safe}}
+            </div>
+            <div class="col-sm-8">
+                <div id="tech" class="team-member"></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="clear-fix"></div>
+
+    <div class="community">
+
+        <!-- ambassdors sec -->
+        <div class="ambassdors">
+            <div class="col-sm-4">
+                <h2>{{doc.part_get(cat="header", nr=2).title}}</h2>
+                {{doc.part_get(cat="block", nr=2).html | safe}} {{doc.part_get(cat="block", nr=3).html | safe}}
+            </div>
+            <div class="col-sm-8">
+                <div id="ambassadors"></div>
+            </div>
+        </div>
+
+        <div class="clear-fix"></div>
+
+        <!-- hosters sec -->
+        <div class="hosters">
+            <div class="col-sm-4">
+                <h2>{{doc.part_get(cat="header", nr=3).title}}</h2>
+                {{doc.part_get(cat="block", nr=3).html | safe}} 
+                
+                {{doc.part_get(cat="block", nr=4).html | safe}}
+            </div>
+            <div class="col-sm-8">
+                <div id="hosters"></div>
+            </div>
+        </div>
+
+        <div class="col-sm-4" style="padding-bottom: 50px">
+            <h2 style="font-family: 'Barlow Condensed', sans-serif;">{{doc.part_get(cat="header", nr=4).title}}</h2>
+            <a data-toggle="modal" href="/#modal-intro-movie" class="btn btn-block btn-md-inline">
+                <div class="d-flex justify-content-center">
+                    <img src="/svg/ic-btn-playvideo.svg" class="mr-1" alt="">
+                    <span>{{doc.link_get(nr=0).link_descr}}</span>
+                </div>
+            </a>
+        </div>
+    </div>
+</div>
+
+<div id="modal-intro-movie" class="modal modal-lightbox fade">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">×</span>
+                </button>
+            </div>
+
+            <div class="modal-body">
+                <div class="video-wrapper">
+                    <iframe width="940" height="529" src="{{doc.link_get(nr=0).link_source | safe}}" frameborder="0" allow="autoplay; encrypted-media"
+                        allowfullscreen=""></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+{% endblock %}
