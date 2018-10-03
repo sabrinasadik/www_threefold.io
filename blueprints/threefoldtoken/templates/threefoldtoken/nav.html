@@ -20,8 +20,7 @@
                     ('/threefoldtoken/tokens.html', 'tokens', 'Tokens'),
                     ('/threefoldtoken/team.html','team', 'Team'),
                     ('/threefoldtoken/partners.html','partners', 'Partners'),
-                    ('https://docs.google.com/document/d/16C3EKKBaK4_DyWFUcvdLnvDyN57h77e0Q1mWMpZL5vc/edit', 'whitepaper', 'Whitepaper'),
-                    ('https://threefoldfoundation.github.io/info_foundation/#/blog/README', 'info', 'Info'),
+                    ('https://threefoldfoundation.github.io/info_foundation/#/blog/README', 'blog', 'Blog'),
                     ('/threefoldtoken/join.html', 'join', 'Join & Follow')
                 ] -%} 
                     
@@ -30,9 +29,9 @@
                 <ul id="menu-top-menu" class="nav">
                     {% for href, id, caption in navigation_bar %}
                     <li class="nav-item">
-                        <a href="{{ href|e }}" class="nav-link {{ 'active' if id==active_page else '' }}" {% if (id=='whitepaper' or id=='info' )%} target="_blank" {% endif %}>
+                        <a href="{{ href|e }}" class="nav-link {{ 'active' if id==active_page else '' }}" {% if (id=='blog')%} target="_blank" {% endif %}>
                             {{ caption|e }}
-                            {% if (id=='whitepaper' or id=='info' )%}
+                            {% if (id=='blog' )%}
                             <img class="ml-0h" src="/threefoldtoken/static/svg/ic-externallink.svg">
                             {% endif %}
                         </a>

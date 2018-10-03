@@ -1,4 +1,5 @@
-{% extends "threefoldtoken/grid-base.html" %} {% block content %}
+{% extends "threefoldtoken/grid-base.html" %}
+{% block content %}
 
 <!-- intro -->
 <div class="layout-content" style="padding-top: 0px;">
@@ -10,576 +11,282 @@
                         <h1 class="c-white">{{doc.part_get(cat="header", nr=0).title}}</h1>
                         <p class="intro-p inner-padding-inner">{{doc.part_get(cat="block", nr=0).text | safe}}</p>
                     </div>
-                    <div class="column w-col w-col-6 w-col-stack">
-                        <a href="/#modal-intro-movie" data-toggle="modal" class="btn btn-block btn-sm-inline btn-white">{{doc.link_get(nr=11).link_descr}}
-                        </a>
-                    </div>
                 </div>
             </div>
             <div class="scroll-more w-hidden-tiny">
-                <p class="scroll-more-text">{{doc.part_get(cat="block", nr=2).text | safe}}</p>
+                <p class="scroll-more-text">{{doc.part_get(cat="block", nr=1).text | safe}}</p>
                 <div class="scroll-more-line"></div>
             </div>
         </div>
     </div>
-</div>
 
-<!-- about farming -->
-<div class="about-farming-section">
-    <div class="container-wide">
-        <div class="w-row">
-            <div class="w-col w-col-9">
-                <h5 class="empasis-title">{{doc.part_get(cat="header", nr=1).title}}
-                    <!-- <span class="em-supscript"></span>
-                    <span class="em-supscript"></span>  -->
-                </h5>
-            </div>
-            <div class="w-hidden-medium w-hidden-small w-hidden-tiny w-col w-col-3">
-                <img src="{{doc.link_get(nr=0).link_source | safe}}" width="180" class="farmers-grid-icon">
-            </div>
-        </div>
-    </div>
-</div>
-
-<!-- how to -->
-<div class="how-to-section">
-    <div class="container-wide">
-        <div class="w-row">
-            <div class="w-col w-col-10">
-                <h2>
-                    <strong>{{doc.part_get(cat="header", nr=2).title}}</strong>
-                </h2>
-            </div>
-            <div class="w-hidden-medium w-hidden-small w-hidden-tiny w-col w-col-2"></div>
-        </div>
-        <div class="w-row">
-            <div class="w-hidden-medium w-hidden-small w-hidden-tiny w-col w-col-1 w-col-medium-4"></div>
-            <div class="w-col w-col-3 w-col-medium-4">
-                <div class="step-card">
-                    <div class="step-line line-step1"></div>
-                    <div class="iso-block"></div>
-                    <p class="step-text">Step 1</p>
-                    <h3 class="step-title">
-                        <strong>{{doc.part_get(cat="header", nr=3).title}}</strong>
-                        <br>
-                    </h3>
-                </div>
-            </div>
-            <div class="w-hidden-medium w-hidden-small w-hidden-tiny w-col w-col-1 w-col-medium-4"></div>
-            <div class="w-col w-col-3 w-col-medium-4">
-                <div data-w-id="58772223-f98b-4843-5e0b-8c07fde3393d" class="step-card">
-                    <div class="iso-block step-2"></div>
-                    <p class="step-text">Step 2</p>
-                    <h3 class="step-title">
-                        <strong>{{doc.part_get(cat="header", nr=4).title}}</strong>
-                        <br>
-                    </h3>
-                    <div class="step-line"></div>
-                </div>
-            </div>
-            <div class="w-hidden-medium w-hidden-small w-hidden-tiny w-col w-col-1 w-col-medium-4"></div>
-            <div class="w-col w-col-3 w-col-medium-4">
-                <div data-w-id="ba8f95e5-fae6-3433-3ce9-2d0621e115dc" class="step-card">
-                    <div class="iso-block step-3"></div>
-                    <p class="step-text">Step 3</p>
-                    <h3 class="step-title">
-                        <strong>{{doc.part_get(cat="header", nr=5).title}}</strong>
-                        <br>
-                    </h3>
-                    <div class="step-line line-step3"></div>
+    <!-- Two aspects of the threefold -->
+    <div class="layout-container">
+        <div class="my-6 mt-sm-10">
+            <div class="layout-inner-content">
+                <h1 class="text-blue h1 mb-3">{{doc.part_get(cat="header", nr=1).title}}</h1>
+                <div class="page-description">
+                    <h4>{{doc.part_get(cat="header", nr=2).title}}</h4>
+                    {{doc.part_get(cat="block", nr=2).text | safe}}
+                    <br />
+                    <br />
+                    {{doc.part_get(cat="block", nr=3).text | safe}}
+                    <h4>{{doc.part_get(cat="header", nr=3).title}}</h4>
+                    {{doc.part_get(cat="block", nr=4).text | safe}}
+                    <br />
+                    <br />
+                    {{doc.part_get(cat="block", nr=5).text | safe}}
+                    <br />
+                    <br />
+                    {{doc.part_get(cat="block", nr=6).text | safe}}
                 </div>
             </div>
         </div>
-    </div>
-</div>
 
-<!-- Step 1 -->
-<div class="step1-section">
-    <div class="container-wide">
-        <div class="w-row">
-            <div class="w-col w-col-10">
-                <h2 class="h2-no-push">Step 1:
-                    <span class="bold">{{doc.part_get(cat="header", nr=6).title}}</span>
-                </h2>
-            </div>
-            <div class="w-hidden-medium w-hidden-small w-hidden-tiny w-col w-col-2"></div>
-        </div>
-        <div class="w-row">
-            <div class="w-col w-col-8">
-                <p class="intro-p-dark push-bot-20">{{doc.part_get(cat="block", nr=4).text | safe}}</p>
-            </div>
-            <div class="w-hidden-medium w-hidden-small w-hidden-tiny w-col w-col-4"></div>
-        </div>
-        <div class="row-4 w-row">
-            <div class="w-col w-col-4">
-                <p>
-                    <strong class="bold-text">{{doc.part_get(cat="block", nr=5).text | safe}}
-                        <br>
-                    </strong>{{doc.part_get(cat="block", nr=6).text | safe}}
-                </p>
-            </div>
-            <div class="w-col w-col-4">
-                <p>
-                    <strong class="bold-text">{{doc.part_get(cat="block", nr=7).text | safe}}
-                        <br>
-                    </strong>{{doc.part_get(cat="block", nr=8).text | safe}}
-                </p>
-            </div>
-            <div class="w-col w-col-4">
-                <p>
-                    <strong class="bold-text">{{doc.part_get(cat="block", nr=9).text | safe}}
-                        <br>
-                    </strong>{{doc.part_get(cat="block", nr=10).text | safe}}
-                </p>
-            </div>
-        </div>
-        <div class="w-row">
-            <div class="w-hidden-medium w-hidden-small w-hidden-tiny w-col w-col-4 w-col-stack">
-                <h3>{{doc.part_get(cat="header", nr=7).title}}</h3>
-                {{doc.part_get(cat="block", nr=11).html | safe}} {{doc.part_get(cat="block", nr=12).html | safe}}
-            </div>
-            <div class="w-hidden-medium w-hidden-small w-hidden-tiny w-col w-col-1 w-col-stack"></div>
-            <div class="w-col w-col-7 w-col-stack">
-                <div class="fc-list">
-                    <div class="farmer-card">
-                        <h3 class="step-title f-title">{{doc.part_get(cat="header", nr=8).title}}</h3>
-                        <p class="f-contry">{{doc.part_get(cat="block", nr=13).text | safe}}</p>
-                        <a href="{{doc.link_get(nr=1).link_source | safe}}">{{doc.link_get(nr=1).link_descr}}</a>
-                    </div>
-                    <div class="farmer-card">
-                        <h3 class="step-title f-title">{{doc.part_get(cat="header", nr=9).title}}</h3>
-                        <p class="f-contry">{{doc.part_get(cat="block", nr=15).text | safe}}</p>
-                        <a href="{{doc.link_get(nr=2).link_source | safe}}">{{doc.link_get(nr=2).link_descr}}</a>
-                    </div>
-                    <div class="farmer-card">
-                        <h3 class="step-title f-title">{{doc.part_get(cat="header", nr=10).title}}</h3>
-                        <p class="f-contry">{{doc.part_get(cat="block", nr=17).text | safe}}</p>
-                        <a href="{{doc.link_get(nr=3).link_source | safe}}">{{doc.link_get(nr=3).link_descr}}</a>
-                    </div>
-
-                </div>
-                <!-- Are you interested in becoming a cooperative? -->
-                <h3 class="coop-title-push">{{doc.part_get(cat="header", nr=11).title}}</h3>
-                <br>
-                <!-- <a href="mailto:.Params.interested_mail">.Params.interested_txt</a> -->
-                <a href="mailto:{{doc.link_get(nr=4).link_source | safe}}" class="btn btn-block btn-sm-inline btn-green">{{doc.link_get(nr=4).link_descr}}</a>
-            </div>
-        </div>
-    </div>
-</div>
-
-<!-- step 2 -->
-<div class="step1-section">
-    <div class="container-wide">
-        <div class="w-row">
-            <div class="w-col w-col-11">
-                <h2 class="h2-no-push">
-                    <strong>Step 2: </strong>
-                    <span class="title-blue">
-                        <strong>{{doc.part_get(cat="block", nr=20).text | safe}}</strong>
-                    </span>
-                </h2>
-            </div>
-            <div class="w-hidden-medium w-hidden-small w-hidden-tiny w-col w-col-1"></div>
-        </div>
-        <div class="row-4 w-row">
-            <div class="w-col w-col-4">
-                <p>
-                    <strong class="bold-text">{{doc.part_get(cat="block", nr=21).text | safe}}
-                        <br>
-                    </strong>{{doc.part_get(cat="block", nr=22).text | safe}}
-                    <br>
-                </p>
-            </div>
-            <div class="w-col w-col-4">
-                <p>
-                    <strong class="bold-text">{{doc.part_get(cat="block", nr=23).text | safe}}
-                        <br>
-                    </strong>{{doc.part_get(cat="block", nr=23).text | safe}}
-                    <br>
-                </p>
-            </div>
-            <div class="w-col w-col-4">
-                <p>
-                    <strong class="bold-text">{{doc.part_get(cat="block", nr=24).text | safe}}
-                        <br>
-                    </strong>{{doc.part_get(cat="block", nr=25).text | safe}}
-                    <br>
-                </p>
-            </div>
-        </div>
-        <div class="w-row">
-            <div class="w-hidden-medium w-hidden-small w-hidden-tiny w-col w-col-1 w-col-stack"></div>
-            <div class="w-col w-col-10 w-col-stack">
-                <h3>{{doc.part_get(cat="header", nr=12).title}}</h3>
-                <div class="hardware-list">
-                    <div class="hardware-card">
-                        <img src="{{doc.link_get(nr=5).link_source | safe}}" class="hard-img">
-                        <h4 class="no-push">{{doc.part_get(cat="header", nr=13).title}}</h4>
-                        <h4 class="budget-item-title">{{doc.part_get(cat="header", nr=14).title}}</h4>
-                        <p class="est-small">{{doc.part_get(cat="block", nr=28).text | safe}}</p>
-                        <p class="est-price">{{doc.part_get(cat="block", nr=29).text | safe}}</p>
-                        <p class="est-small">{{doc.part_get(cat="block", nr=30).text | safe}}</p>
-                        <p class="est-price">{{doc.part_get(cat="block", nr=31).text | safe}}</p>
-                    </div>
-                    <div class="hardware-card">
-                        <img src="{{doc.link_get(nr=6).link_source | safe}}" class="hard-img">
-                        <h4 class="no-push">{{doc.part_get(cat="header", nr=15).title}}</h4>
-                        <h4 class="budget-item-title">{{doc.part_get(cat="header", nr=16).title}}</h4>
-                        <p class="est-small">{{doc.part_get(cat="block", nr=33).text | safe}}</p>
-                        <p class="est-price">{{doc.part_get(cat="block", nr=34).text | safe}}</p>
-                        <p class="est-small">{{doc.part_get(cat="block", nr=35).text | safe}}</p>
-                        <p class="est-price">{{doc.part_get(cat="block", nr=36).text | safe}}</p>
-                    </div>
+        <!-- What's the internet -->
+        <div class="my-6 mt-sm-10">
+            <div class="layout-inner-content">
+                <h1 class="text-blue h1 mb-3">{{doc.part_get(cat="header", nr=4).title}}</h1>
+                <div class="page-description">
+                    {{doc.part_get(cat="block", nr=7).text | safe}}
                 </div>
             </div>
-            <div class="w-hidden-medium w-hidden-small w-hidden-tiny w-col w-col-1 w-col-stack"></div>
         </div>
-        <div class="w-row">
-            <div class="w-hidden-medium w-hidden-small w-hidden-tiny w-col w-col-1"></div>
-            <div class="w-col w-col-5">
-                <p>
-                    <span class="text-span-2">Note:</span>
-                    {{doc.part_get(cat="block", nr=37).text | safe}}
-                </p>
-            </div>
-            <div class="w-hidden-small w-hidden-tiny w-col w-col-1"></div>
-            <div class="w-hidden-small w-hidden-tiny w-col w-col-4"></div>
-            <div class="w-hidden-small w-hidden-tiny w-col w-col-1"></div>
-        </div>
-    </div>
-</div>
 
-<!-- step 3 -->
-<div class="step1-section">
-    <div class="container-wide">
-        <div class="w-row">
-            <div class="w-col w-col-10 w-col-stack">
-                <h2>
-                    <strong>Step 3: </strong>
-                    <span class="title-blue">
-                        <strong>{{doc.part_get(cat="header", nr=17).title}}</strong>
-                    </span>
-                </h2>
-            </div>
-            <div class="w-hidden-medium w-hidden-small w-hidden-tiny w-col w-col-2 w-col-stack"></div>
-        </div>
-        <div class="w-row">
-            <div class="w-hidden-small w-hidden-tiny w-col w-col-1"></div>
-            <div class="w-col w-col-4">
-                <p>
-                    <strong class="bold-text">{{doc.part_get(cat="block", nr=38).text | safe}}
-                        <br>
-                    </strong>{{doc.part_get(cat="block", nr=39).text | safe}}
-                    <br>
-                </p>
-                <p>
-                    <strong class="bold-text">{{doc.part_get(cat="block", nr=40).text | safe}}
-                        <br>
-                    </strong>{{doc.part_get(cat="block", nr=41).text | safe}}
-                    <br>
-                </p>
-                <p>
-                    <strong class="bold-text">{{doc.part_get(cat="block", nr=42).text | safe}}
-                        <br>
-                    </strong>{{doc.part_get(cat="block", nr=43).text | safe}}</p>
-                <a href="{{doc.link_get(nr=7).link_source | safe}}" class="github-instruction w-inline-block">
-                    <p class="paragraph">{{doc.link_get(nr=7).link_descr}}</p>
-                </a>
-            </div>
-            <div class="w-col w-col-7">
-                <img src="{{doc.link_get(nr=8).link_source | safe}}" class="connect-scheme">
+        <!-- Threefold farmers -->
+        <div class="my-6 mt-sm-10">
+            <div class="layout-inner-content">
+                <h1 class="text-blue h1 mb-3">{{doc.part_get(cat="header", nr=5).title}}</h1>
+                <div class="page-description">
+                    {{doc.part_get(cat="block", nr=8).text | safe}}
+                </div>
             </div>
         </div>
-    </div>
-</div>
 
-<!-- Cost sec -->
-<div class="cost-section">
-    <div class="container-wide">
-        <div class="w-row">
-            <div class="w-col w-col-8 w-col-stack">
-                <h2> {{doc.part_get(cat="header", nr=18).title}}</h2>
-            </div>
-            <div class="w-hidden-medium w-hidden-small w-hidden-tiny w-col w-col-4 w-col-stack"></div>
-        </div>
-        <div class="row-hidden w-hidden-small w-hidden-tiny w-row">
-            <div class="w-hidden-medium w-hidden-small w-hidden-tiny w-col w-col-1 w-col-stack"></div>
-            <div class="w-col w-col-11 w-col-stack">{{doc.part_get(cat="table").html | safe}}</div>
-        </div>
-        <div class="cost-details-sm w-hidden-main w-hidden-medium">
-
-            <p data-toggle="collapse" data-target="#accordion" aria-expanded="false" aria-controls="collapseExample">
-                Tap to see the details </p>
-
-            <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
-                <div class="panel accordion-item">
-                    <div class="panel-heading" role="tab" id="headingOne">
-                        <h4 class="panel-title">
-                            <a role="button" class="comp-table-header" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true"
-                                aria-controls="collapseOne">
-                                Co-op Farmer
-                            </a>
-                        </h4>
+        <!-- Earn Tokens -->
+        <div class="earn-tokens-section">
+            <div class="container-wide">
+                <div class="w-row">
+                    <div class="w-col w-col-8 w-col-stack">
+                        <h2>
+                            <strong>{{doc.part_get(cat="header", nr=6).title}}</strong>
+                        </h2>
                     </div>
-                    <div id="collapseOne" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
-                        <div class="panel-body">
-                            <p class="comp-table-header c-blue">Hardware</p>
-                            <p class="dark-p dark-p-sm">
-                                <strong>Source hardware:</strong>&nbsp;Co-op</p>
-                            <p class="dark-p dark-p-sm">
-                                <strong>Setup:</strong> 30% (of Hardware)</p>
-                            <p class="dark-p dark-p-sm">
-                                <strong>Installation (Physical&nbsp;+&nbsp;Software):</strong>
-                                <span class="tag-yes">Included</span>
-                                <br>
-                            </p>
-                            <p class="dark-p dark-p-sm">
-                                <strong>Datacenter Space: </strong>
-                                <span class="tag-yes">Included</span>
-                            </p>
-                            <p class="dark-p dark-p-sm">
-                                <strong>Power: </strong>
-                                <span class="tag-yes">Included</span>
-                            </p>
-                            <p class="dark-p dark-p-sm">
-                                <strong>Internet connectivity: </strong>
-                                <span class="tag-yes">Included</span>
-                            </p>
-                            <p class="comp-table-header c-blue second">Rules</p>
-                            <ul class="ul-sm">
-                                <li class="li-sm">
-                                    <strong>Certified Unmanaged</strong>
-                                </li>
-                                <li class="li-sm">
-                                    <strong>Farming Tokens:</strong>
-                                    <br>earned for being connected to the grid,
-                                    <br>
-                                    <em>Monthly 1/60th of the TFTs at time capacity is assigned, for max 60 months</em>
-                                </li>
-                                <li class="li-sm">
-                                    <strong>Cultivation Tokens:</strong>
-                                    <br>earned through capacity sales,
-                                    <br>
-                                    <em>10% to Co-op / 10% to TFF* of Tokens for capacity sold</em>
-                                </li>
-                            </ul>
+                    <div class="w-hidden-medium w-hidden-small w-hidden-tiny w-col w-col-4 w-col-stack"></div>
+                </div>
+                <div class="row-5 w-row">
+                    <div class="w-hidden-medium w-hidden-small w-hidden-tiny w-col w-col-1 w-col-medium-1 w-col-small-small-stack"></div>
+                    <div class="earn-tokens-col-md w-col w-col-5 w-col-medium-5 w-col-small-small-stack">
+                        <p class="num-p">1</p>
+                        <h3 class="step-title f-title c-blue">{{doc.part_get(cat="header", nr=7).title}}</h3>
+                        <p class="intro-p-dark">{{doc.part_get(cat="block", nr=9).text | safe}}</p>
+                        {{doc.part_get(cat="block", nr=10).text | safe}}
+                        {{doc.part_get(cat="block", nr=11).text | safe}}
+                    </div>
+                    <div class="w-hidden-medium w-hidden-small w-hidden-tiny w-col w-col-1 w-col-medium-1 w-col-small-small-stack"></div>
+                    <div class="earn-tokens-col-md w-col w-col-4 w-col-medium-4 w-col-small-small-stack">
+                        <p class="num-p">2</p>
+                        <h3 class="step-title f-title c-blue">{{doc.part_get(cat="header", nr=8).title}}</h3>
+                        <p class="intro-p-dark">{{doc.part_get(cat="block", nr=12).text | safe}}</p>
+                        {{doc.part_get(cat="block", nr=13).text | safe}}
+                    </div>
+                    <div class="w-hidden-medium w-hidden-small w-hidden-tiny w-col w-col-1 w-col-medium-1 w-col-small-small-stack"></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Use cases -->
+        <div class="how-to-section">
+            <div class="layout-section">
+                <div class="layout-container">
+                    <h2 class="text-blue h2 mt-0">{{doc.part_get(cat="header", nr=9).title}}</h2>
+                    <div class="row">
+                        <div class="col-12 col-sm-6 col-md-5 col-lg-4 col-xl-5 offset-xl-1 my-1 my-md-2 my-xl-3">
+                            <div class="row">
+                                <div class="col-3">
+                                    <img src="{{doc.link_get(nr=0).link_source | safe}}" class="attachment-full size-full">
+                                </div>
+                                <div class="col-12">
+                                    <h6 class="alt">{{doc.part_get(cat="header", nr=10).title}}</h6>
+                                    {{doc.part_get(cat="block", nr=15).text | safe}}
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-5 col-lg-4 col-xl-5 offset-xl-1 my-1 my-md-2 my-xl-3">
+                            <div class="row">
+                                <div class="col-3">
+                                    <img src="{{doc.link_get(nr=1).link_source | safe}}" class="attachment-full size-full">
+                                </div>
+                                <div class="col-12">
+                                    <h6 class="alt">{{doc.part_get(cat="header", nr=11).title}}</h6>
+                                    {{doc.part_get(cat="block", nr=17).text | safe}}
+                                </div>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="panel accordion-item">
-                    <div class="panel-heading" role="tab" id="headingTwo">
-                        <h4 class="panel-title">
-                            <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false"
-                                aria-controls="collapseTwo">
-                                <strong>Individual Farmer</strong>
-                            </a>
-                        </h4>
-                    </div>
-                    <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
-                        <div class="panel-body">
-                            <p class="comp-table-header c-blue">Hardware</p>
-                            <p class="dark-p dark-p-sm">
-                                <strong>Source hardware:</strong>&nbsp;Co-op</p>
-                            <p class="dark-p dark-p-sm">
-                                <strong>Setup:</strong> 30% (of Hardware)</p>
-                            <p class="dark-p dark-p-sm">
-                                <strong>Installation (Physical&nbsp;+&nbsp;Software):</strong>
-                                <span class="tag-yes">Included</span>
-                                <br>
-                            </p>
-                            <p class="dark-p dark-p-sm">
-                                <strong>Datacenter Space:</strong> Self Provided</p>
-                            <p class="dark-p dark-p-sm">
-                                <strong>Power: </strong>Self Provided</p>
-                            <p class="dark-p dark-p-sm">
-                                <strong>Internet connectivity: </strong>Self Provided</p>
-                            <p class="comp-table-header c-blue second">Rules</p>
-                            <ul class="ul-sm">
-                                <li class="li-sm">
-                                    <strong>Certified Unmanaged</strong>
-                                </li>
-                                <li class="li-sm">
-                                    <strong>Farming Tokens:</strong>
-                                    <br>earned for being connected to the grid,
-                                    <br>
-                                    <em>Monthly 1/60th of the TFTs at time capacity is assigned, for max 60 months</em>
-                                </li>
-                                <li class="li-sm">
-                                    <strong>Cultivation Tokens:</strong>
-                                    <br>earned through capacity sales,
-                                    <br>
-                                    <em>10% to TFF* of Tokens for capacity sold</em>
-                                </li>
-                            </ul>
+                    <div class="row">
+                        <div class="col-12 col-sm-6 col-md-5 col-lg-4 col-xl-5 offset-xl-1 my-1 my-md-2 my-xl-3">
+                            <div class="row">
+                                <div class="col-3">
+                                    <img src="{{doc.link_get(nr=2).link_source | safe}}" class="attachment-full size-full">
+                                </div>
+                                <div class="col-12">
+                                    <h6 class="alt">{{doc.part_get(cat="header", nr=12).title}}</h6>
+                                    {{doc.part_get(cat="block", nr=19).text | safe}}
+                                </div>
+                            </div>
                         </div>
-                    </div>
-                </div>
-                <div class="panel accordion-item">
-                    <div class="panel-heading" role="tab" id="headingThree">
-                        <h4 class="panel-title">
-                            <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false"
-                                aria-controls="collapseThree">
-                                <strong>DIY&nbsp;Farmer</strong>
-
-                            </a>
-                        </h4>
-                    </div>
-                    <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
-                        <div class="panel-body">
-                            <p class="comp-table-header c-blue">Hardware</p>
-                            <p class="dark-p dark-p-sm">
-                                <strong>Source hardware:</strong>&nbsp;Anywhere</p>
-                            <p class="dark-p dark-p-sm">
-                                <strong>Setup:</strong> 0%</p>
-                            <p class="dark-p dark-p-sm">
-                                <strong>Installation (Physical&nbsp;+&nbsp;Software):</strong> Self Provided
-                                <br>
-                            </p>
-                            <p class="dark-p dark-p-sm">
-                                <strong>Datacenter Space:</strong> Self Provided</p>
-                            <p class="dark-p dark-p-sm">
-                                <strong>Power: </strong>Self Provided</p>
-                            <p class="dark-p dark-p-sm">
-                                <strong>Internet connectivity: </strong>Self Provided</p>
-                            <p class="comp-table-header c-blue second">Rules</p>
-                            <ul class="ul-sm">
-                                <li class="li-sm">
-                                    <strong>Unmanaged</strong>
-                                </li>
-                                <li class="li-sm">
-                                    <strong>Farming Tokens:</strong>
-                                    <br>earned for being connected to the grid,
-                                    <br>
-                                    <em>1/60th of the TFTs at time capacity is assigned, for max 60 months, after 30% of
-                                        the capacity is sold</em>
-                                </li>
-                                <li class="li-sm">
-                                    <strong>Cultivation Tokens:</strong>
-                                    <br>earned through capacity sales,
-                                    <br>
-                                    <em>10% to TFF* of Tokens for capacity sold</em>
-                                </li>
-                            </ul>
-                            <p class="footnote">* ThreeFold Foundation
-                                <br>
-                            </p>
+                        <div class="col-12 col-sm-6 col-md-5 col-lg-4 col-xl-5 offset-xl-1 my-1 my-md-2 my-xl-3">
+                            <div class="row">
+                                <div class="col-3">
+                                    <img src="{{doc.link_get(nr=3).link_source | safe}}" class="attachment-full size-full">
+                                </div>
+                                <div class="col-12">
+                                    <h6 class="alt">{{doc.part_get(cat="header", nr=13).title}}</h6>
+                                    {{doc.part_get(cat="block", nr=21).text | safe}}
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+
+        <!-- CTA sec -->
+        <div class="step1-section">
+            <div class="layout-inner-content">
+                <h1 class="text-blue h1 mb-3">{{doc.part_get(cat="header", nr=14).title}}</h1>
+                <p class="mb-1">{{doc.part_get(cat="block", nr=22).text | safe}}</p>
+                <br />
+                <a href="{{doc.link_get(nr=4).link_source | safe}}" class="btn btn-block btn-sm-inline btn-green"
+                    target="_blank">{{doc.link_get(nr=4).link_descr}}</a>
+                <a data-toggle="modal" href="/#modal-grid-movie" class="btn btn-block btn-sm-inline btn-blue">{{doc.link_get(nr=5).link_descr}}</a>
+            </div>
+        </div>
+
+        <!-- video Block -->
+        <div id="modal-grid-movie" class="modal modal-lightbox fade">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">×</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="video-wrapper">
+                            <iframe width="940" height="529" src="{{doc.link_get(nr=5).link_source | safe}}"
+                                frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Roadmap Sec -->
+        <div class="step1-section">
+            <h2 class="text-blue h2 mt-6 mb-2h">{{doc.part_get(cat="header", nr=15).title}}</h2>
+            <section class="home-page--roadmap jarallax">
+                <div class="container">
+                    <div class="roadmap-container desktop d-none d-lg-block">
+                        <div class="details-row row">
+                            <div class="details past col">
+                                <div class="date">{{doc.part_get(cat="block", nr=25).text | safe}}</div>
+                                <div class="title">{{doc.part_get(cat="block", nr=26).text | safe}} </div>
+                            </div>
+                            <div class="details current col">
+                                <div class="date">{{doc.part_get(cat="block", nr=28).text | safe}}</div>
+                                <div class="title">{{doc.part_get(cat="block", nr=29).text | safe}}</div>
+                            </div>
+                            <div class="details future col">
+                                <div class="date">{{doc.part_get(cat="block", nr=31).text | safe}}</div>
+                                <div class="title">{{doc.part_get(cat="block", nr=32).text | safe}}</div>
+                            </div>
+                        </div>
+                        <div class="timeline-lines row">
+                            <div class="timeline-line past col">
+                                <div></div>
+                            </div>
+                            <div class="timeline-line current col">
+                                <div></div>
+                            </div>
+                            <div class="timeline-line futute col">
+                                <div></div>
+                            </div>
+                        </div>
+                        <div class="timeline-dots row">
+                            <div class="timeline-dot past col">
+                                <span></span>
+                            </div>
+                            <div class="timeline-dot current col">
+                                <span></span>
+                            </div>
+                            <div class="timeline-dot future col">
+                                <span></span>
+                            </div>
+                        </div>
+                        <div class="content-row row">
+                            <div class="content-container past col d-flex flex-column">
+                                <div class="content-block">
+                                    {{doc.part_get(cat="block", nr=27).text | safe}}
+                                </div>
+                                <div class="content-block">
+                                    <!-- Q1 text 2 here -->
+                                </div>
+                            </div>
+                            <div class="content-container current col d-flex flex-column">
+                                <div class="content-block">
+                                    {{doc.part_get(cat="block", nr=30).text | safe}} </div>
+                                <div class="content-block">
+                                    <!-- Q2 text 2 here -->
+                                </div>
+                            </div>
+                            <div class="content-container future col d-flex flex-column">
+                                <div class="content-block">
+                                    {{doc.part_get(cat="block", nr=33).text | safe}} </div>
+                                <div class="content-block">
+                                    <!-- Q3 text 2 here -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="roadmap-container mobile d-block d-lg-none">
+                        <div class="roadmap-block past d-flex flex-column">
+                            <div class="timeline-dot"></div>
+                            <div class="date">{{doc.part_get(cat="block", nr=25).text | safe}}</div>
+                            <div class="title">{{doc.part_get(cat="block", nr=26).text | safe}} </div>
+                            <div class="content-container row">
+                                <div class="content-block col-12 col-md-3">
+                                    <div class="title">{{doc.part_get(cat="block", nr=27).text | safe}} </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="roadmap-block current d-flex flex-column">
+                            <div class="timeline-dot"></div>
+                            <div class="date">{{doc.part_get(cat="block", nr=28).text | safe}}</div>
+                            <div class="title">{{doc.part_get(cat="block", nr=29).text | safe}} </div>
+                            <div class="content-container row">
+                                <div class="content-block col-12 col-md-3">
+                                    <div class="title">{{doc.part_get(cat="block", nr=30).text | safe}} </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="roadmap-block future d-flex flex-column">
+                            <div class="timeline-dot"></div>
+                            <div class="date">{{doc.part_get(cat="block", nr=31).text | safe}}</div>
+                            <div class="title">{{doc.part_get(cat="block", nr=32).text | safe}} </div>
+                            <div class="content-container row">
+                                <div class="content-block col-12 col-md-3">
+                                    {{doc.part_get(cat="block", nr=33).text | safe}}
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="jarallax-container-1" style="position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; overflow: hidden; pointer-events: none; z-index: -100;">
+                </div>
+            </section>
+        </div>
     </div>
 </div>
-
-<!-- Earn Tokens -->
-<div class="earn-tokens-section">
-    <div class="container-wide">
-        <div class="w-row">
-            <div class="w-col w-col-8 w-col-stack">
-                <h2>
-                    <strong>{{doc.part_get(cat="header", nr=18).title}}</strong>
-                    <span>
-                        <strong class="em-supscript b-em">TFTs</strong>
-                    </span>
-                </h2>
-            </div>
-            <div class="w-hidden-medium w-hidden-small w-hidden-tiny w-col w-col-4 w-col-stack"></div>
-        </div>
-        <div class="row-5 w-row">
-            <div class="w-hidden-medium w-hidden-small w-hidden-tiny w-col w-col-1 w-col-medium-1 w-col-small-small-stack"></div>
-            <div class="earn-tokens-col-md w-col w-col-5 w-col-medium-5 w-col-small-small-stack">
-                <p class="num-p">1</p>
-                <h3 class="step-title f-title c-blue">{{doc.part_get(cat="header", nr=20).title}}</h3>
-                <p class="intro-p-dark">{{doc.part_get(cat="block", nr=46).text | safe}}</p>
-                <p>
-                    <strong>{{doc.part_get(cat="block", nr=47).text | safe}}</strong>
-                </p>
-                <p>{{doc.part_get(cat="block", nr=48).text | safe}}</p>
-            </div>
-            <div class="w-hidden-medium w-hidden-small w-hidden-tiny w-col w-col-1 w-col-medium-1 w-col-small-small-stack"></div>
-            <div class="earn-tokens-col-md w-col w-col-4 w-col-medium-4 w-col-small-small-stack">
-                <p class="num-p">2</p>
-                <h3 class="step-title f-title c-blue">{{doc.part_get(cat="header", nr=21).title}}</h3>
-                <p class="intro-p-dark">{{doc.part_get(cat="block", nr=49).text | safe}}</p>
-                <p>
-                    <strong>{{doc.part_get(cat="block", nr=50).text | safe}}</strong>
-                </p>
-                <h3 class="text-blue">{{doc.part_get(cat="header", nr=22).title}}</h3>
-                <div class="list-item-w">
-                    {{doc.part_get(cat="block", nr=51).html | safe}}
-                    <div class="list-item-l"></div>
-                </div>
-                <div class="list-item-w">
-                    {{doc.part_get(cat="block", nr=52).html | safe}}
-                    <div class="list-item-l"></div>
-                </div>
-                <div class="list-item-w">
-                    {{doc.part_get(cat="block", nr=52).html | safe}}
-                    <div class="list-item-l"></div>
-                </div>
-                {{doc.part_get(cat="block", nr=53).html | safe}}
-            </div>
-            <div class="w-hidden-medium w-hidden-small w-hidden-tiny w-col w-col-1 w-col-medium-1 w-col-small-small-stack"></div>
-        </div>
-        <img src="/threefoldtoken/static/svg/ic-00-token-big.svg" class="token-bg w-hidden-tiny">
-    </div>
-</div>
-
-<!-- partners -->
-<div class="container-wide">
-    <h3 class="mt-3 mt-md-5">{{doc.part_get(cat="header", nr=23).title}}</h3>
-    <div class="row">
-        <div class="col-12 col-sm-6 col-lg-4 my-1">
-            <a href="{{doc.link_get(nr=9).link_source | safe}}" target="_blank" class="block-white block-outline block-fullheight">
-                <h4 class="alt text-blue mt-0 mb-0h">{{doc.link_get(nr=9).link_descr}}</h4>
-                <p class="mb-0h no-link">{{doc.part_get(cat="block", nr=56).text | safe}}</p>
-                <p class="mb-0">
-                    <span class="link-target">{{doc.part_get(cat="block", nr=57).text | safe}}</span>
-                </p>
-            </a>
-        </div>
-    </div>
-</div>
-
-<!-- community Sec -->
-<div class="community-section">
-    <div class="container-wide">
-        <div class="w-row">
-            <div class="w-col w-col-10">
-                <h2>
-                    <strong>{{doc.part_get(cat="header", nr=24).title}}</strong>
-                </h2>
-            </div>
-            <div class="w-hidden-medium w-hidden-small w-hidden-tiny w-col w-col-2"></div>
-        </div>
-        <div class="w-row">
-            <div class="w-hidden-medium w-hidden-small w-hidden-tiny w-col w-col-1"></div>
-            <div class="w-col w-col-10">
-                <div class="team-card">
-                    <img src="{{doc.link_get(nr=10).link_source | safe}}">
-                </div>
-            </div>
-            <div class="w-hidden-medium w-hidden-small w-hidden-tiny w-col w-col-1"></div>
-        </div>
-    </div>
-</div>
-
-<!-- video Block -->
-
-<div id="modal-intro-movie" class="modal modal-lightbox fade">
-    <div class="modal-dialog">
-        <div class="modal-content">
-            <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true">×</span>
-                </button>
-            </div>
-            <div class="modal-body">
-                <div class="video-wrapper">
-                    <iframe width="940" height="529" src="{{doc.link_get(nr=11).link_source | safe}}" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-                </div>
-            </div>
-        </div>
-    </div>
-    {% endblock %}
+{% endblock %}

@@ -3,199 +3,111 @@
 
 A new, global, neutral and sustainable network of IT infrastructure created by ThreeFold Farmers
 
-[Play Video](/#modal-intro-movie)
-
 Scroll to learn more
 
-<!-- about farming -->
+<!-- Two aspects of the threefold -->
+#Two aspects of the ThreeFold Grid
 
-##### ThreeFold Farmers are entrepreneurs who farm ThreeFold Tokens by connecting hardware to the ThreeFold Grid
+#### Expansion of the ThreeFold Grid by Capacity Farming
+The ThreeFold Grid is built by people and for people. It consists of independently owned hardware running the Zero OS operating system created by ThreeFold Tech. Zero OS is a minimal operating system that makes hardware components available as a utility. This utility capacity is available to anyone who wants to use compute power or to store data.
 
-![TF Grid](/threefoldtoken/static/img/ic-02-grid.png)
 
-<!-- how to -->
-## Three Steps to become a TF Farmer
+ThreeFold Grid expansion is driven by individuals and organisations, known as ThreeFold Farmers, who earn ThreeFold Tokens by providing capacity on the TF Grid. Newly created TF Grid capacity generates a token return directly based on the quantity and quality of utility created by the hardware that is connected to the Grid by the Farmer.
 
-### Engage: Co-op, Individual Farmer or DIY
+#### Use case utilization of the ThreeFold Grid
+Independent studies show that the consumption of compute and storage in our everyday life is undergoing exponential growth. To deliver on this ever-expanding demand, we need to deliver more capacity closer to where it is required.
 
-### Select: Hardware & Operational Environment
+The ThreeFold Grid solves this problem by allowing internet capacity to be delivered exactly where it is needed. Essentially, the ThreeFold Grid allows the internet to go local.
 
-### Operate: Connect & Farm Tokens
+Local capacity enables local entrepreneurs to develop capacity use cases in the communities and companies that need them. No need to use centrally owned, remote and inefficient datacenters. The capacity can be delivered where it is needed, at much lower cost. This allows radically different, more economic and greener use case scenarios than are currently possible with centralized cloud services.
 
-## Find your Engagement Model
+<!-- What's the internet -->
+#What is the Internet?
 
-Based on your IT knowledge and familiarity with configuring hardware, you can choose a full-service Cooperative, pre-configured & certified hardware to become an Individual Farmer, or a full Do It Yourself (DIY) option for your farming activity.
+The word 'internet' in the past was often interpreted as access to the 'network'. In reality, the cables that transport data are only a small part of the internet. The term internet can more accurately be interpreted as the complete system that processes and stores information for the world. It is, quite simply, a vast network of computers connected to each other.
 
-Co-op Farmer
+<!-- Threefold farmers -->
+#ThreeFold Farmers
 
-Pure Investment Full Service
-
-Individual Farmer
-
-Investment in certified Hardware Knowledge, Effort, Time
-
-DIY Farmer
-
-Self sourced and configured Hardware Knowledge, Effort, Time
-
-### What is a ThreeFold Cooperative?
-
-An organization who supports farmers with hardware sourcing, housing, maintaining and configuring hardware, ensuring power, cooling, safety, consistent uptime and secure connection to the grid.
-
-Depending on the business model of the cooperative all of the above, or a subsection of the services above, are offered.
-
-### Mazraa
-
-Dubai, UAE
-
-[www.mazraa.io](http://www.mazraa.io/)
-
-### BetterToken
-
-Lochristi, Belgium
-
-[www.bettertoken.com](http://www.bettertoken.com/)
-
-### Bancadati
-
-Switzerland
-
-[www.bancadati.farm](http://www.bancadati.farm/)
-
-<!-- Are you interested in becoming a cooperative? -->
-### Are you interested in becoming a cooperative?
-
-[Contact us](andreas@threefoldtoken.com)
-
-<!-- Step 2 -->
-Source Hardware and Operational Environment
-
-Co-op Farmer
-
-Certified Hardware
-
-Individual Farmer
-
-Certified Hardware
-
-DIY Farmer
-
-Self-configured hardware
-
-### Certified Hardware offerings from Bettertoken Cooperative:
-
-![Esntl node](/threefoldtoken/static/img/esntl-node.png)
-
-#### The Essential Node Server
-
-#### From EUR 999 to EUR 3325
-
-Estimated Farmed Tokens:
-
-up to 36 878 TFTs
-
-Connectivity &amp; Location:
-
-Works on 200 mbit/s office\nor datacenter links
-
-![Compute node](/threefoldtoken/static/img/compute-node.png)
-
-#### The Compute Node Server
-
-#### From EUR 10.775 to EUR 18.925
-
-Estimated Farmed Tokens:
-
-up to 36 878 TFTs
-
-Connectivity &amp; Location:
-
-Works on 200 mbit/s office\nor datacenter links
-
-Please keep in mind that the amount of estimated Tokens will be different if you go Individual Farmer orDIY due to additional fees, charged by the cooperative.
-
-<!-- Step 3 -->
-
-## Connect and Farm Tokens
-
-Co-op Farmer
-
-Relax, sit back and collect tokens
-
-Individual Farmer
-
-Connect to Power Connect to Internet Create your Farm Collect your tokens
-
-DIY Farmer
-
-Connect to Power Connect to Internet Download Zero-OS Create your Farm Collect your tokens
-
-[Read more detailed Instruction](https://threefoldfoundation.github.io/info_grid/#/tf_farming/farming_setup)
-
-![TF Connection Illustration](/threefoldtoken/static/img/connection-illustration.png)
-
-<!-- Cost Sec -->
-
-## Cost and Return Overview by Engagement Model
-
-<!-- table -->
-
-| name                               | CO-OP FARMER     | INDIVIDUAL FARMER | DIY FARMER    |
-| ----------------------------------:|:----------------:| -----------------:| -------------:|
-| **HARDWARE**                                                                              |
-| Source hardware                    | Co-op            | Co-op             | Anywhere      |
-| Setup                              | 30% (of Hardware)| 30% (of Hardware) | 0%            |
-| Installation (Physical + Software) | `Included`       | `Included`        | Self Provided |
-| Datacenter Space                   | `Included`       | Self Provided     | Self Provided |
-| Power                              | `Included`       | Self Provided     | Self Provided |
-| Internet Connectivity              | `Included`       | Self Provided     | Self Provided |
-|  **RULES**                                                                                |
-| *Rule Category*                    | Certified Unmanaged          | Certified Unmanaged             | Unmanaged     |
-| Farming Tokens: earned for being connected to the grid              | Monthly 1/60th of the TFTs at time capacity is assigned, for max 60 months | Monthly 1/60th of the TFTs at time capacity is assigned, for max 60 months | 1/60th of the TFTs at time capacity is assigned, for max 60 months, after 30% of the capacity is sold |
-| Cultivation Tokens: earned through capacity sales | 10% to Co-op / 10% to TFF* of Tokens for capacity sold | 10% to TFF* of Tokens for capacity sold | 10% to TFF* of Tokens for capacity sold |
-| * *ThreeFold Foundation*  |
+TF Farmers are entrepreneurs who farm ThreeFold Tokens (TFTs) by connecting hardware to the ThreeFold Grid
 
 <!-- Earn Tokens -->
-
-## The Two Ways Farmers can earn ThreeFold Tokens
+## Two Ways Farmers can earn ThreeFold Tokens
 
 ### Farming
 
-Farmers earn TFTs for connecting their capacity to the TF grid
+Farmers earn TFT by connecting their capacity to the ThreeFold Grid
 
-TFTs awarded for connecting a farm are calculated at the time the capacity is assigned to the TF Grid. The farmer receives 1/60th of these tokens for a maximum of 60 months.
+The amount of TFT awarded for connecting a farm is calculated at the time the capacity is assigned to the Grid. The Farmer receives 1/60th of these total tokens for a maximum of 60 months.
 
-Amount of TFTs awarded is based on the monthly capacity revenue value in USD, and the price of the TFT at the time the capacity is assigned to the grid.
+The amount of TFT awarded is based on the potential monthly capacity revenue value in USD and the price of the TFT at the time the capacity is assigned to the Grid.
 
 ### Cultivating
 
-Farmers earn TFTs when capacity is sold
+Farmers earn TFT when capacity is sold
 
-Capacity is sold via the ThreeFold Directory, a blockchain based capacity listing system.
+The ThreeFold Directory is a fully decentralized directory of capacity on which buyers can choose their farm or location. The TFTs used to buy capacity are awarded directly to the Farmer. The ThreeFold Foundation and ThreeFold Tech charge 20% of these tokens as a revenue share to fund IT development and marketing.
 
-### ThreeFold Directory
+<!-- Use cases -->
+## ThreeFold Grid Use Cases
 
-Fully decentralized.
+<!-- Utility use cases -->
+![TF Grid case](/threefoldtoken/static/svg/ic-gridcase.svg)
 
-All capacity listed so users can choose their farm or location.
+###### Utility use cases
 
-Tokens come directly to the Farmer.
+TF Grid technology is ideal for traditional utility use cases such as web content, e-commerce sites, photo storage and music streaming. It allows a more economic, secure and robust delivery of capacity for any current and future online activity.
 
-ThreeFold Foundation charges 10% of these tokens as a revenue sharing for IT development and marketing.
+<!-- Storage and Archive -->
+![TF Grid case](/threefoldtoken/static/svg/ic-storecase.svg)
 
-<!-- partners -->
-### Partners and Projects Utilizing ThreeFold Grid
+###### Storage and Archive
 
-[UMC](http://umccoin.io/)
+Independent studies show that each day the growth of information that we create and store is increaing exponentially.  In a nutshell, we simply require more storage and archiving capacity than we can currently provide. TF Grid technology can be used to create storage and archiving solutions at almost infinite scale, and at a fraction of the cost.
 
-Universal Marketing Company (UMC) is the first platform for managing paid content and creating SMART-advertising in instant messengers
+<!-- Distributed always on applications -->
+![Distributed always on applications](/threefoldtoken/static/svg/ic-distributed1.svg)
 
-umccoin.io
+###### Distributed always on applications
 
-## Join our growing global farmer community
+The future is distributed. Applications will no longer exist in centralized private or public datacenters. Applications are getting smaller and more specialized to fulfil a single purpose. These applications need to live on minimal utility. The TF Grid is designed to allow distributed applications to exist anywhere.
 
-![TF Map](/threefoldtoken/static/img/heat-map.png)
+<!-- Internet of things -->
+![Internet of things](/threefoldtoken/static/svg/ic-iot.svg)
 
-<!-- Video -->
+###### Internet of things
 
-[Play Video](https://www.youtube.com/embed/fucXM2L2cTA)
+The Internet of things means that all devices will have smart components and be connected to the internet. This creates an environment where applications can run everywhere and data is collected and can be processed from anywhere. In this world, ubiquitous utility for local compute and storage is as necessary as the electricity we expect to be available to power our mobile devices, homes and businesses.
+
+<!-- CTA Sec -->
+#Become a farmer
+
+You can become a Farmer tomorrow! The ThreeFold Grid is always expanding and new Farmers are welcome. Anyone, anywhere! Please have a look at our Wikis on how to become a Farmer.
+
+[View Farming WIKI](https://threefoldfoundation.github.io/info_grid/#/tf_farming/README)
+
+[See Farming Video](https://www.youtube.com/embed/fucXM2L2cTA)
+
+<!-- Roadmap -->
+## Grid Roadmap
+
+<!-- Q1 part -->
+2018 Q2
+
+Grid Capacity Generation
+
+Hardware generates TF Capacity once connected to the TF Grid
+
+<!-- Q2 part -->
+2018 Q3
+
+Grid Capacity Activation
+
+TF Tokens are created for capacity on the TF Grid
+
+<!-- Q3 part -->
+2019 Q1
+
+Grid Capacity Usage
+
+TF Capacity can be used for TF Tokens
