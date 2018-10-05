@@ -19,7 +19,7 @@ tf_farmers_text1 = "The TF Farmers are the first individual TF Farmers putting c
 tf_farmers_text2 = "Each of them has installed at least 1TB of storage and 4 logical CPU cores of computing capacity onto the Grid."
 
 community_button_name = "Watch Video"
-community_video_link = "https://youtu.be/vLNpDDIvOFU"
+community_video_link = "https://www.youtube.com/embed/vLNpDDIvOFU"
 community_button_text ="check out the recording of our latest community update call"
 
 header = "INTRODUCING: THREEFOLD CHAPTERS"
