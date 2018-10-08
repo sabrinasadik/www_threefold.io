@@ -18,7 +18,6 @@
 
     </div>
 
-
     {{ range $p := (.Paginate .Data.Pages).Pages }}
 
     {{ if eq .Section "community" }}
@@ -33,6 +32,8 @@
     </div>
     {{ else if eq .Section "join" }}
     {{ $p.Render "join" }}
+    {{ else if eq .Section "roadmap" }}
+    <div class="roadmap layout-container">{{ $p.Render "roadmap" }}</div>
     {{end}}
     {{end}}
 

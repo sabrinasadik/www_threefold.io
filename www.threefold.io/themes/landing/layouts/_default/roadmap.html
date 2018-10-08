@@ -1,0 +1,15 @@
+{{ if (isset .Params "event_year") }}
+<h1 class="text-blue mb-2h mt-10">{{ .Params.event_year }}</h1>
+{{end}}
+<div class="row">
+    {{ if (isset .Params "active_event") }}
+    <div class="col-12 col-md-6 col-lg-6 mb-4 roadmap-ticket active-event">
+        {{else}}
+        <div class="col-12 col-md-6 col-lg-6 mb-4">
+            {{end}}
+            <span>{{ .Params.event_date }}</span>
+            <h3>{{ .Params.header }}</h3>
+            {{ .Content }}
+        </div>
+    </div>
+</div>
