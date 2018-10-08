@@ -1,3 +1,57 @@
+#Explore more
+
+[ThreeFold Radar](https://threefoldradar.info/)
+
+![ThreeFold Radar](/threefoldtoken/static/svg/ic-f-radar.svg)
+
+####ThreeFold Radar
+
+A gathering of tokens prices, blockchain status, and more
+
+[Capacity overview](https://capacity.threefoldtoken.com/)
+
+![Capacity overview](/threefoldtoken/static/svg/capacity.svg)
+
+####Capacity overview
+
+A first implementation of the TF-Directory
+
+[How to contribute?](https://threefoldfoundation.github.io/info_foundation/#/collaboration/README)
+
+![How to contribute?](/threefoldtoken/static/svg/ic-f-tech.svg)
+
+####How to contribute?
+
+How Circles, Stories and Collaboration works at ThreeFold.
+
+[Information on the ThreeFold Foundation](https://threefoldfoundation.github.io/info_foundation/#/)
+
+![Information on the ThreeFold Foundation](/threefoldtoken/static/svg/ic-f-foundation.png)
+
+####Information on the ThreeFold Foundation
+
+A deep dive into our Open Source way of working.
+
+[Information on the ThreeFold Grid](https://threefoldfoundation.github.io/info_grid/#/)
+
+![Information on the ThreeFold Grid](/threefoldtoken/static/svg/ic-f-grid.svg)
+
+####Information on the ThreeFold Grid
+
+The grid and farming explained in detail.
+
+[Information on the ThreeFold Token](https://threefoldfoundation.github.io/info_tokens/#/)
+
+![Information on the ThreeFold Token](/threefoldtoken/static/svg/ic-f-tokens.svg)
+
+####Information on the ThreeFold Token
+
+The crypto payment mechanism that makes our ecosystem flow.
+
+Still have questions? Feel free to use the chat you can find in the bottom right of your screen or send us an email on
+
+[info@threefoldtoken.com](mailto:info@threefoldtoken.com)
+
 # ThreeFold on Social Media
 
 [facebook](https://www.facebook.com/ThreeFoldCommunity/)
@@ -15,24 +69,6 @@ Stay up to date with the Foundation and our event agenda
 #### Youtube
 
 Follow us on youtube for the latest video content
-
-[Linkedin](https://www.linkedin.com/company/threefold-foundation)
-
-![image](/threefoldtoken/static/svg/ic-linkedin.svg)
-
-#### Linkedin
-
-General info and job openings can be found on our linkedin.
-
-
-[Instagram](https://www.instagram.com/threefold.foundation/)
-
-![image](/threefoldtoken/static/svg/ic-insagram_smallt.svg)
-
-#### Instagram
-
-Get a behind the scenes look into the foundation
-
 
 [TELEGRAM ANNOUNCEMENTS](https://t.me/threefoldtoken)
 
