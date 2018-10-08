@@ -1,92 +1,145 @@
 {% extends "threefoldtoken/base.html" %}
-{%block css%} 
-<link rel='stylesheet' href='/threefoldtoken/static/css/bootstrap.min.css'>
-{%endblock%}
 
 {% block content %}
-<div class="container box">
-    <div class="team">
-        <!-- threefold sec -->
-        <div class="threefold-team">
-            <div class="col-sm-4">
-                <h2>{{doc.part_get(cat="header", nr=0).title}}</h2>
-                {{doc.part_get(cat="block", nr=0).html | safe}}
+<div class="layout-content" style="padding-bottom: 50px;">
+    <div class="layout-container">
+        <div class="team">
+            <!-- threefold sec -->
+            <div class="threefold-team mt-10">
+                <div class="row">
+                    <div class="col-sm-12 col-md-4">
+                        <h2>{{doc.part_get(cat="header", nr=0).title}}</h2>
+                        <p>{{doc.part_get(cat="block", nr=0).text | safe}}</p>
+                        <div class="col-sm-4" style="padding-bottom: 50px">
+                            <p style="font-family: 'Nunito Sans', sans-serif; color:#1247b3 ;font-weight: bold;">{{doc.part_get(cat="block", nr=1).text | safe}}</p>
+                            <a data-toggle="modal" href="/#modal-intro-movie" class="btn btn-block btn-md-inline">
+                                <div class="d-flex justify-content-center">
+                                    <img src="/svg/ic-btn-playvideo.svg" class="mr-1" alt="">
+                                    <span>{{doc.link_get(nr=0).link_descr}}</span>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-12 col-md-8">
+                        <div id="threefold" class="team-member"></div>
+                    </div>
+                </div>
+
+
+                <!-- Founders video -->
+                <div id="modal-founders-movie" class="modal modal-lightbox fade">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">×</span>
+                                </button>
+                            </div>
+
+                            <div class="modal-body">
+                                <div class="video-wrapper">
+                                    <iframe width="940" height="529" id="videoIframe" frameborder="0" allow="autoplay; encrypted-media"
+                                        allowfullscreen></iframe>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
 
-            <div class="col-sm-8">
-                <div id="threefold" class="team-member"></div>
+            <div class="clear-fix"></div>
+
+            <!-- CTA SEC -->
+            <div class="cta">
+                <div class="layout-inner-content">
+                    <h1 style="color:#1247b3 ;font-weight: bold; ">{{doc.part_get(cat="header", nr=1).title}}</h1>
+                    <p>{{doc.part_get(cat="block", nr=3).text | safe}}</p>
+                    <a href="{{doc.link_get(nr=1).link_source | safe}}" class="btn btn-block btn-sm-inline btn-green">{{doc.link_get(nr=1).link_descr}}</a>
+                </div>
             </div>
-        </div>
 
-        <div class="clear-fix"></div>
 
-        <!-- tech sec -->
-        <div class="tech">
-            <div class="col-sm-4">
-                <h2>{{doc.part_get(cat="header", nr=1).title}}</h2>
-                {{doc.part_get(cat="block", nr=1).html | safe}}
+            <!-- Developers sec -->
+            <div class="tech">
+                <div class="row">
+                    <div class="col-sm-12 col-md-4">
+                        <h2>{{doc.part_get(cat="header", nr=2).title}}</h2>
+                        <p>{{doc.part_get(cat="block", nr=5).text | safe}}</p>
+                    </div>
+                    <div class="col-sm-12 col-md-8">
+                        <div id="tech" class="team-member"></div>
+                    </div>
+                </div>
             </div>
-            <div class="col-sm-8">
-                <div id="tech" class="team-member"></div>
+
+            <div class="clear-fix"></div>
+
+            <div class="community">
+                <!-- ambassdors sec -->
+                <div class="ambassdors">
+                    <div class="row">
+                        <div class="col-sm-12 col-md-4">
+                            <h2>{{doc.part_get(cat="header", nr=3).title}}</h2>
+                            {{doc.part_get(cat="block", nr=6).text | safe}}
+                            <br/>
+                            <br/>
+                            {{doc.part_get(cat="block", nr=7).text | safe}}
+                            <!-- Become an ambassador -->
+                            <div class="layout-inner-content">
+                                <h2>{{doc.part_get(cat="header", nr=4).title}}</h2>
+                                <p style="font-family: 'Nunito Sans', sans-serif; color:#1247b3 ;font-weight: bold;">{{doc.part_get(cat="block", nr=8).text | safe}}</p>
+                                <a href="{{doc.link_get(nr=2).link_source | safe}}" class="btn btn-block btn-md-inline">{{doc.link_get(nr=2).link_descr}}</a>
+                            </div>
+                        </div>
+                        <div class="col-sm-12 col-md-8">
+                            <div id="ambassadors"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="clear-fix"></div>
+
+                <!-- hosters sec -->
+                <!-- <div class="hosters">
+        <div class="row">
+            <div class="col-sm-12 col-md-4">
+                <h2></h2>
+                <p></p>
+                <p></p>
             </div>
-        </div>
-    </div>
-
-    <div class="clear-fix"></div>
-
-    <div class="community">
-
-        <!-- ambassdors sec -->
-        <div class="ambassdors">
-            <div class="col-sm-4">
-                <h2>{{doc.part_get(cat="header", nr=2).title}}</h2>
-                {{doc.part_get(cat="block", nr=2).html | safe}} {{doc.part_get(cat="block", nr=3).html | safe}}
-            </div>
-            <div class="col-sm-8">
-                <div id="ambassadors"></div>
-            </div>
-        </div>
-
-        <div class="clear-fix"></div>
-
-        <!-- hosters sec -->
-        <div class="hosters">
-            <div class="col-sm-4">
-                <h2>{{doc.part_get(cat="header", nr=3).title}}</h2>
-                {{doc.part_get(cat="block", nr=3).html | safe}} 
-                
-                {{doc.part_get(cat="block", nr=4).html | safe}}
-            </div>
-            <div class="col-sm-8">
+            <div class="col-sm-12 col-md-8">
                 <div id="hosters"></div>
             </div>
         </div>
-
-        <div class="col-sm-4" style="padding-bottom: 50px">
-            <h2 style="font-family: 'Barlow Condensed', sans-serif;">{{doc.part_get(cat="header", nr=4).title}}</h2>
+    </div> -->
+                <div class="row">
+                    <!-- <div class="col-sm-4" style="padding-bottom: 50px">
+            <h2 style="font-family: 'Barlow Condensed', sans-serif;">check the last update of the community meeting</h2>
             <a data-toggle="modal" href="/#modal-intro-movie" class="btn btn-block btn-md-inline">
                 <div class="d-flex justify-content-center">
                     <img src="/svg/ic-btn-playvideo.svg" class="mr-1" alt="">
-                    <span>{{doc.link_get(nr=0).link_descr}}</span>
+                    <span></span>
                 </div>
             </a>
-        </div>
-    </div>
-</div>
+        </div> -->
+                    <div id="modal-intro-movie" class="modal modal-lightbox fade">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">×</span>
+                                    </button>
+                                </div>
 
-<div id="modal-intro-movie" class="modal modal-lightbox fade">
-    <div class="modal-dialog">
-        <div class="modal-content">
-            <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true">×</span>
-                </button>
-            </div>
-
-            <div class="modal-body">
-                <div class="video-wrapper">
-                    <iframe width="940" height="529" src="{{doc.link_get(nr=0).link_source | safe}}" frameborder="0" allow="autoplay; encrypted-media"
-                        allowfullscreen=""></iframe>
+                                <div class="modal-body">
+                                    <div class="video-wrapper">
+                                        <iframe width="940" height="529" src="{{doc.link_get(nr=0).link_source | safe}}"
+                                            frameborder="0" allow="autoplay; encrypted-media" allowfullscreen=""></iframe>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
