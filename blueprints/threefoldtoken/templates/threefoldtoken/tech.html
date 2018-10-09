@@ -1,70 +1,90 @@
 {% extends "threefoldtoken/base.html" %} {% block content %}
 
-    <div class="layout-content">
-            <div class="my-6 mt-sm-10">
-                            <div class="layout-section">
-                <div class="layout-container">
+<div class="layout-content">
+    <div class="my-6 mt-sm-10">
+        <div class="layout-section">
+            <div class="layout-container">
 
-                    <h2 class="mt-0">{{ doc.part_get(cat="header", nr=0).title}}</h2>
-                    <div class="row">
-                        <div class="col-12 col-sm-6 col-md-5 col-lg-4 col-xl-3 offset-xl-1 my-1 my-md-2 my-xl-3">
-                            <div class="row">
-                                <div class="col-6">
-                                    <img src="{{ doc.link_get(cat='image').filename }}" class="attachment-full size-full" alt="{{ doc.link_get(cat='image').title }}">
-                                </div>
-                                <div class="col-12">
-                                  <a href="{{ doc.link_get(cat='image') }}" target="_blank"><h6 class="alt">{{ .Params.os_header }}</h6></a>
-                                    <p>{{ .Params.os_content }}</p>
-                                    <!-- <p style="font-weight: 900;">Zero Robot</p> -->
-                                </div>
+                <h2 class="mt-0">{{ doc.part_get(cat="header", nr=0).title}}</h2>
+                <div class="row">
+                    <div class="col-12 col-sm-6 col-md-5 col-lg-4 col-xl-3 offset-xl-1 my-1 my-md-2 my-xl-3">
+                        <div class="row">
+                            <div class="col-6">
+                                <img src="{{ doc.link_get(nr=0).link_source | safe }}" class="attachment-full size-full"
+                                     alt="{{doc.link_get(nr=0).link_descr }}">
+                            </div>
+                            <div class="col-12">
+                                <a href="{{ doc.link_get(nr=1).link_source | safe  }}" target="_blank"><h6 class="alt">
+                                    {{ doc.link_get(nr=1).link_descr }}</h6></a>
+                                <p>{{ doc.part_get(cat="block", nr=2).text | safe }}</p>
+                                <!-- <p style="font-weight: 900;">Zero Robot</p> -->
                             </div>
                         </div>
-                        <div class="col-12 col-sm-6 col-md-5 col-lg-4 col-xl-3 offset-xl-1 my-1 my-md-2 my-xl-3">
-                            <div class="row">
-                                <div class="col-6">
-                                    <img src="{{ .Params.robot_img }}" class="attachment-full size-full" alt="{{ .Params.robot_header }}">
-                                </div>
-                                <div class="col-12">
-                                    <a href="{{ .Params.robot_header_link }}" target="_blank"><h6 class="alt">{{ .Params.robot_header }}</h6></a>
-                                    <p>{{ .Params.robot_content }}</p>
-                                    <!-- <a href="https://github.com/threefoldfoundation/tfchain"> the Zero Chain</a> -->
-                                </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-5 col-lg-4 col-xl-3 offset-xl-1 my-1 my-md-2 my-xl-3">
+                        <div class="row">
+                            <div class="col-6">
+                                <img src="{{ doc.link_get(nr=2).link_source | safe  }}"
+                                     class="attachment-full size-full" alt="{{ doc.link_get(nr=2).link_descr }}">
+                            </div>
+                            <div class="col-12">
+                                <a href="{{ doc.link_get(nr=3).link_source | safe  }}" target="_blank"><h6 class="alt">
+                                    {{ doc.link_get(nr=3).link_descr }}</h6></a>
+                                <p>{{ doc.part_get(cat="block", nr=5).text | safe }}</p>
+                                <!-- <a href="https://github.com/threefoldfoundation/tfchain"> the Zero Chain</a> -->
                             </div>
                         </div>
-                        <div class="col-12 col-sm-6 col-md-5 col-lg-4 col-xl-3 offset-xl-1 my-1 my-md-2 my-xl-3">
-                            <div class="row">
-                                <div class="col-6">
-                                    <img src="{{ .Params.chain_img }}" class="attachment-full size-full" alt="{{ .Params.chain_header }}">
-                                </div>
-                                <div class="col-12">
-                                    <a href="{{ .Params.chain_header_link }}" target="_blank"><h6 class="alt">{{ .Params.chain_header }}</h6></a>
-                                    <p>{{ .Params.chain_content }}</p>
-                                    <!-- <p style="font-weight: 900;">Zero OS</p> -->
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-5 col-lg-4 col-xl-3 offset-xl-1 my-1 my-md-2 my-xl-3">
+                        <div class="row">
+                            <div class="col-6">
+                                <img src="{{ doc.link_get(nr=4).link_source | safe }}" class="attachment-full size-full"
+                                     alt="{{ doc.link_get(nr=4).link_descr }}">
+                            </div>
+                            <div class="col-12">
+                                <a href="{{ doc.link_get(nr=5).link_source | safe}}" target="_blank"><h6 class="alt">{{
+                                    doc.link_get(nr=5).link_descr }}</h6></a>
+                                <p>{{ doc.part_get(cat="block", nr=8).text | safe }}</p>
+                                <!-- <p style="font-weight: 900;">Zero OS</p> -->
 
-                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
-             </div>
             </div>
-            <div class="layout-container">
-                <div class="my-6 mt-sm-10">
-                <div class="layout-container">
-                    <h1 class="text-blue h1 mb-3">{{ .Params.header }}</h1>
-                    <div class="page-description mb-3">{{ .Content }}</div>
-                </div>
-
-                </div>
-            <div class="my-6 mt-sm-10">
-                    <div class="layout-inner-content">
-                        <h1 class="text-blue h1 mb-3">{{ .Params.header }}</h1>
-                        <p>{{ .Params.sub_header }}</p>
-                        <div class="page-description">{{ .Content }}</div>
-                         {{if or (ne .Title "join") (ne .Title "calltoaction")}}
-                         <a href="{{ .Params.btn_link }}" class="btn btn-block btn-sm-inline btn-green">{{ .Params.btn_txt }}</a>
-       </div>
-            </div>
-            </div>
+        </div>
     </div>
+    <div class="layout-container">
+        <div class="my-6 mt-sm-10">
+            <div class="layout-container">
+                <h1 class="text-blue h1 mb-3">{{ doc.part_get(cat="header", nr=1).title }}</h1>
+                <div class="page-description mb-3">
+                    <h4>{{ doc.part_get(cat="header", nr=2).title }}</h4>
+                    {{ doc.part_get(cat="block", nr=9).text | safe }}
+                    <br>
+                    <br>
+                    {{ doc.part_get(cat="block", nr=10).text | safe }}
+                    <br>
+                    <br>
+                    {{ doc.part_get(cat="block", nr=11).text | safe }}
+                    <br>
+                    <br>
+                    {{ doc.part_get(cat="block", nr=12).text | safe }}
+                    <h4>{{ doc.part_get(cat="header", nr=3).title }}</h4>
+                    {{ doc.part_get(cat="block", nr=13).text | safe }}
+                </div>
+            </div>
+
+        </div>
+        <div class="my-6 mt-sm-10">
+            <div class="layout-inner-content">
+                <h1 class="text-blue h1 mb-3">{{ doc.part_get(cat="header", nr=4).title }}</h1>
+                <div class="page-description">{{ doc.part_get(cat="block", nr=15).text | safe }}</div>
+                <br>
+                <br>
+                <a href="{{  doc.link_get(nr=6).link_source | safe }}" class="btn btn-block btn-sm-inline btn-green">{{ doc.link_get(nr=6).link_descr }}</a>
+            </div>
+        </div>
+    </div>
+</div>
 {% endblock %}
