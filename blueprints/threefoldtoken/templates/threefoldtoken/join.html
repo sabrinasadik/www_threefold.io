@@ -32,7 +32,7 @@
                         <h4 class="mt-0 mb-0h">{{ doc.part_get(cat="header", nr=2).title }}</h4>
 
                         <div class="no-link">
-                            <p>{{ doc.part_get(cat="block", nr=4).text | safe }}</p>
+                            <p>{{ doc.part_get(cat="block", nr=5).text | safe }}</p>
                         </div>
 
                         <!-- <span class="more-link">Join Us</span> -->
@@ -46,7 +46,7 @@
                         </div>
                         <h4 class="mt-0 mb-0h">{{ doc.part_get(cat="header", nr=3).title }}</h4>
                         <div class="no-link">
-                            <p>{{ doc.part_get(cat="block", nr=6).text | safe }}</p>
+                            <p>{{ doc.part_get(cat="block", nr=8).text | safe }}</p>
                         </div>
 
                         <!-- <span class="more-link">Learn More</span> -->
@@ -62,7 +62,7 @@
                         <h4 class="mt-0 mb-0h">{{ doc.part_get(cat="header", nr=4).title }}</h4>
 
                         <div class="no-link">
-                            <p>{{ doc.part_get(cat="block", nr=8).text | safe }}</p>
+                            <p>{{ doc.part_get(cat="block", nr=11).text | safe }}</p>
                         </div>
 
                         <!-- <span class="more-link">Learn More</span> -->
@@ -78,7 +78,7 @@
                         <h4 class="mt-0 mb-0h">{{ doc.part_get(cat="header", nr=5).title }}</h4>
 
                         <div class="no-link">
-                            <p>{{ doc.part_get(cat="block", nr=10).text | safe  }}</p>
+                            <p>{{ doc.part_get(cat="block", nr=14).text | safe  }}</p>
                         </div>
 
                         <!-- <span class="more-link">Learn More</span> -->
@@ -94,13 +94,13 @@
                         <h4 class="mt-0 mb-0h">{{ doc.part_get(cat="header", nr=6).title }}</h4>
 
                         <div class="no-link">
-                            <p>{{ doc.part_get(cat="block", nr=12).text | safe  }}</p>
+                            <p>{{ doc.part_get(cat="block", nr=17).text | safe  }}</p>
                         </div>
 
                         <!-- <span class="more-link">Learn More</span> -->
                     </a>
                 </div>
-                <p>{{ doc.part_get(cat="block", nr=13).text | safe  }}
+                <p>{{ doc.part_get(cat="block", nr=18).text | safe  }}
                     <a href="{{ doc.link_get(nr=12).link_source | safe }}" target="_top">{{ doc.link_get(nr=12).link_descr }}</a>
                 </p>
             </div>
@@ -110,11 +110,11 @@
                 <div class="col-12 col-md-6 col-lg-4 mb-4">
                     <a href="{{ doc.link_get(nr=13).link_source | safe }}" target="_blank" class="block-white block-outline block-icon block-more join">
                         <div class="icon">
-                            <img src="/svg/ic-facebook.svg" class="attachment-full size-full" alt="">
+                            <img src="{{ doc.link_get(nr=14).link_source | safe }}" class="attachment-full size-full" alt="">
                         </div>
-                        <h4 class="mt-0 mb-0h">{{ .Params.facebook_header }}</h4>
+                        <h4 class="mt-0 mb-0h">{{ doc.part_get(cat="header", nr=8).title }}</h4>
                         <div class="no-link">
-                            <p>{{ .Params.facebook_text }}</p>
+                            <p>{{ doc.part_get(cat="block", nr=22).text | safe  }}</p>
                         </div>
                         <!-- <span class="more-link">Join Us</span> -->
                     </a>
@@ -122,70 +122,31 @@
 
                 <!-- youtube -->
                 <div class="col-12 col-md-6 col-lg-4 mb-4">
-                    <a href="{{ .Params.youtube_link }}" target="_blank" class="block-white block-outline block-icon block-more join">
+                    <a href="{{ doc.link_get(nr=15).link_source | safe  }}" target="_blank" class="block-white block-outline block-icon block-more join">
                         <div class="icon">
-                            <img src="/svg/ic-youtube.svg" class="attachment-full size-full" alt="">
+                            <img src="{{ doc.link_get(nr=16).link_source | safe }}" class="attachment-full size-full" alt="">
                         </div>
-                        <h4 class="mt-0 mb-0h">{{ .Params.youtube_header }}</h4>
+                        <h4 class="mt-0 mb-0h">{{ doc.part_get(cat="header", nr=9).title }}</h4>
 
                         <div class="no-link">
-                            <p>{{ .Params.youtube_text }}</p>
+                            <p>{{ doc.part_get(cat="block", nr=25).text | safe }}</p>
                         </div>
 
                         <!-- <span class="more-link">Join Us</span> -->
                     </a>
                 </div>
-                <!-- linkedin -->
-                <!-- <div class="col-12 col-md-6 col-lg-4 mb-4">
-                    <a href="{{ .Params.linkedin_link }}" target="_blank" class="block-white block-outline block-icon block-more join">
-                      <div class="icon">
-                                  <img src="/svg/ic-linkedin.svg" class="attachment-full size-full" alt="">
-                              </div>
-                        <h4 class="mt-0 mb-0h">{{ .Params.linkedin_header }}</h4>
-                        <div class="no-link">
-                            <p>{{ .Params.linkedin_text }}</p>
-                        </div>
-                    </a>
-                </div> -->
 
-                <!-- instagram -->
-                <!-- <div class="col-12 col-md-6 col-lg-4 mb-4">
-                    <a href="{{ .Params.instagram_link }}" target="_blank" class="block-white block-outline block-icon block-more join">
-                      <div class="icon">
-                                  <img src="/svg/ic-insagram_smallt.svg" class="attachment-full size-full" alt="">
-                              </div>
-                        <h4 class="mt-0 mb-0h">{{ .Params.instagram_header }}</h4>
-
-                        <div class="no-link">
-                            <p>{{ .Params.instagram_text }}</p>
-                        </div>
-                    </a>
-                </div> -->
-
-                <!-- telegram -->
-                <!-- <div class="col-12 col-md-6 col-lg-4 mb-4">
-                    <a href="{{ .Params.telegram_link }}" target="_blank" class="block-white block-outline block-icon block-more join">
-                      <div class="icon">
-                                  <img src="/svg/ic-telegram.svg" class="attachment-full size-full" alt="">
-                              </div>
-                        <h4 class="mt-0 mb-0h">{{ .Params.telegram_header }}</h4>
-
-                        <div class="no-link">
-                            <p>{{ .Params.telegram_text }}</p>
-                        </div>
-                    </a>
-                </div> -->
 
                 <!-- Threefold_app -->
                 <div class="col-12 col-md-6 col-lg-4 mb-4">
-                    <a href="{{ .Params.tfapp_link }}" target="_blank" class="block-white block-outline block-icon block-more join">
+                    <a href="{{ doc.link_get(nr=17).link_source | safe }}" target="_blank" class="block-white block-outline block-icon block-more join">
                         <div class="icon">
-                            <img src="/svg/tf_app.svg" class="attachment-full size-full" alt="">
+                            <img src="{{ doc.link_get(nr=18).link_source | safe }}" class="attachment-full size-full" alt="">
                         </div>
-                        <h4 class="mt-0 mb-0h">{{ .Params.tfapp_header }}</h4>
+                        <h4 class="mt-0 mb-0h">{{  doc.part_get(cat="header", nr=10).title }}</h4>
 
                         <div class="no-link">
-                            <p>{{ .Params.tfapp_text }}</p>
+                            <p>{{ doc.part_get(cat="block", nr=28).text | safe }}</p>
                         </div>
 
                         <!-- <span class="more-link">Learn More</span> -->
@@ -193,14 +154,14 @@
                 </div>
                 <!-- medium -->
                 <div class="col-12 col-md-6 col-lg-4 mb-4">
-                    <a href="{{ .Params.medium_link }}" target="_blank" class="block-white block-outline block-icon block-more join">
+                    <a href="{{ doc.link_get(nr=19).link_source | safe }}" target="_blank" class="block-white block-outline block-icon block-more join">
                         <div class="icon">
-                            <img src="/svg/medium-small.svg" class="attachment-full size-full" alt="">
+                            <img src="{{ doc.link_get(nr=20).link_source | safe }}" class="attachment-full size-full" alt="">
                         </div>
-                        <h4 class="mt-0 mb-0h">{{ .Params.medium_header }}</h4>
+                        <h4 class="mt-0 mb-0h">{{ doc.part_get(cat="header", nr=11).title }}</h4>
 
                         <div class="no-link">
-                            <p>{{ .Params.medium_text }}</p>
+                            <p>{{  doc.part_get(cat="block", nr=31).text | safe }}</p>
                         </div>
 
                         <!-- <span class="more-link">Learn More</span> -->
@@ -208,14 +169,14 @@
                 </div>
                 <!-- telegram2 -->
                 <div class="col-12 col-md-6 col-lg-4 mb-4">
-                    <a href="{{ .Params.telegram2_link }}" target="_blank" class="block-white block-outline block-icon block-more join">
+                    <a href="{{ doc.link_get(nr=21).link_source | safe }}" target="_blank" class="block-white block-outline block-icon block-more join">
                         <div class="icon">
-                            <img src="/svg/ic-telegram.svg" class="attachment-full size-full" alt="">
+                            <img src="{{ doc.link_get(nr=22).link_source | safe }}" class="attachment-full size-full" alt="">
                         </div>
-                        <h4 class="mt-0 mb-0h">{{ .Params.telegram2_header }}</h4>
+                        <h4 class="mt-0 mb-0h">{{ doc.part_get(cat="header", nr=12).title }}</h4>
 
                         <div class="no-link">
-                            <p>{{ .Params.telegram2_text }}</p>
+                            <p>{{  doc.part_get(cat="block", nr=34).text | safe}}</p>
                         </div>
 
                         <!-- <span class="more-link">Learn More</span> -->
@@ -224,14 +185,14 @@
 
                 <!-- reddit -->
                 <div class="col-12 col-md-6 col-lg-4 mb-4">
-                    <a href="{{ .Params.reddit_link }}" target="_blank" class="block-white block-outline block-icon block-more join">
+                    <a href="{{ doc.link_get(nr=23).link_source | safe }}" target="_blank" class="block-white block-outline block-icon block-more join">
                         <div class="icon">
-                            <img src="/svg/reddit-brands_new.svg" class="attachment-full size-full" alt="">
+                            <img src="{{ doc.link_get(nr=24).link_source | safe }}" class="attachment-full size-full" alt="">
                         </div>
-                        <h4 class="mt-0 mb-0h">{{ .Params.reddit_header }}</h4>
+                        <h4 class="mt-0 mb-0h">{{ doc.part_get(cat="header", nr=13).title}}</h4>
 
                         <div class="no-link">
-                            <p>{{ .Params.reddit_text }}</p>
+                            <p>{{  doc.part_get(cat="block", nr=37).text | safe }}</p>
                         </div>
 
                         <!-- <span class="more-link">Learn More</span> -->
@@ -252,14 +213,14 @@
 
                 <!-- newsletter -->
                 <div class="col-12 col-md-6 col-lg-4 mb-4">
-                    <a href="{{ .Params.tfnewsletter_link }}" target="_blank" class="block-white block-outline block-icon block-more join">
+                    <a href="{{ doc.link_get(nr=25).link_source | safe }}" target="_blank" class="block-white block-outline block-icon block-more join">
                         <div class="icon">
-                            <img src="/svg/newsletter.svg" class="attachment-full size-full" alt="">
+                            <img src="{{doc.link_get(nr=26).link_source | safe}}" class="attachment-full size-full" alt="">
                         </div>
-                        <h4 class="mt-0 mb-0h">{{ .Params.tfnewsletter_header }}</h4>
+                        <h4 class="mt-0 mb-0h">{{ doc.part_get(cat="header", nr=14).title }}</h4>
 
                         <div class="no-link">
-                            <p>{{ .Params.tfnewsletter_text }}</p>
+                            <p>{{ doc.part_get(cat="block", nr=40).text | safe }}</p>
                         </div>
                         <!-- <span class="more-link">Join Us</span> -->
                     </a>
