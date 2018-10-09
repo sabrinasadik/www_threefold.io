@@ -10542,9 +10542,9 @@ input[type=checkbox].toggle:checked+label:after {
     }
 }
 
-.block-fullheight {
+/* .block-fullheight {
     height: 100%
-}
+} */
 
 .layout-intro {
     color: #fff;

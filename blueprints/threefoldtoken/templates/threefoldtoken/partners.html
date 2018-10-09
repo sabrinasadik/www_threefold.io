@@ -1,0 +1,197 @@
+{% extends "threefoldtoken/grid-base.html" %}
+{% block content %}
+
+<!-- Becoming part of the vision -->
+<div class="layout-content">
+    <div class="layout-container">
+        <!-- Becoming part of the vision -->
+        <div class="my-6 mt-sm-10">
+            <div class="layout-inner-content">
+                <h1 class="text-blue h1 mb-3">{{doc.part_get(cat="header", nr=0).title}}</h1>
+                <div class="page-description mb-3">
+                    <h4>{{doc.part_get(cat="header", nr=1).title}}</h4>
+                    {{doc.part_get(cat="block", nr=0).text | safe}}
+                    <br>
+                    <br>
+                    {{doc.part_get(cat="block", nr=1).text | safe}}
+                </div>
+            </div>
+        </div>
+
+        <!-- Corporate Farmers -->
+        <div class="my-6 mt-sm-10">
+            <div class="layout-section">
+                <div class="layout-container">
+                    <h1 class="text-blue mt-0">{{doc.part_get(cat="header", nr=2).title}}</h1>
+                    <div class="layout-inner-content">
+                        <div class="page-description mb-3">{{doc.part_get(cat="block", nr=2).text | safe}}</div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12 col-sm-6 col-md-5 col-lg-4 col-xl-3 offset-xl-1 my-1 my-md-2 my-xl-3 text-md-left text-center">
+                            <img src="{{doc.link_get(nr=0).link_source | safe}}" class="attachment-full size-full">
+                            <h6 class="alt">{{doc.part_get(cat="header", nr=3).title}}</h6>
+                            <p>{{doc.part_get(cat="block", nr=4).text | safe}}</p>
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-5 col-lg-4 col-xl-3 offset-xl-1 my-1 my-md-2 my-xl-3 text-md-left text-center">
+                            <img src="{{doc.link_get(nr=1).link_source | safe}}" class="attachment-full size-full">
+                            <h6 class="alt">{{doc.part_get(cat="header", nr=4).title}}</h6>
+                            {{doc.part_get(cat="block", nr=6).text | safe}}
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-5 col-lg-4 col-xl-3 offset-xl-1 my-1 my-md-2 my-xl-3 text-md-left text-center">
+                            <img src="{{doc.link_get(nr=2).link_source | safe}}" class="attachment-full size-full">
+                            <h6 class="alt">{{doc.part_get(cat="header", nr=5).title}}</h6>
+                            {{doc.part_get(cat="block", nr=8).text | safe}}
+                        </div>
+
+                        <div class="col-12 col-sm-6 col-md-5 col-lg-4 col-xl-3 offset-xl-1 my-1 my-md-2 my-xl-3 text-md-left text-center">
+                            <img src="{{doc.link_get(nr=3).link_source | safe}}" class="attachment-full size-full">
+                            <h6 class="alt">{{doc.part_get(cat="header", nr=6).title}}</h6>
+                            {{doc.part_get(cat="block", nr=10).text | safe}}
+                        </div>
+
+                        <div class="col-12 col-sm-6 col-md-5 col-lg-4 col-xl-3 offset-xl-1 my-1 my-md-2 my-xl-3 text-md-left text-center">
+                            <img src="{{doc.link_get(nr=4).link_source | safe}}" class="attachment-full size-full">
+                            <h6 class="alt">{{doc.part_get(cat="header", nr=7).title}}</h6>
+                            {{doc.part_get(cat="block", nr=12).text | safe}}
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Individual Farmers -->
+        <div class="team">
+            <div class="hosters">
+                <div class="row">
+                    <div class="col-sm-12 col-md-4">
+                        <h2 class="text-blue h2">{{doc.part_get(cat="header", nr=8).title}}</h2>
+                        {{doc.part_get(cat="block", nr=13).text | safe}}
+                        <br>
+                        <br>
+                        {{doc.part_get(cat="block", nr=14).text | safe}}
+                    </div>
+                    <div class="col-sm-12 col-md-8">
+                        <div id="hosters"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Farming Cooperatives -->
+        <div class="team">
+            <div class="layout-section">
+                <div class="layout-container">
+                    <h1 class="text-blue mt-0">{{doc.part_get(cat="header", nr=9).title}}</h1>
+                    <div class="layout-inner-content">
+                        <div class="page-description mb-3">
+                            {{doc.part_get(cat="block", nr=15).text | safe}}
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12 col-sm-6 col-md-5 col-lg-4 col-xl-3 offset-xl-1 my-1 my-md-2 my-xl-3 text-md-left text-center">
+                            <img src="{{doc.link_get(nr=5).link_source | safe}}" class="attachment-full size-full">
+                            <h6 class="alt">{{doc.part_get(cat="header", nr=10).title}}</h6>
+                            <a href="{{doc.link_get(nr=6).link_source | safe}}">{{doc.link_get(nr=6).link_descr}}</a>
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-5 col-lg-4 col-xl-3 offset-xl-1 my-1 my-md-2 my-xl-3 text-md-left text-center">
+                            <img src="{{doc.link_get(nr=7).link_source | safe}}" class="attachment-full size-full">
+                            <h6 class="alt">{{doc.part_get(cat="header", nr=11).title}}</h6>
+                            <a href="{{doc.link_get(nr=8).link_source | safe}}">{{doc.link_get(nr=8).link_descr}}</a>
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-5 col-lg-4 col-xl-3 offset-xl-1 my-1 my-md-2 my-xl-3 text-md-left text-center">
+                            <img src="{{doc.link_get(nr=9).link_source | safe}}" class="attachment-full size-full">
+                            <h6 class="alt">{{doc.part_get(cat="header", nr=12).title}}</h6>
+                            <a href="{{doc.link_get(nr=10).link_source | safe}}">{{doc.link_get(nr=10).link_descr}}</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Software Partners -->
+        <div class="my-6 mt-sm-10">
+            <div class="layout-section">
+                <div class="layout-container">
+                    <h1 class="text-blue h2 mt-0">{{doc.part_get(cat="header", nr=13).title}}</h1>
+                    <div class="layout-inner-content">
+                        <div class="page-description mb-3">
+                            {{doc.part_get(cat="block", nr=22).text | safe}}
+                        </div>
+                    </div>
+                    <div class="softPart">
+                        <div class="row">
+                            <div class="col-12 col-sm-6 col-md-3 col-xl-2 offset-xl-1 my-1 my-md-2 my-xl-3">
+                                <img src="{{doc.link_get(nr=11).link_source | safe}}" class="attachment-full size-full"
+                                    height="38">
+                            </div>
+                            <div class="col-12 col-sm-6 col-md-3 col-xl-2 my-1 my-md-2 my-xl-3">
+                                <div class="col-6">
+                                    <img src="{{doc.link_get(nr=12).link_source | safe}}" class="attachment-full size-full"
+                                        height="38">
+                                </div>
+                            </div>
+                            <div class="col-12 col-sm-6 col-md-3 col-xl-2 my-1 my-md-2 my-xl-3">
+                                <div class="col-6">
+                                    <img src="{{doc.link_get(nr=13).link_source | safe}}" class="attachment-full size-full"
+                                        height="38">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- TFT Listing -->
+        <div class="my-6 mt-sm-10">
+            <div id="section-get-tokens" class="layout-section">
+                <div class="layout-container">
+                    <h1 class="text-blue h1 mt-0">{{doc.part_get(cat="header", nr=14).title}}</h1>
+                    <div class="layout-inner-content">
+                        <div class="page-description mb-3">
+                            {{doc.part_get(cat="block", nr=26).text | safe}}
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12 col-xl-11 offset-xl-1">
+                            <div class="row">
+                                <!-- BTC-Alpha -->
+                                <div class="col-12 col-sm-6 col-lg-4 my-1">
+                                    <div class="block-white block-outline block-fullheight">
+                                        <a href="{{doc.link_get(nr=14).link_source | safe}}" target="_blank">
+                                            <h4 class="alt text-blue mt-0 mb-0h">{{doc.part_get(cat="header", nr=15).title}}</h4>
+                                        </a>
+                                        <p class="mb-0 no-link">{{doc.part_get(cat="block", nr=28).text | safe}}</p>
+                                        <a href="{{doc.link_get(nr=15).link_source | safe}}">{{doc.link_get(nr=15).link_descr}}</a>
+                                    </div>
+                                </div>
+                                <!-- bitmeex -->
+                                <div class="col-12 col-sm-6 col-lg-4 my-1">
+                                    <div class="block-white block-outline block-fullheight">
+                                        <a href="{{doc.link_get(nr=16).link_source | safe}}" target="_blank">
+                                            <h4 class="alt text-blue mt-0 mb-0h">{{doc.part_get(cat="header", nr=16).title}}</h4>
+                                        </a>
+                                        <p class="mb-0 no-link">{{doc.part_get(cat="block", nr=31).text | safe}}</p>
+                                    </div>
+                                </div>
+                                <!-- TF Exchange -->
+                                <div class="col-12 col-sm-6 col-lg-4 my-1">
+                                    <div class="block-aqua block-fullheight">
+                                        <h4 class="alt muted mt-0 mb-0h">{{doc.part_get(cat="header", nr=17).title}}</h4>
+                                        <p class="mb-0 text-transform-upper">{{doc.part_get(cat="block", nr=32).text | safe}}</p>
+                                    </div>
+                                </div>
+                                <!-- Become A partner Btn -->
+                                <p class="m-auto">
+                                    <a href="{{doc.link_get(nr=17).link_source | safe}}" class="btn btn-block btn-sm-inline mt-5 btn-green"
+                                        style="padding: 8px 115px;">{{doc.link_get(nr=17).link_descr}}</a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

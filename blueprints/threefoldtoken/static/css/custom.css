@@ -278,6 +278,10 @@ button.close {
   margin-bottom: 0;
 }
 
+.block-fullheight {
+  min-height: 121px;
+}
+
 /* line 1, resources/assets/styles/layouts/home/_roadmap.scss */
 section.home-page--roadmap {
   position: relative;
