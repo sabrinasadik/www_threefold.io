@@ -4,6 +4,11 @@ title = "corporatefarmers"
 
 mainHeader = "Corporate Farmers"
 
+# HP
+hp_img= "/img/hpe-logo.png"
+hp_header = "Hewlett Packard Enterprise"
+hp_content = "CEEMA"
+
 # Green Edge Cloud
 value_img = "/img/greenedge.jpg"
 value_header = "Green Edge Cloud"
@@ -28,11 +33,6 @@ future_content = "UK"
 gigEu_img = "/img/gig-eu.jpg"
 gigEu_header = "GIG Europe"
 gigEu_content = "Europe"
-
-# Block 6
-img_= ""
-header = ""
-content = ""
 
 weight = 3
 +++
