@@ -5,7 +5,7 @@ title = "corporatefarmers"
 mainHeader = "Corporate Farmers"
 
 # HP
-hp_img= "/img/HPE-logo.png"
+hp_img= "/img/hpe-logo.png"
 hp_header = "Hewlett Packard Enterprise"
 hp_content = "CEEMA"
 
