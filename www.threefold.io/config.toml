@@ -50,20 +50,14 @@ paginate = 15
     weight = 6
 
 [[menu.main]]
-    name = "Roadmap"
-    url  = "/roadmap/"
-    weight = 7
-
-
-[[menu.main]]
     name = "Blog"
     url  = "https://threefoldfoundation.github.io/info_foundation/#/blog/README"
-    weight = 8
+    weight = 7
 
 [[menu.main]]
     name = "Join & Follow"
     url  = "/join/"
-    weight = 9
+    weight = 8
 
 # Social icons
 
