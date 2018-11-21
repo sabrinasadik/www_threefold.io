@@ -4,18 +4,6 @@ title = "gettokens"
 
 mainHeader = "Where to buy threefold tokens"
 
-# Mazraa
-TFFarmer1 = "Mazraa"
-TFFarmer1_country = "Buy tokens with USD"
-TFFarmer1_url = "http://www.mazraa.io/"
-TFFarmer1_txt = "www.mazraa.io"
-
-# Bettertoken
-TFFarmer2 = "BetterToken"
-TFFarmer2_country = "Buy tokens with EUR"
-TFFarmer2_url = "http://www.bettertoken.com/"
-TFFarmer2_txt = "www.bettertoken.com"
-
 # BTC_Alpha
 TFFarmer3 = "BTC-ALPHA"
 TFFarmer3_country = "Buy tokens with BTC and ETH"
