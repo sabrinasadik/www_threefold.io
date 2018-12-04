@@ -16,12 +16,12 @@ capacity_link = "https://capacity.threefoldtoken.com/"
 capacity_img = "/svg/capacity.svg"
 
 contribute_header = "How to contribute?"
-contribute_text = "How Circles, Stories and Collaboration works at ThreeFold."
+contribute_text = "How TheeFold Collaborates with Circles, Stories and More."
 contribute_link = "https://threefoldfoundation.github.io/info_foundation/#/collaboration/README"
 contribute_img = "/svg/ic-f-tech.svg"
 
 foundation_header = "Information on the ThreeFold Foundation"
-foundation_text = "A deep dive into our Open Source way of working."
+foundation_text = "Everything there is to know about our Open Source way of working."
 foundation_link = "https://threefoldfoundation.github.io/info_foundation/#/"
 foundation_img = "/svg/ic-f-foundation.png"
 
@@ -56,7 +56,7 @@ telegram2_text = "Talk to us on the threefold english group"
 telegram2_link = "https://t.me/threefoldtoken_chat"
 
 tfapp_header = "Threefold App"
-tfapp_text = "Our Smartphone app that also functions as our main wallet at this moment."
+tfapp_text = "Our Smartphone app that also functions as our main wallet."
 tfapp_link = "https://rogerth.at/install/em-be-threefold-token"
 
 medium_header = "Medium"
@@ -64,7 +64,7 @@ medium_text = "Read our blog on medium"
 medium_link = "https://medium.com/threefold"
 
 reddit_header = "Reddit"
-reddit_text = "discuss with us on reddit"
+reddit_text = "discuss ThreeFold with us on reddit"
 reddit_link = "https://www.reddit.com/r/ThreeFoldToken/"
 
 tfnewsletter_header = "Threefold Newsletter"

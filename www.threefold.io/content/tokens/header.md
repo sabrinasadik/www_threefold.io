@@ -11,8 +11,8 @@ img = "/svg/ic-stocks.svg"
 bold_txt = "The Internet"
 
 # Wallet btn
-download_url = "https://threefoldfoundation.github.io/info_tokens/#/why_buy_tft"
-download_txt = "Download Wallet"
+download_url ="https://threefoldfoundation.github.io/info_tokens/#/why_buy_tft?id=step-1-download-a-threefold-wallet"
+download_txt = "How To Get A TF Wallet"
 
 # Tokens btn
 token_url = "https://threefoldfoundation.github.io/info_tokens/#/how_to_buy/buy_from_exchange"
