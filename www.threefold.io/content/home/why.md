@@ -7,16 +7,16 @@ weight = 2
 
 #### IT Infrastructure
 
-A grid of independently owned compute and storage nodes
+A grid of independently owned compute and storage nodes.
 
 #### Currency
 
-Digital decentralized currency (Tokens) to free the system from restrictions of the existing (digital) currency systems
+Digital decentralized currency (Tokens) to free the system from restrictions of the existing (digital) currency systems.
 
 #### Management
 
-System Management bots manage the grid without human intervention
+System Management bots manage the grid without human intervention.
 
 #### Security
 
-Our own blockchain secures the bots to make sure that they can safely work together
+Our own blockchain secures the bots to make sure that they can safely work together.
